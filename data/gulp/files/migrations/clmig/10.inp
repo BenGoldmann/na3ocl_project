@@ -1,0 +1,7 @@
+include /home/ben/Documents/gulp_calcs/0_datafiles/na3ocl_structure.inp
+centre cart 2.252 0 0
+size 12 16
+vacancy cart 4.504 0 0
+vacancy cart 0 0 0
+intersitial Cl cart 0.90080000000000 0 0 fix
+include /home/ben/Documents/gulp_calcs/0_datafiles/na3ocl_khandy_potentials.inp    

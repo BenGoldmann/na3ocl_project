@@ -1,0 +1,65 @@
+# Input written to comply with LAMMPS 2017-08-11 00:00:00
+
+# Atomic Configuration
+units           metal
+boundary        p p p
+box tilt large
+atom_style      charge
+read_data       undoped.lmp
+group           sodium type 1
+group           oxide type 2
+group           chloride type 3
+variable        T1 equal 800
+
+# Potential Setup
+pair_style  buck/coul/long 12.0
+pair_coeff * * 0.0 1.0 0.0
+pair_coeff 1 1    1788.190000  0.159000   0.000000 # Na Na
+pair_coeff 1 3    1170.410000  0.315000   0.000000 # Na Cl
+pair_coeff 1 2     588.380000  0.338000   0.000000 # Na O 
+pair_coeff 3 3    1227.200000  0.321000  14.530000 # Cl Cl
+pair_coeff 2 3    8286.910000  0.259000  62.200000 # Cl O 
+pair_coeff 2 2   22764.300000  0.149000  13.190000 # O  O 
+kspace_style pppm 1e-05
+
+# General Setup
+timestep        0.001
+
+# Thermodynamic Information Output
+thermo_style custom step temp epair emol etotal press lx ly lz fmax cpu cpuremain
+thermo          1000
+
+# Intial Atom Velocity
+velocity all create ${T1} 80800 dist gaussian rot yes
+
+# Stage 0: npt_equilibriation
+restart         0
+fix             int all npt aniso 1.0 1.0 0.1 temp ${T1} ${T1} 0.5 
+run             50000
+
+# Stage 1: nvt_equilibriation
+unfix int
+restart         0
+fix             int all nvt temp ${T1} ${T1} 0.5 
+run             50000
+
+# Stage 2: main_nvt_simulation
+unfix int
+compute         sodiummsd sodium msd com yes
+compute         oxidemsd oxide msd com yes
+compute         chloridemsd chloride msd com yes
+fix             sodiummsdt sodium ave/time 1 1 1000 c_sodiummsd[4] file undoped_msd_na.txt
+fix             oxidemymsdt oxide ave/time 1 1 1000 c_oxidemsd[4] file undoped_msd_o.txt
+fix             chloridemymsdt chloride ave/time 1 1 1000 c_chloridemsd[4] file undoped_msd_cl.txt
+dump            atom_info all custom 1000 undoped.lammpstrj element x y z q id type vx vy vz
+dump_modify     atom_info append yes
+dump_modify     atom_info sort id
+dump_modify     atom_info element Ca Na O Cl
+restart         0
+fix             int all nvt temp ${T1} ${T1} 0.5 
+run             10000000
+
+# Final Commands
+variable final_energy equal etotal
+print "final_energy: ${final_energy}"
+print "END_OF_COMP"

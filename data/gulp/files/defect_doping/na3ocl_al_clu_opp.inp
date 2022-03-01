@@ -1,0 +1,6 @@
+include /home/ben/Documents/na3ocl_project/gulp_calcs/data/na3ocl_structure.inp
+centre cart 2.252 2.252 2.252
+impurity cart Al 2.252 2.252 0.0 fix
+vacancy cart 2.252 2.252 4.504
+size 16 20
+include /home/ben/Documents/na3ocl_project/gulp_calcs/data/na3ocl_khandy_potentials.inp
