@@ -1,0 +1,11 @@
+opti conp comp defe
+cell
+5.20615200 5.20615200 5.20615200 90.0 90.0 90.0
+frac
+Sr core 0 0 0
+Sr shel 0 0 0
+O core 0.5 0 0
+O shel 0.5 0 0
+space
+225
+include /home/ben/Documents/gulp_calcs/0_datafiles/na3ocl_khandy_potentials.inp 

@@ -1,0 +1,2687 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                       Curtin Institute for Computation                       *
+*                    School of Molecular and Life Sciences                     *
+*                    Curtin University, Western Australia                      *
+********************************************************************************
+* Version = 5.2.0 * Last modified =  10th September 2020                       *
+********************************************************************************
+*  optimise     - perform optimisation run                                     *
+*  conp         - constant pressure calculation                                *
+*  property     - calculate properties for final geometry                      *
+*  defect       - perform defect calculation after bulk run                    *
+*  compare      - compare initial and final structures                         *
+********************************************************************************
+
+  Job Started  at 00:07.50 26th August     2021                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =      1
+
+********************************************************************************
+*  Input for Configuration =   1                                               *
+********************************************************************************
+
+  Formula = Ga2Cl6                                                      
+
+  Number of irreducible atoms/shells =      14
+
+
+  Total number atoms/shells =      14
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+        7.286000    0.000000    0.000000
+        3.439979    6.422799    0.000000
+        3.788756    2.268736    5.995088
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =       7.2860    alpha =  59.4140
+  b =       7.2860    beta  =  59.4140
+  c =       7.4460    gamma =  61.8270
+
+  Initial cell volume =         280.549192 Angs**3
+
+  Temperature of configuration =   0.00     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Ga    c    0.344749    0.344749    0.084305     3.00000    1.000000    
+      2 Ga    c    0.655251 *  0.655251 *  0.915695 *   3.00000    1.000000    
+      3 Cl    c    0.278747 *  0.721253 *  0.000000 *   1.48500    1.000000    
+      4 Cl    c    0.721253 *  0.278747 *  0.000000 *   1.48500    1.000000    
+      5 Cl    c    0.689436 *  0.689436 *  0.164912 *   1.48500    1.000000    
+      6 Cl    c    0.310564 *  0.310564 *  0.835088 *   1.48500    1.000000    
+      7 Cl    c    0.813092 *  0.813092 *  0.569365 *   1.48500    1.000000    
+      8 Cl    c    0.186908 *  0.186908 *  0.430635 *   1.48500    1.000000    
+      9 Cl    s    0.278747 *  0.721253 *  0.000000 *  -2.48500    1.000000    
+     10 Cl    s    0.721253 *  0.278747 *  0.000000 *  -2.48500    1.000000    
+     11 Cl    s    0.689436 *  0.689436 *  0.164912 *  -2.48500    1.000000    
+     12 Cl    s    0.310564 *  0.310564 *  0.835088 *  -2.48500    1.000000    
+     13 Cl    s    0.813092 *  0.813092 *  0.569365 *  -2.48500    1.000000    
+     14 Cl    s    0.186908 *  0.186908 *  0.430635 *  -2.48500    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Ga       Core       31      69.72   3.000000   1.220  0.000  1.820          
+    Cl       Core       17      35.45   1.485000   0.990  0.000  1.650          
+    Cl       Shell      17       0.00  -2.485000   0.990  0.000  1.650          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald          (3-D)
+                                         =    Parry          (2-D)
+                                         =    Saunders et al (1-D)
+  Accuracy factor for lattice sums       =   12.000
+
+
+  Analytic derivatives to be used
+
+  Time limit = Infinity
+
+  Maximum range for interatomic potentials =    100000.000000 Angstroms
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential      Parameter       Value         Units   Cutoffs(Ang)
+  1     2                                                            Min /  Max 
+--------------------------------------------------------------------------------
+Cl   c Cl   s Spring (c-s)  Spring k 2       29.380000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Ga   c Cl   s Buckingham    Buckingham A     924.20000    eV        0.000 12.000
+                            Buckingham rho  0.34280000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Cl   s Cl   s Buckingham    Buckingham A     1227.2000    eV        0.000 12.000
+                            Buckingham rho  0.32100000    Ang       
+                            Buckingham C     14.530000    eV*Ang^6  
+--------------------------------------------------------------------------------
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          11.57294692 eV    
+  Monopole - monopole (real) =         -36.64258428 eV    
+  Monopole - monopole (recip)=         -62.97523081 eV    
+  Monopole - monopole (total)=         -99.61781509 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -88.04486817 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -8494.9839 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Number of variables =       45
+
+  Maximum number of calculations  =          1000
+  Maximum Hessian update interval =            10
+  Maximum step size               =   1.000000000
+  Maximum parameter tolerance     =   0.000010000
+  Maximum function  tolerance     =   0.000010000
+  Maximum gradient  tolerance     =   0.001000000
+  Maximum gradient  component     =   0.010000000
+
+  Symmetry not applied to optimisation
+
+  Cell parameters to be optimised using strains
+
+  Newton-Raphson optimiser to be used
+
+  BFGS hessian update to be used
+
+  Lower half triangular hessian to be used
+
+  Start of bulk optimisation :
+
+  Cycle:      0 Energy:       -88.044868  Gnorm:      6.970336  CPU:    0.016
+  ** Hessian calculated **
+  Cycle:      1 Energy:       -99.018902  Gnorm:      2.932233  CPU:    0.040
+  ** Hessian calculated **
+  Cycle:      2 Energy:      -101.553195  Gnorm:      1.575208  CPU:    0.072
+  ** Hessian calculated **
+  Cycle:      3 Energy:      -102.593695  Gnorm:      0.847724  CPU:    0.098
+  ** Hessian calculated **
+  Cycle:      4 Energy:      -102.796947  Gnorm:      0.550468  CPU:    0.125
+  Cycle:      5 Energy:      -102.991142  Gnorm:      0.348946  CPU:    0.148
+  Cycle:      6 Energy:      -103.036089  Gnorm:      0.200745  CPU:    0.167
+  Cycle:      7 Energy:      -103.070803  Gnorm:      0.253403  CPU:    0.191
+  Cycle:      8 Energy:      -103.096690  Gnorm:      0.159915  CPU:    0.214
+  Cycle:      9 Energy:      -103.112138  Gnorm:      0.163465  CPU:    0.233
+  Cycle:     10 Energy:      -103.128172  Gnorm:      0.075904  CPU:    0.351
+  Cycle:     11 Energy:      -103.143637  Gnorm:      0.131806  CPU:    0.383
+  Cycle:     12 Energy:      -103.152770  Gnorm:      0.104560  CPU:    0.411
+  Cycle:     13 Energy:      -103.164973  Gnorm:      0.089635  CPU:    0.446
+  ** Hessian calculated **
+  Cycle:     14 Energy:      -103.168549  Gnorm:      0.070814  CPU:    0.485
+  Cycle:     15 Energy:      -103.172814  Gnorm:      0.070925  CPU:    0.519
+  Cycle:     16 Energy:      -103.176066  Gnorm:      0.066888  CPU:    0.555
+  Cycle:     17 Energy:      -103.178827  Gnorm:      0.065146  CPU:    0.588
+  Cycle:     18 Energy:      -103.181053  Gnorm:      0.070950  CPU:    0.615
+  Cycle:     19 Energy:      -103.185213  Gnorm:      0.053017  CPU:    0.649
+  Cycle:     20 Energy:      -103.188010  Gnorm:      0.077382  CPU:    0.677
+  Cycle:     21 Energy:      -103.191847  Gnorm:      0.062470  CPU:    0.712
+  Cycle:     22 Energy:      -103.194804  Gnorm:      0.069091  CPU:    0.741
+  Cycle:     23 Energy:      -103.197723  Gnorm:      0.058019  CPU:    0.776
+  ** Hessian calculated **
+  Cycle:     24 Energy:      -103.199316  Gnorm:      0.043208  CPU:    0.816
+  Cycle:     25 Energy:      -103.200201  Gnorm:      0.036046  CPU:    0.851
+  Cycle:     26 Energy:      -103.201382  Gnorm:      0.040165  CPU:    0.886
+  Cycle:     27 Energy:      -103.202009  Gnorm:      0.028783  CPU:    0.914
+  Cycle:     28 Energy:      -103.202835  Gnorm:      0.032024  CPU:    0.950
+  Cycle:     29 Energy:      -103.203277  Gnorm:      0.030965  CPU:    0.982
+  Cycle:     30 Energy:      -103.203940  Gnorm:      0.023680  CPU:    1.022
+  Cycle:     31 Energy:      -103.204467  Gnorm:      0.029033  CPU:    1.062
+  Cycle:     32 Energy:      -103.204952  Gnorm:      0.019989  CPU:    1.095
+  Cycle:     33 Energy:      -103.205259  Gnorm:      0.026734  CPU:    1.127
+  ** Hessian calculated **
+  Cycle:     34 Energy:      -103.207326  Gnorm:      0.026553  CPU:    1.202
+  Cycle:     35 Energy:      -103.210591  Gnorm:      0.026021  CPU:    1.259
+  ** Hessian calculated **
+  Cycle:     36 Energy:      -103.215243  Gnorm:      0.024434  CPU:    1.338
+  Cycle:     37 Energy:      -103.220640  Gnorm:      0.022655  CPU:    1.389
+  Cycle:     38 Energy:      -103.225208  Gnorm:      0.022784  CPU:    1.432
+  Cycle:     39 Energy:      -103.226833  Gnorm:      0.027841  CPU:    1.467
+  Cycle:     40 Energy:      -103.226891  Gnorm:      0.029072  CPU:    1.511
+  Cycle:     41 Energy:      -103.226929  Gnorm:      0.027185  CPU:    1.554
+  Cycle:     42 Energy:      -103.226957  Gnorm:      0.026712  CPU:    1.610
+  ** Hessian calculated **
+  Cycle:     43 Energy:      -103.229175  Gnorm:      0.004173  CPU:    1.665
+  Cycle:     44 Energy:      -103.229323  Gnorm:      0.004368  CPU:    1.698
+  ** Hessian calculated **
+  Cycle:     45 Energy:      -103.229340  Gnorm:      0.003454  CPU:    1.745
+  Cycle:     46 Energy:      -103.229343  Gnorm:      0.001271  CPU:    1.778
+  Cycle:     47 Energy:      -103.229345  Gnorm:      0.001325  CPU:    1.811
+  Cycle:     48 Energy:      -103.229345  Gnorm:      0.001062  CPU:    1.844
+  Cycle:     49 Energy:      -103.229346  Gnorm:      0.001154  CPU:    1.877
+  Cycle:     50 Energy:      -103.229347  Gnorm:      0.001660  CPU:    1.910
+  Cycle:     51 Energy:      -103.229349  Gnorm:      0.001212  CPU:    1.942
+  Cycle:     52 Energy:      -103.229351  Gnorm:      0.001670  CPU:    1.976
+  Cycle:     53 Energy:      -103.229353  Gnorm:      0.001333  CPU:    2.008
+  Cycle:     54 Energy:      -103.229355  Gnorm:      0.002279  CPU:    2.041
+  ** Hessian calculated **
+  Cycle:     55 Energy:      -103.229356  Gnorm:      0.000881  CPU:    2.088
+  Cycle:     56 Energy:      -103.229357  Gnorm:      0.001023  CPU:    2.121
+  Cycle:     57 Energy:      -103.229358  Gnorm:      0.000985  CPU:    2.154
+  Cycle:     58 Energy:      -103.229359  Gnorm:      0.001145  CPU:    2.187
+  Cycle:     59 Energy:      -103.229360  Gnorm:      0.000920  CPU:    2.220
+  Cycle:     60 Energy:      -103.229360  Gnorm:      0.001034  CPU:    2.253
+  Cycle:     61 Energy:      -103.229361  Gnorm:      0.000783  CPU:    2.287
+  Cycle:     62 Energy:      -103.229362  Gnorm:      0.000936  CPU:    2.320
+  Cycle:     63 Energy:      -103.229363  Gnorm:      0.001577  CPU:    2.354
+  Cycle:     64 Energy:      -103.229364  Gnorm:      0.001081  CPU:    2.387
+  ** Hessian calculated **
+  Cycle:     65 Energy:      -103.229365  Gnorm:      0.001011  CPU:    2.435
+  Cycle:     66 Energy:      -103.229366  Gnorm:      0.000773  CPU:    2.467
+  Cycle:     67 Energy:      -103.229366  Gnorm:      0.000837  CPU:    2.500
+  Cycle:     68 Energy:      -103.229367  Gnorm:      0.000911  CPU:    2.533
+  Cycle:     69 Energy:      -103.229367  Gnorm:      0.000791  CPU:    2.566
+  Cycle:     70 Energy:      -103.229368  Gnorm:      0.000907  CPU:    2.599
+  Cycle:     71 Energy:      -103.229368  Gnorm:      0.000756  CPU:    2.632
+  Cycle:     72 Energy:      -103.229369  Gnorm:      0.001024  CPU:    2.665
+  Cycle:     73 Energy:      -103.229369  Gnorm:      0.000791  CPU:    2.704
+  Cycle:     74 Energy:      -103.229370  Gnorm:      0.001324  CPU:    2.740
+  ** Hessian calculated **
+  Cycle:     75 Energy:      -103.229371  Gnorm:      0.000588  CPU:    2.792
+
+
+  **** Optimisation achieved ****
+
+
+  Final energy =    -103.22937106 eV
+  Final Gnorm  =       0.00061091
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          38.27257558 eV    
+  Monopole - monopole (real) =          53.11246600 eV    
+  Monopole - monopole (recip)=        -194.61441264 eV    
+  Monopole - monopole (total)=        -141.50194664 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =        -103.22937106 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -9960.0563 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+  Final fractional coordinates of atoms :
+
+--------------------------------------------------------------------------------
+   No.  Atomic        x           y          z          Radius
+        Label       (Frac)      (Frac)     (Frac)       (Angs) 
+--------------------------------------------------------------------------------
+     1  Ga    c     0.344749    0.344749    0.084305    0.000000
+     2  Ga    c     0.727725    0.613639    0.888480    0.000000
+     3  Cl    c     0.311264    0.717832    0.982123    0.000000
+     4  Cl    c     0.761280    0.240602    0.990424    0.000000
+     5  Cl    c     0.771256    0.655241    0.141524    0.000000
+     6  Cl    c     0.300987    0.302868    0.831593    0.000000
+     7  Cl    c     0.867350    0.788276    0.527393    0.000000
+     8  Cl    c     0.205245    0.170230    0.445455    0.000000
+     9  Cl    s     0.348986    0.670350    0.985168    0.000000
+    10  Cl    s     0.723551    0.288072    0.987424    0.000000
+    11  Cl    s     0.769191    0.648072    0.100179    0.000000
+    12  Cl    s     0.303095    0.310096    0.872881    0.000000
+    13  Cl    s     0.844212    0.759336    0.586132    0.000000
+    14  Cl    s     0.228360    0.199148    0.386715    0.000000
+--------------------------------------------------------------------------------
+
+  Final Cartesian lattice vectors (Angstroms) :
+
+        6.738095   -0.007614   -0.063558
+        3.180663    6.365006    0.076805
+        3.473594    2.283909    5.769543
+
+
+  Final cell parameters and derivatives :
+
+--------------------------------------------------------------------------------
+       a            6.738399 Angstrom     dE/de1(xx)    -0.000402 eV/strain
+       b            7.115885 Angstrom     dE/de2(yy)    -0.000218 eV/strain
+       c            7.111239 Angstrom     dE/de3(zz)     0.000006 eV/strain
+       alpha       59.044625 Degrees      dE/de4(yz)     0.000257 eV/strain
+       beta        61.286659 Degrees      dE/de5(xz)     0.001573 eV/strain
+       gamma       63.522402 Degrees      dE/de6(xy)     0.000011 eV/strain
+--------------------------------------------------------------------------------
+
+  Primitive cell volume =           247.343535 Angs**3
+
+  Density of cell =      2.364127 g/cm**3
+
+  Non-primitive cell volume =           247.343535 Angs**3
+
+
+  Final internal derivatives :
+
+--------------------------------------------------------------------------------
+   No.  Atomic          a             b             c           Radius
+        Label          (eV)          (eV)          (eV)        (eV/Angs)
+--------------------------------------------------------------------------------
+      1 Ga    c       0.000000      0.000000      0.000000      0.000000
+      2 Ga    c      -0.005897     -0.000492     -0.000943      0.000000
+      3 Cl    c       0.007077     -0.001504     -0.001837      0.000000
+      4 Cl    c      -0.002885      0.002154     -0.002275      0.000000
+      5 Cl    c      -0.003155     -0.004695      0.005431      0.000000
+      6 Cl    c      -0.001244     -0.000409     -0.002448      0.000000
+      7 Cl    c       0.001812     -0.000149     -0.001503      0.000000
+      8 Cl    c      -0.001673     -0.000811      0.006508      0.000000
+      9 Cl    s       0.004771      0.005793      0.002774      0.000000
+     10 Cl    s       0.004720      0.000344      0.005095      0.000000
+     11 Cl    s       0.006685      0.002852      0.009194      0.000000
+     12 Cl    s      -0.000532      0.005200      0.003605      0.000000
+     13 Cl    s      -0.007895     -0.007104     -0.007220      0.000000
+     14 Cl    s       0.002596      0.002286      0.007466      0.000000
+--------------------------------------------------------------------------------
+  Maximum abs         0.007895      0.007104      0.009194      0.000000
+--------------------------------------------------------------------------------
+
+  Comparison of initial and final structures : 
+
+--------------------------------------------------------------------------------
+  Parameter   Initial value   Final value   Difference    Units      Percent
+--------------------------------------------------------------------------------
+    Volume       280.549192    247.343535   -33.205658    Angs**3    -11.84
+    a              7.286000      6.738399    -0.547601    Angstroms   -7.52
+    b              7.286000      7.115885    -0.170115    Angstroms   -2.33
+    c              7.446000      7.111239    -0.334761    Angstroms   -4.50
+    alpha         59.414000     59.044625    -0.369375    Degrees     -0.62
+    beta          59.414000     61.286659     1.872659    Degrees      3.15
+    gamma         61.827000     63.522402     1.695402    Degrees      2.74
+      1 x          0.344749      0.344749     0.000000    Fractional   0.00
+      1 y          0.344749      0.344749     0.000000    Fractional   0.00
+      1 z          0.084305      0.084305     0.000000    Fractional   0.00
+      2 x          0.655251      0.727725     0.072474    Fractional  11.06
+      2 y          0.655251      0.613639     0.041612    Fractional   6.35
+      2 z          0.915695      0.888480     0.027215    Fractional   2.97
+      3 x          0.278747      0.311264     0.032517    Fractional  11.67
+      3 y          0.721253      0.717832     0.003421    Fractional   0.47
+      3 z          0.000000      0.982123     0.982123    Fractional   0.00
+      4 x          0.721253      0.761280     0.040027    Fractional   5.55
+      4 y          0.278747      0.240602     0.038145    Fractional  13.68
+      4 z          0.000000      0.990424     0.990424    Fractional   0.00
+      5 x          0.689436      0.771256     0.081820    Fractional  11.87
+      5 y          0.689436      0.655241     0.034195    Fractional   4.96
+      5 z          0.164912      0.141524     0.023388    Fractional  14.18
+      6 x          0.310564      0.300987     0.009577    Fractional   3.08
+      6 y          0.310564      0.302868     0.007696    Fractional   2.48
+      6 z          0.835088      0.831593     0.003495    Fractional   0.42
+      7 x          0.813092      0.867350     0.054258    Fractional   6.67
+      7 y          0.813092      0.788276     0.024816    Fractional   3.05
+      7 z          0.569365      0.527393     0.041972    Fractional   7.37
+      8 x          0.186908      0.205245     0.018337    Fractional   9.81
+      8 y          0.186908      0.170230     0.016678    Fractional   8.92
+      8 z          0.430635      0.445455     0.014820    Fractional   3.44
+      9 x          0.278747      0.348986     0.070239    Fractional  25.20
+      9 y          0.721253      0.670350     0.050903    Fractional   7.06
+      9 z          0.000000      0.985168     0.985168    Fractional   0.00
+     10 x          0.721253      0.723551     0.002298    Fractional   0.32
+     10 y          0.278747      0.288072     0.009325    Fractional   3.35
+     10 z          0.000000      0.987424     0.987424    Fractional   0.00
+     11 x          0.689436      0.769191     0.079755    Fractional  11.57
+     11 y          0.689436      0.648072     0.041364    Fractional   6.00
+     11 z          0.164912      0.100179     0.064733    Fractional  39.25
+     12 x          0.310564      0.303095     0.007469    Fractional   2.41
+     12 y          0.310564      0.310096     0.000468    Fractional   0.15
+     12 z          0.835088      0.872881     0.037793    Fractional   4.53
+     13 x          0.813092      0.844212     0.031120    Fractional   3.83
+     13 y          0.813092      0.759336     0.053756    Fractional   6.61
+     13 z          0.569365      0.586132     0.016767    Fractional   2.94
+     14 x          0.186908      0.228360     0.041452    Fractional  22.18
+     14 y          0.186908      0.199148     0.012240    Fractional   6.55
+     14 z          0.430635      0.386715     0.043920    Fractional  10.20
+--------------------------------------------------------------------------------
+
+
+  Born effective charge tensors : 
+
+-------------------------------------------------------------------------------
+  Atom             x           y             z
+-------------------------------------------------------------------------------
+    1 Ga    x       2.5431      0.0920     -0.2447
+            y       0.0921      1.8846     -0.0888
+            z      -0.2726     -0.1102      1.4258
+-------------------------------------------------------------------------------
+    2 Ga    x       2.5429      0.0918     -0.2432
+            y       0.0919      1.8848     -0.0883
+            z      -0.2715     -0.1097      1.4249
+-------------------------------------------------------------------------------
+    3 Cl    x      -1.1491     -0.0710      0.2807
+            y      -0.0651     -0.8301      0.1114
+            z       0.2779      0.1152     -0.3709
+-------------------------------------------------------------------------------
+    4 Cl    x      -1.1492     -0.0710      0.2810
+            y      -0.0649     -0.8302      0.1110
+            z       0.2780      0.1149     -0.3710
+-------------------------------------------------------------------------------
+    5 Cl    x      -0.8222     -0.0046     -0.0930
+            y      -0.0082     -0.5730     -0.0521
+            z      -0.0325     -0.0279     -0.4657
+-------------------------------------------------------------------------------
+    6 Cl    x      -0.8221     -0.0045     -0.0927
+            y      -0.0081     -0.5730     -0.0519
+            z      -0.0323     -0.0277     -0.4653
+-------------------------------------------------------------------------------
+    7 Cl    x      -0.5718     -0.0164      0.0558
+            y      -0.0188     -0.4815      0.0292
+            z       0.0264      0.0227     -0.5886
+-------------------------------------------------------------------------------
+    8 Cl    x      -0.5718     -0.0164      0.0560
+            y      -0.0189     -0.4815      0.0294
+            z       0.0266      0.0228     -0.5893
+-------------------------------------------------------------------------------
+
+
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1      5.8091    1.5684    0.4664   -0.1413   -0.3132    0.4250
+       2      1.5684    0.7616    0.6996   -0.1759    0.1225    0.3615
+       3      0.4664    0.6996    1.2096    0.0019   -0.0792   -0.1647
+       4     -0.1413   -0.1759    0.0019    0.7607   -0.0015    0.2158
+       5     -0.3132    0.1225   -0.0792   -0.0015    0.8376   -0.2918
+       6      0.4250    0.3615   -0.1647    0.2158   -0.2918    0.9789
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.075451  0.593430 -0.454139  0.285221 -0.264797 -0.470146
+       2    0.593430 -3.086188  1.917500 -1.147108  1.517935  1.910130
+       3   -0.454139  1.917500 -0.288240  0.623771 -0.802515 -0.936234
+       4    0.285221 -1.147108  0.623771  1.012418  0.444634  0.314129
+       5   -0.264797  1.517935 -0.802515  0.444634  0.626379 -0.492023
+       6   -0.470146  1.910130 -0.936234  0.314129 -0.492023  0.146766
+-------------------------------------------------------------------------------
+
+  Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =       1.22759       1.47213       1.34986
+  Shear Modulus (GPa)     =      -0.93363       0.85185      -0.04089
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =      -0.62842       0.60027      -0.13151
+  Velocity P-wave (km/s)  =       0.08541       1.05030       0.74021
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.81460379
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      13.25364      -0.32402      -3.46933
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.19229      -1.57556
+  Poissons Ratio (y)      =      -7.86511                     6.65244
+  Poissons Ratio (z)      =       6.01900       0.62132
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00566  -0.00146  -0.00074  -0.00019   0.00103  -0.00035
+       y    -0.00027  -0.00004  -0.00016   0.00110  -0.00002  -0.00006
+       z    -0.00357  -0.00018   0.00232  -0.00011  -0.00051  -0.00011
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.02664   0.75616  -0.57774   0.29795  -0.23928  -0.53791
+       y     0.03725  -0.17339   0.08413   0.09545   0.06366   0.05405
+       z    -0.12781   0.20454   0.10431   0.02690  -0.15113  -0.06474
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     4.38119  -0.06690  -0.40269
+       y    -0.06690   2.72773  -0.07380
+       z    -0.40269  -0.07380   2.26924
+--------------------------------------------------------------------------------
+
+  High frequency dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     2.10056   0.00639  -0.04091
+       y     0.00639   1.96813  -0.01435
+       z    -0.04091  -0.01435   1.88289
+-------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.47712      2 =    1.65508      3 =    2.11115
+-------------------------------------------------------------------------------
+
+  High frequency refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.36882      2 =    1.40334      3 =    1.45209
+-------------------------------------------------------------------------------
+
+
+  Time to end of optimisation =       2.8633 seconds
+
+********************************************************************************
+*  Defect calculation for configuration   1 :                                  *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : Ambiguous vacancy specifier used
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : Ambiguous vacancy specifier used
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  Total number of defects =      2
+
+  Total charge on defect  =   1.00
+
+  Defect centre is at   0.7213   0.2787   0.0000  Frac
+
+  Region 1 radius =  11.0000      Number of ions =    310
+
+  Region 2 radius =  24.0000      Number of ions =   2962
+
+  Region 2a mode = 4 : screened electrostatics due to region 1 
+                       neglect correction to region 1 forces from 2a
+                       region 2a displacements based on defects only
+
+  Region 2a ions will only interact with defects in region 1
+
+  Vacancies:
+
+--------------------------------------------------------------------------------
+    Specification type     Symbol/Number         x          y          z
+--------------------------------------------------------------------------------
+    Atom                    Cl    core
+    Atom                    Cl    shel
+--------------------------------------------------------------------------------
+
+
+  Components of defect energy : 
+
+--------------------------------------------------------------------------------
+  Region 1 - region 1                   =     -2.04665996 eV
+  Region 1 - region 2a (unrelaxed)      =     13.24745041 eV
+  Region 1 - 2a (relaxed - correction)  =     -0.48751841 eV
+  Region 1 (Total)                      =     10.71327203 eV
+  Region 2a                             =      0.24380010 eV
+  Region 2b                             =     -0.19695703 eV
+--------------------------------------------------------------------------------
+  Total defect energy                   =     10.76011511 eV
+--------------------------------------------------------------------------------
+
+  Largest displacement in region 2 =   0.0346 Angstroms
+
+
+  Number of variables =      930
+
+  Maximum number of calculations  =        1000
+  Maximum Hessian update interval =          10
+  Maximum step size               =   1.0000000
+  Maximum parameter tolerance     =   0.0000100
+  Maximum function  tolerance     =   0.0000100
+  Maximum gradient  tolerance     =   0.0010000
+
+  Symmetry adapted optimisation
+
+  Newton-Raphson optimiser to be used
+
+  BFGS hessian update to be used
+
+  Lower half triangular hessian to be used
+
+  Start of defect optimisation :
+
+  Cycle:      0 Defect Energy:  10.760115  Gnorm:     0.019580  CPU:    7.753
+  ** Hessian calculated **
+  Cycle:      1 Defect Energy:   8.412426  Gnorm:     0.005883  CPU:   20.138
+  Cycle:      2 Defect Energy:   7.750256  Gnorm:     0.005937  CPU:   28.847
+  Cycle:      3 Defect Energy:   7.297212  Gnorm:     0.003175  CPU:   36.154
+  Cycle:      4 Defect Energy:   7.228168  Gnorm:     0.002062  CPU:   38.650
+  Cycle:      5 Defect Energy:   7.174741  Gnorm:     0.001492  CPU:   42.201
+  Cycle:      6 Defect Energy:   7.128960  Gnorm:     0.001105  CPU:   44.191
+  Cycle:      7 Defect Energy:   7.094537  Gnorm:     0.000836  CPU:   46.463
+  Cycle:      8 Defect Energy:   7.068973  Gnorm:     0.000743  CPU:   48.271
+  Cycle:      9 Defect Energy:   7.047414  Gnorm:     0.000737  CPU:   50.075
+  Cycle:     10 Defect Energy:   7.027554  Gnorm:     0.000767  CPU:   51.906
+  ** Hessian calculated **
+  Cycle:     11 Defect Energy:   7.023167  Gnorm:     0.000649  CPU:   56.315
+  Cycle:     12 Defect Energy:   7.017226  Gnorm:     0.000616  CPU:   58.390
+  Cycle:     13 Defect Energy:   7.008609  Gnorm:     0.000591  CPU:   60.125
+  Cycle:     14 Defect Energy:   6.996442  Gnorm:     0.000574  CPU:   61.749
+  Cycle:     15 Defect Energy:   6.979332  Gnorm:     0.000573  CPU:   63.572
+  Cycle:     16 Defect Energy:   6.955995  Gnorm:     0.000586  CPU:   65.177
+  Cycle:     17 Defect Energy:   6.925714  Gnorm:     0.000687  CPU:   66.846
+  Cycle:     18 Defect Energy:   6.891181  Gnorm:     0.000808  CPU:   69.549
+  Cycle:     19 Defect Energy:   6.875124  Gnorm:     0.000831  CPU:   72.777
+  Cycle:     20 Defect Energy:   6.866289  Gnorm:     0.000821  CPU:   74.924
+  ** Hessian calculated **
+  Cycle:     21 Defect Energy:   6.863004  Gnorm:     0.000817  CPU:   79.459
+  Cycle:     22 Defect Energy:   6.859103  Gnorm:     0.000813  CPU:   81.474
+  Cycle:     23 Defect Energy:   6.856394  Gnorm:     0.000808  CPU:   83.267
+  ** Hessian calculated **
+  Cycle:     24 Defect Energy:   6.850837  Gnorm:     0.000642  CPU:   87.382
+  Cycle:     25 Defect Energy:   6.844080  Gnorm:     0.000581  CPU:   89.042
+  Cycle:     26 Defect Energy:   6.834946  Gnorm:     0.000508  CPU:   90.519
+  Cycle:     27 Defect Energy:   6.823473  Gnorm:     0.000467  CPU:   91.978
+  Cycle:     28 Defect Energy:   6.809206  Gnorm:     0.000402  CPU:   93.459
+  Cycle:     29 Defect Energy:   6.798808  Gnorm:     0.000415  CPU:   94.957
+  Cycle:     30 Defect Energy:   6.791343  Gnorm:     0.000429  CPU:   96.263
+  Cycle:     31 Defect Energy:   6.784867  Gnorm:     0.000464  CPU:   97.662
+  Cycle:     32 Defect Energy:   6.778900  Gnorm:     0.000473  CPU:  100.627
+  Cycle:     33 Defect Energy:   6.772378  Gnorm:     0.000492  CPU:  104.541
+  ** Hessian calculated **
+  Cycle:     34 Defect Energy:   6.769712  Gnorm:     0.000485  CPU:  108.497
+  Cycle:     35 Defect Energy:   6.765963  Gnorm:     0.000474  CPU:  110.618
+  Cycle:     36 Defect Energy:   6.761235  Gnorm:     0.000459  CPU:  112.558
+  Cycle:     37 Defect Energy:   6.756027  Gnorm:     0.000441  CPU:  114.510
+  Cycle:     38 Defect Energy:   6.752073  Gnorm:     0.000429  CPU:  116.464
+  ** Hessian calculated **
+  Cycle:     39 Defect Energy:   6.750655  Gnorm:     0.000377  CPU:  121.035
+  Cycle:     40 Defect Energy:   6.748766  Gnorm:     0.000344  CPU:  122.729
+  Cycle:     41 Defect Energy:   6.746173  Gnorm:     0.000300  CPU:  124.513
+  Cycle:     42 Defect Energy:   6.742845  Gnorm:     0.000258  CPU:  126.254
+  Cycle:     43 Defect Energy:   6.738853  Gnorm:     0.000223  CPU:  127.875
+  Cycle:     44 Defect Energy:   6.735724  Gnorm:     0.000214  CPU:  129.603
+  Cycle:     45 Defect Energy:   6.733343  Gnorm:     0.000237  CPU:  130.830
+  Cycle:     46 Defect Energy:   6.730970  Gnorm:     0.000258  CPU:  132.444
+  Cycle:     47 Defect Energy:   6.728560  Gnorm:     0.000294  CPU:  134.051
+  Cycle:     48 Defect Energy:   6.725711  Gnorm:     0.000319  CPU:  135.848
+  ** Hessian calculated **
+  Cycle:     49 Defect Energy:   6.723527  Gnorm:     0.000319  CPU:  143.832
+  Cycle:     50 Defect Energy:   6.720194  Gnorm:     0.000318  CPU:  145.898
+  Cycle:     51 Defect Energy:   6.714999  Gnorm:     0.000318  CPU:  147.882
+  Cycle:     52 Defect Energy:   6.706634  Gnorm:     0.000316  CPU:  149.821
+  Cycle:     53 Defect Energy:   6.692697  Gnorm:     0.000312  CPU:  151.638
+  Cycle:     54 Defect Energy:   6.669566  Gnorm:     0.000312  CPU:  153.631
+  Cycle:     55 Defect Energy:   6.660187  Gnorm:     0.000553  CPU:  155.406
+  ** Hessian calculated **
+  Cycle:     56 Defect Energy:   6.658144  Gnorm:     0.000410  CPU:  160.298
+  Cycle:     57 Defect Energy:   6.655997  Gnorm:     0.000310  CPU:  162.032
+  Cycle:     58 Defect Energy:   6.653925  Gnorm:     0.000230  CPU:  163.837
+  Cycle:     59 Defect Energy:   6.652214  Gnorm:     0.000184  CPU:  165.426
+  Cycle:     60 Defect Energy:   6.650905  Gnorm:     0.000178  CPU:  166.381
+  Cycle:     61 Defect Energy:   6.649694  Gnorm:     0.000194  CPU:  167.319
+  Cycle:     62 Defect Energy:   6.648397  Gnorm:     0.000217  CPU:  168.970
+  Cycle:     63 Defect Energy:   6.647030  Gnorm:     0.000237  CPU:  170.728
+  Cycle:     64 Defect Energy:   6.645368  Gnorm:     0.000259  CPU:  172.308
+  Cycle:     65 Defect Energy:   6.643303  Gnorm:     0.000283  CPU:  173.625
+  ** Hessian calculated **
+  Cycle:     66 Defect Energy:   6.640556  Gnorm:     0.000283  CPU:  181.734
+  Cycle:     67 Defect Energy:   6.636469  Gnorm:     0.000281  CPU:  183.806
+  Cycle:     68 Defect Energy:   6.630351  Gnorm:     0.000277  CPU:  186.148
+  Cycle:     69 Defect Energy:   6.621137  Gnorm:     0.000268  CPU:  188.110
+  Cycle:     70 Defect Energy:   6.607263  Gnorm:     0.000252  CPU:  190.073
+  Cycle:     71 Defect Energy:   6.586167  Gnorm:     0.000272  CPU:  191.897
+  Cycle:     72 Defect Energy:   6.559072  Gnorm:     0.000606  CPU:  193.751
+  Cycle:     73 Defect Energy:   6.553852  Gnorm:     0.000990  CPU:  195.438
+  ** Hessian calculated **
+  Cycle:     74 Defect Energy:   6.493432  Gnorm:     0.001137  CPU:  199.703
+  Cycle:     75 Defect Energy:   6.509625  Gnorm:     0.002047  CPU:  201.275
+  ** Hessian calculated **
+  Cycle:     76 Defect Energy:   6.461782  Gnorm:     0.001460  CPU:  208.988
+  Cycle:     77 Defect Energy:   6.434860  Gnorm:     0.001073  CPU:  211.297
+  Cycle:     78 Defect Energy:   6.417176  Gnorm:     0.000793  CPU:  213.380
+  Cycle:     79 Defect Energy:   6.405432  Gnorm:     0.000589  CPU:  215.389
+  Cycle:     80 Defect Energy:   6.397524  Gnorm:     0.000433  CPU:  217.232
+  Cycle:     81 Defect Energy:   6.392365  Gnorm:     0.000337  CPU:  219.103
+  Cycle:     82 Defect Energy:   6.388956  Gnorm:     0.000201  CPU:  220.686
+  Cycle:     83 Defect Energy:   6.386223  Gnorm:     0.000242  CPU:  222.520
+  Cycle:     84 Defect Energy:   6.385268  Gnorm:     0.000162  CPU:  224.084
+  Cycle:     85 Defect Energy:   6.384695  Gnorm:     0.000133  CPU:  225.471
+  ** Hessian calculated **
+  Cycle:     86 Defect Energy:   6.384595  Gnorm:     0.000068  CPU:  228.888
+  Cycle:     87 Defect Energy:   6.384553  Gnorm:     0.000049  CPU:  230.194
+  Cycle:     88 Defect Energy:   6.384521  Gnorm:     0.000034  CPU:  231.525
+  Cycle:     89 Defect Energy:   6.384497  Gnorm:     0.000025  CPU:  232.956
+  Cycle:     90 Defect Energy:   6.384476  Gnorm:     0.000022  CPU:  234.149
+  Cycle:     91 Defect Energy:   6.384457  Gnorm:     0.000022  CPU:  239.614
+  Cycle:     92 Defect Energy:   6.384440  Gnorm:     0.000024  CPU:  241.419
+  Cycle:     93 Defect Energy:   6.384424  Gnorm:     0.000025  CPU:  243.202
+  Cycle:     94 Defect Energy:   6.384409  Gnorm:     0.000025  CPU:  244.985
+  Cycle:     95 Defect Energy:   6.384395  Gnorm:     0.000023  CPU:  246.781
+  ** Hessian calculated **
+
+
+  **** Optimisation achieved ****
+
+
+  Final defect energy  =        6.38438547
+  Final defect Gnorm   =        0.00002311
+
+  Components of defect energy : 
+
+--------------------------------------------------------------------------------
+  Region 1 - region 1                   =     -4.50427666 eV
+  Region 1 - region 2a (unrelaxed)      =     11.29686257 eV
+  Region 1 - 2a (relaxed - correction)  =     -0.42240980 eV
+  Region 1 (Total)                      =      6.37017611 eV
+  Region 2a                             =      0.21121381 eV
+  Region 2b                             =     -0.19700444 eV
+--------------------------------------------------------------------------------
+  Total defect energy                   =      6.38438547 eV
+--------------------------------------------------------------------------------
+
+  Largest displacement in region 2 =   0.0346 Angstroms
+
+  Final coordinates of region 1 :
+
+--------------------------------------------------------------------------------
+   No.  Atomic        x           y           z          Radius      Charge
+        Label       (Angs)      (Angs)      (Angs)       (Angs)       (e) 
+--------------------------------------------------------------------------------
+     1  Cl    c     6.243127    1.373601    0.758543    0.000000    1.485000
+     2  Ga    c     7.408954    3.133368   -0.049330    0.000000    3.000000
+     3  Ga    c     4.287384    2.524127   -0.095329    0.000000    3.000000
+     4  Cl    c     3.759082    3.769681    1.517442    0.000000    1.485000
+     5  Cl    c     3.271990    1.306440   -1.473818    0.000000    1.485000
+     6  Cl    c     8.300070    4.510176    1.321153    0.000000    1.485000
+     7  Cl    c     9.172008    2.167863   -1.130396    0.000000    1.485000
+     8  Cl    c     5.870165    3.951769   -1.440873    0.000000    1.485000
+     9  Cl    c     7.057041   -0.240369    3.101237    0.000000    1.485000
+    10  Cl    c     4.624674   -2.009437    0.822357    0.000000    1.485000
+    11  Cl    c     6.804806    0.161626   -3.112727    0.000000    1.485000
+    12  Cl    c     7.897420   -1.954672   -0.219415    0.000000    1.485000
+    13  Ga    c    10.730876    2.855907    0.553233    0.000000    3.000000
+    14  Cl    c    10.294851    1.808822    2.325218    0.000000    1.485000
+    15  Cl    c     4.250542    2.262056   -4.925304    0.000000    1.485000
+    16  Ga    c     3.326108   -2.808529   -0.674611    0.000000    3.000000
+    17  Cl    c     5.918923    3.813119    4.834840    0.000000    1.485000
+    18  Cl    c     3.619839   -2.411146   -2.730290    0.000000    1.485000
+    19  Cl    c     1.024039    4.486418    0.264317    0.000000    1.485000
+    20  Ga    c     6.778424   -0.498374    5.185999    0.000000    3.000000
+    21  Ga    c     6.994310    0.200466   -5.223487    0.000000    3.000000
+    22  Cl    c     1.191187   -1.880135   -0.122355    0.000000    1.485000
+    23  Cl    c     4.638774    0.422973    5.683629    0.000000    1.485000
+    24  Cl    c     3.438507    6.265066    3.195356    0.000000    1.485000
+    25  Ga    c     7.278096   -4.075781    0.367144    0.000000    3.000000
+    26  Cl    c     3.337459    5.947598   -3.106024    0.000000    1.485000
+    27  Cl    c    11.447884    4.834925    0.042009    0.000000    1.485000
+    28  Cl    c     7.559345    2.317724   -5.928781    0.000000    1.485000
+    29  Cl    c     5.591318    7.925214   -0.953645    0.000000    1.485000
+    30  Ga    c    10.070356   -2.859055   -0.786594    0.000000    3.000000
+    31  Ga    c    -0.523145    3.743314   -0.989717    0.000000    3.000000
+    32  Cl    c     0.279941   -0.115119    3.037128    0.000000    1.485000
+    33  Cl    c    -0.966872    1.553460   -0.346896    0.000000    1.485000
+    34  Cl    c     7.098939   -4.350878    2.451287    0.000000    1.485000
+    35  Cl    c     5.980994   -4.923483   -1.093146    0.000000    1.485000
+    36  Cl    c    -0.382654    3.884739   -3.094349    0.000000    1.485000
+    37  Cl    c    11.326034   -1.920047    0.660822    0.000000    1.485000
+    38  Cl    c    10.270620   -2.457302   -2.853496    0.000000    1.485000
+    39  Cl    c     9.984740    6.013131   -3.200624    0.000000    1.485000
+    40  Cl    c     0.088263   -0.157991   -3.190732    0.000000    1.485000
+    41  Cl    c    12.496791    1.598287   -0.416091    0.000000    1.485000
+    42  Cl    c     2.610729    3.830905    5.805008    0.000000    1.485000
+    43  Cl    c     5.619954    5.451135   -5.842798    0.000000    1.485000
+    44  Cl    c     8.998465    7.890594   -0.011114    0.000000    1.485000
+    45  Ga    c     2.974207    1.410083   -6.413719    0.000000    3.000000
+    46  Cl    c    10.200960    6.140307    3.101141    0.000000    1.485000
+    47  Cl    c     2.288959    7.839532   -0.005969    0.000000    1.485000
+    48  Cl    c     9.356252    3.780530    5.771058    0.000000    1.485000
+    49  Cl    c     8.090530    0.389407    6.610849    0.000000    1.485000
+    50  Ga    c     7.192116    4.661679    6.317841    0.000000    3.000000
+    51  Ga    c     6.821620    8.835505    0.529355    0.000000    3.000000
+    52  Cl    c     2.732113   -2.529713    4.709352    0.000000    1.485000
+    53  Cl    c     6.151048   -2.616966    5.739828    0.000000    1.485000
+    54  Ga    c     3.175105    5.995467    5.277601    0.000000    3.000000
+    55  Cl    c     2.428907   -0.749171   -5.859493    0.000000    1.485000
+    56  Cl    c     5.667743   -0.777104   -6.563763    0.000000    1.485000
+    57  Cl    c     9.133603   -0.686434   -5.753925    0.000000    1.485000
+    58  Cl    c     6.608897    8.470182    2.599274    0.000000    1.485000
+    59  Cl    c    10.999916    2.307596   -4.940549    0.000000    1.485000
+    60  Cl    c     2.674687   -4.932561   -0.181013    0.000000    1.485000
+    61  Ga    c     3.970230   -1.713585    6.237211    0.000000    3.000000
+    62  Cl    c     9.429562   -2.538570    4.712959    0.000000    1.485000
+    63  Ga    c     3.478356    6.281274   -5.192946    0.000000    3.000000
+    64  Cl    c     9.452207   -4.969538   -0.239728    0.000000    1.485000
+    65  Ga    c     9.726700    1.438437   -6.417320    0.000000    3.000000
+    66  Cl    c     0.818003    2.236423   -5.886581    0.000000    1.485000
+    67  Ga    c    13.663527    3.516497   -0.857803    0.000000    3.000000
+    68  Ga    c     0.520584   -4.014267    0.413091    0.000000    3.000000
+    69  Ga    c     0.258427    0.078176   -5.283527    0.000000    3.000000
+    70  Ga    c     9.949033    5.919561    5.193470    0.000000    3.000000
+    71  Cl    c     7.806978    6.801345    5.732941    0.000000    1.485000
+    72  Ga    c     0.013840   -0.414507    5.114427    0.000000    3.000000
+    73  Cl    c    11.348106    0.419686    5.634265    0.000000    1.485000
+    74  Cl    c     1.344041    0.418382    6.559720    0.000000    1.485000
+    75  Cl    c     7.859419   -4.202300   -5.053112    0.000000    1.485000
+    76  Ga    c    10.203419    6.354286   -5.280318    0.000000    3.000000
+    77  Cl    c     8.894815    5.490565   -6.722709    0.000000    1.485000
+    78  Cl    c     4.530531    6.798917    6.713580    0.000000    1.485000
+    79  Cl    c    13.674410    4.027512   -2.894965    0.000000    1.485000
+    80  Cl    c    -0.819050    3.845388    4.867858    0.000000    1.485000
+    81  Cl    c     4.415374   -4.139203   -5.966915    0.000000    1.485000
+    82  Cl    c     2.125585    5.460908   -6.613376    0.000000    1.485000
+    83  Cl    c     0.299546   -4.293190    2.493130    0.000000    1.485000
+    84  Cl    c     7.497284    8.395506   -4.804030    0.000000    1.485000
+    85  Cl    c    12.624990    3.822118    4.749445    0.000000    1.485000
+    86  Cl    c    -2.577522    4.539498   -0.220735    0.000000    1.485000
+    87  Cl    c    13.548597   -0.153042   -3.277130    0.000000    1.485000
+    88  Ga    c    10.752133   -1.733150    6.179439    0.000000    3.000000
+    89  Ga    c     6.192604    7.635327   -6.310169    0.000000    3.000000
+    90  Cl    c    -2.138450   -1.868688    0.778464    0.000000    1.485000
+    91  Cl    c    13.668026   -0.131041    2.929259    0.000000    1.485000
+    92  Ga    c     2.904714    9.983107   -0.538600    0.000000    3.000000
+    93  Ga    c     0.440247    4.670816    6.374517    0.000000    3.000000
+    94  Ga    c    -3.052855    2.346039    0.435293    0.000000    3.000000
+    95  Cl    c     3.326314    1.688811   -8.476325    0.000000    1.485000
+    96  Cl    c     6.927650    4.389913    8.392602    0.000000    1.485000
+    97  Ga    c     0.143662    8.736267    0.589758    0.000000    3.000000
+    98  Cl    c     3.827854   -6.510925    2.895911    0.000000    1.485000
+    99  Cl    c     1.041919    6.840510    5.859559    0.000000    1.485000
+   100  Cl    c     1.119852   -4.154403   -5.032179    0.000000    1.485000
+   101  Cl    c    12.354102    7.864428   -0.951479    0.000000    1.485000
+   102  Cl    c     3.740968    2.138800    8.803331    0.000000    1.485000
+   103  Cl    c     4.037100    8.449981   -5.694274    0.000000    1.485000
+   104  Ga    c     9.647926    9.996398   -0.593199    0.000000    3.000000
+   105  Cl    c     6.451373    3.884959   -8.954300    0.000000    1.485000
+   106  Cl    c    14.731970    4.328112    0.791358    0.000000    1.485000
+   107  Cl    c     3.567812   -6.556745   -3.339324    0.000000    1.485000
+   108  Cl    c     4.233031   10.799262    0.922129    0.000000    1.485000
+   109  Cl    c    -1.166179    7.946858   -0.894612    0.000000    1.485000
+   110  Cl    c     3.155663   10.273305   -2.616036    0.000000    1.485000
+   111  Cl    c     7.500022   10.935848   -0.024601    0.000000    1.485000
+   112  Cl    c    -0.086455    8.402755    2.661610    0.000000    1.485000
+   113  Cl    c     3.677608   -1.984189    8.308122    0.000000    1.485000
+   114  Cl    c    -0.769047   -4.826920   -1.071227    0.000000    1.485000
+   115  Cl    c    -3.094443    2.157556    2.535734    0.000000    1.485000
+   116  Ga    c     6.565822   -5.025910   -6.536671    0.000000    3.000000
+   117  Ga    c    13.487072   -0.455738    5.011740    0.000000    3.000000
+   118  Cl    c    10.030789    1.643055   -8.493598    0.000000    1.485000
+   119  Cl    c    -2.417113    2.187300   -4.893174    0.000000    1.485000
+   120  Cl    c    -0.577429   -2.559739    5.655333    0.000000    1.485000
+   121  Cl    c    12.362476    5.543473   -5.861838    0.000000    1.485000
+   122  Cl    c    14.619678   -1.857105   -0.265668    0.000000    1.485000
+   123  Cl    c    12.712618   -4.826730   -1.189316    0.000000    1.485000
+   124  Cl    c     0.766181    8.521575   -4.817413    0.000000    1.485000
+   125  Cl    c    -1.177619    5.590251   -5.733608    0.000000    1.485000
+   126  Ga    c    13.736952    0.085773   -5.372401    0.000000    3.000000
+   127  Cl    c     8.173425   -5.928850    5.480296    0.000000    1.485000
+   128  Cl    c    -2.122693    0.460336    5.686522    0.000000    1.485000
+   129  Cl    c     9.882574   10.250281   -2.676803    0.000000    1.485000
+   130  Cl    c    12.349542   -0.747498   -6.754064    0.000000    1.485000
+   131  Ga    c     3.799400   -6.282973   -5.421133    0.000000    3.000000
+   132  Cl    c    -1.049023   -0.800577   -6.712280    0.000000    1.485000
+   133  Cl    c    11.278306    6.790617    6.609610    0.000000    1.485000
+   134  Cl    c    10.471129    2.131445    8.738757    0.000000    1.485000
+   135  Cl    c    10.566858   -6.512240    2.836876    0.000000    1.485000
+   136  Cl    c    11.141764   -4.141076   -6.038219    0.000000    1.485000
+   137  Cl    c     4.700360   -8.211674   -0.283509    0.000000    1.485000
+   138  Cl    c    12.896794   -2.599640    5.548247    0.000000    1.485000
+   139  Cl    c    10.301448   -6.555661   -3.402799    0.000000    1.485000
+   140  Ga    c    14.015611   -4.012505    0.290712    0.000000    3.000000
+   141  Cl    c     4.888756   -5.950466    6.424335    0.000000    1.485000
+   142  Cl    c    -4.465266    1.481534   -0.902688    0.000000    1.485000
+   143  Ga    c     3.580788   -6.806523    4.973774    0.000000    3.000000
+   144  Cl    c    15.863140    1.554779   -1.128529    0.000000    1.485000
+   145  Cl    c    10.540017   -2.040646    8.255707    0.000000    1.485000
+   146  Cl    c     5.780228   10.159237    5.818467    0.000000    1.485000
+   147  Ga    c    -3.462241   -2.716106   -0.665350    0.000000    3.000000
+   148  Cl    c    -3.209389   -2.425764   -2.742137    0.000000    1.485000
+   149  Cl    c     3.270613   -2.459134   -9.028612    0.000000    1.485000
+   150  Cl    c    10.742300    8.521237   -5.790361    0.000000    1.485000
+   151  Cl    c     9.070285   10.170812    4.879642    0.000000    1.485000
+   152  Cl    c     8.148922   -8.241173    0.591340    0.000000    1.485000
+   153  Cl    c    13.755541   -4.274618    2.368133    0.000000    1.485000
+   154  Cl    c     2.337127   10.175426    4.941448    0.000000    1.485000
+   155  Cl    c     0.783724   10.881571    0.069300    0.000000    1.485000
+   156  Cl    c     0.180993    4.362556    8.445523    0.000000    1.485000
+   157  Cl    c     1.437272   -5.918834    5.543474    0.000000    1.485000
+   158  Cl    c    14.317872    2.225120   -5.946320    0.000000    1.485000
+   159  Cl    c     6.450704    7.996764   -8.373027    0.000000    1.485000
+   160  Cl    c    13.378033    8.424818    2.576611    0.000000    1.485000
+   161  Cl    c    10.961133   10.838254    0.858672    0.000000    1.485000
+   162  Ga    c    13.634858    8.754671    0.505960    0.000000    3.000000
+   163  Cl    c    -3.261385    6.202873    3.175402    0.000000    1.485000
+   164  Cl    c     7.291535   -4.217445    8.664580    0.000000    1.485000
+   165  Ga    c    13.936661    4.665653    6.207235    0.000000    3.000000
+   166  Ga    c    -0.575401    7.737059   -6.276698    0.000000    3.000000
+   167  Cl    c     6.178888   -0.247366   10.483289    0.000000    1.485000
+   168  Cl    c     5.946917   -7.166747   -6.008368    0.000000    1.485000
+   169  Cl    c    -3.551423    6.196856   -3.057062    0.000000    1.485000
+   170  Cl    c     6.827140   -4.685925   -8.604363    0.000000    1.485000
+   171  Ga    c    10.539719   -6.290934   -5.485376    0.000000    3.000000
+   172  Cl    c     9.995860   -2.457751   -9.092225    0.000000    1.485000
+   173  Ga    c    10.323095   -6.818949    4.913472    0.000000    3.000000
+   174  Cl    c     1.411550   -8.222044    0.653677    0.000000    1.485000
+   175  Cl    c    -0.279404    3.892655   -8.890121    0.000000    1.485000
+   176  Ga    c     6.845710   -9.101927   -0.861931    0.000000    3.000000
+   177  Cl    s     6.228047    1.671708    0.585752    0.000000   -2.485000
+   178  Cl    s     3.860971    3.546723    1.228699    0.000000   -2.485000
+   179  Cl    s     8.202332    4.259929    1.073085    0.000000   -2.485000
+   180  Cl    s     3.448653    1.520628   -1.219375    0.000000   -2.485000
+   181  Cl    s     5.968994    3.749112   -1.178333    0.000000   -2.485000
+   182  Cl    s     9.106839    2.338052   -0.858061    0.000000   -2.485000
+   183  Cl    s     4.451833   -2.136000    0.582295    0.000000   -2.485000
+   184  Cl    s     7.006352   -0.270410    3.419628    0.000000   -2.485000
+   185  Cl    s     6.843535    0.184362   -3.438622    0.000000   -2.485000
+   186  Cl    s     7.999322   -2.238950   -0.198488    0.000000   -2.485000
+   187  Cl    s    10.365015    1.996801    2.009642    0.000000   -2.485000
+   188  Cl    s     3.569807   -2.474658   -2.396047    0.000000   -2.485000
+   189  Cl    s     4.082678    2.129578   -5.154061    0.000000   -2.485000
+   190  Cl    s     6.100192    3.949011    5.068692    0.000000   -2.485000
+   191  Cl    s     0.788091    4.369729    0.057646    0.000000   -2.485000
+   192  Cl    s    11.422977    4.482411    0.078741    0.000000   -2.485000
+   193  Cl    s     1.300487   -2.171195   -0.111652    0.000000   -2.485000
+   194  Cl    s     4.752541    0.128932    5.693861    0.000000   -2.485000
+   195  Cl    s     3.395522    6.211073    3.529469    0.000000   -2.485000
+   196  Cl    s     3.371426    5.992350   -3.434390    0.000000   -2.485000
+   197  Cl    s     7.681843    2.028680   -5.889993    0.000000   -2.485000
+   198  Cl    s     5.762241    8.075914   -0.713066    0.000000   -2.485000
+   199  Cl    s     7.132902   -4.299727    2.107322    0.000000   -2.485000
+   200  Cl    s     6.162521   -4.778772   -0.850830    0.000000   -2.485000
+   201  Cl    s    -0.407299    3.856929   -2.757234    0.000000   -2.485000
+   202  Cl    s    11.154630   -2.072144    0.423692    0.000000   -2.485000
+   203  Cl    s    10.233307   -2.519605   -2.518990    0.000000   -2.485000
+   204  Cl    s    -1.101879    1.833646   -0.338637    0.000000   -2.485000
+   205  Cl    s    12.463075    1.925751   -0.382776    0.000000   -2.485000
+   206  Cl    s     0.238955   -0.164086    3.369300    0.000000   -2.485000
+   207  Cl    s     7.907645    0.241959    6.373312    0.000000   -2.485000
+   208  Cl    s     6.047863   -2.312864    5.716272    0.000000   -2.485000
+   209  Cl    s     5.859703   -0.610971   -6.339661    0.000000   -2.485000
+   210  Cl    s     0.123479   -0.113735   -3.528090    0.000000   -2.485000
+   211  Cl    s     2.493157    4.121791    5.793600    0.000000   -2.485000
+   212  Cl    s    10.018227    6.059915   -3.526289    0.000000   -2.485000
+   213  Cl    s     9.242605    4.074759    5.749895    0.000000   -2.485000
+   214  Cl    s     5.501904    5.739102   -5.830588    0.000000   -2.485000
+   215  Cl    s     2.578842   -4.625945   -0.188905    0.000000   -2.485000
+   216  Cl    s    10.154159    6.088812    3.426403    0.000000   -2.485000
+   217  Cl    s     2.906628   -2.391430    4.959206    0.000000   -2.485000
+   218  Cl    s     9.009906   -0.390067   -5.773735    0.000000   -2.485000
+   219  Cl    s     8.907051    8.180112   -0.035434    0.000000   -2.485000
+   220  Cl    s     2.308255   -0.454880   -5.868758    0.000000   -2.485000
+   221  Cl    s     6.649396    8.529711    2.260837    0.000000   -2.485000
+   222  Cl    s     9.356606   -4.661825   -0.255805    0.000000   -2.485000
+   223  Cl    s    10.819716    2.169541   -5.168718    0.000000   -2.485000
+   224  Cl    s     2.181011    8.135895   -0.014159    0.000000   -2.485000
+   225  Cl    s     0.952008    1.946246   -5.869944    0.000000   -2.485000
+   226  Cl    s     9.610260   -2.400960    4.952279    0.000000   -2.485000
+   227  Cl    s     7.927701    6.503830    5.745126    0.000000   -2.485000
+   228  Cl    s     1.163591    0.278906    6.322898    0.000000   -2.485000
+   229  Cl    s    11.460790    0.127845    5.634399    0.000000   -2.485000
+   230  Cl    s     4.343244    6.662644    6.475774    0.000000   -2.485000
+   231  Cl    s     9.078901    5.629692   -6.482855    0.000000   -2.485000
+   232  Cl    s     2.323797    5.594868   -6.376424    0.000000   -2.485000
+   233  Cl    s     7.682596   -4.335877   -5.291378    0.000000   -2.485000
+   234  Cl    s    13.666817    3.932398   -2.539530    0.000000   -2.485000
+   235  Cl    s     0.341305   -4.242137    2.150978    0.000000   -2.485000
+   236  Cl    s    -2.423764    4.256832   -0.232454    0.000000   -2.485000
+   237  Cl    s    -0.642238    3.981153    5.114394    0.000000   -2.485000
+   238  Cl    s     3.265104    1.640226   -8.135867    0.000000   -2.485000
+   239  Cl    s     7.318951    8.263847   -5.048726    0.000000   -2.485000
+   240  Cl    s     6.976532    4.437979    8.048230    0.000000   -2.485000
+   241  Cl    s     4.528069   -4.431673   -5.955126    0.000000   -2.485000
+   242  Cl    s     1.169869    6.546536    5.859542    0.000000   -2.485000
+   243  Cl    s    13.581661   -0.101922   -3.604505    0.000000   -2.485000
+   244  Cl    s    13.633957   -0.181063    3.260228    0.000000   -2.485000
+   245  Cl    s     4.162238    8.152426   -5.691898    0.000000   -2.485000
+   246  Cl    s    12.802932    3.959780    4.975847    0.000000   -2.485000
+   247  Cl    s    -2.318443   -2.007972    0.544351    0.000000   -2.485000
+   248  Cl    s    14.587063    4.173463    0.506360    0.000000   -2.485000
+   249  Cl    s     3.731511   -1.935259    7.964074    0.000000   -2.485000
+   250  Cl    s     7.595508   10.629112   -0.007956    0.000000   -2.485000
+   251  Cl    s    -0.585842   -4.688352   -0.824092    0.000000   -2.485000
+   252  Cl    s     4.061546   10.656864    0.683686    0.000000   -2.485000
+   253  Cl    s     3.111571   10.219948   -2.278366    0.000000   -2.485000
+   254  Cl    s     3.783972   -6.559906    3.231589    0.000000   -2.485000
+   255  Cl    s     9.975681    1.606709   -8.146134    0.000000   -2.485000
+   256  Cl    s    -0.043229    8.459853    2.321911    0.000000   -2.485000
+   257  Cl    s    -0.983723    8.075638   -0.651476    0.000000   -2.485000
+   258  Cl    s    12.530029    8.003592   -0.715318    0.000000   -2.485000
+   259  Cl    s    -3.082341    2.191048    2.189031    0.000000   -2.485000
+   260  Cl    s     3.610717   -6.506312   -3.676523    0.000000   -2.485000
+   261  Cl    s     0.940415   -4.292663   -5.267474    0.000000   -2.485000
+   262  Cl    s     3.697657    2.089519    9.137371    0.000000   -2.485000
+   263  Cl    s    -0.689218   -2.261151    5.644976    0.000000   -2.485000
+   264  Cl    s     6.495087    3.934759   -9.287460    0.000000   -2.485000
+   265  Cl    s    -0.861003   -0.652871   -6.473565    0.000000   -2.485000
+   266  Cl    s    12.234522    5.830358   -5.861873    0.000000   -2.485000
+   267  Cl    s    11.090691    6.642396    6.371943    0.000000   -2.485000
+   268  Cl    s    12.885225   -4.684644   -0.945828    0.000000   -2.485000
+   269  Cl    s     9.839889   10.202411   -2.337213    0.000000   -2.485000
+   270  Cl    s    -2.000960    0.166147    5.694018    0.000000   -2.485000
+   271  Cl    s    14.736482   -2.141008   -0.258762    0.000000   -2.485000
+   272  Cl    s    12.545883   -0.604019   -6.521428    0.000000   -2.485000
+   273  Cl    s    -2.598815    2.049387   -5.131076    0.000000   -2.485000
+   274  Cl    s     0.579503    8.388977   -5.052545    0.000000   -2.485000
+   275  Cl    s    12.783639   -2.299192    5.540226    0.000000   -2.485000
+   276  Cl    s    -4.263855    1.629919   -0.678927    0.000000   -2.485000
+   277  Cl    s    -1.289523    5.885063   -5.740134    0.000000   -2.485000
+   278  Cl    s    10.579093   -1.985325    7.912055    0.000000   -2.485000
+   279  Cl    s     8.285702   -6.221578    5.491678    0.000000   -2.485000
+   280  Cl    s     4.708670   -6.089613    6.186881    0.000000   -2.485000
+   281  Cl    s     0.898545   10.581301    0.072307    0.000000   -2.485000
+   282  Cl    s    10.522949   -6.562877    3.171799    0.000000   -2.485000
+   283  Cl    s    10.865592    8.223236   -5.784906    0.000000   -2.485000
+   284  Cl    s     0.229560    4.416536    8.102992    0.000000   -2.485000
+   285  Cl    s    10.345091   -6.506056   -3.738996    0.000000   -2.485000
+   286  Cl    s     6.404257    7.932406   -8.031173    0.000000   -2.485000
+   287  Cl    s    -3.252826   -2.475162   -2.403430    0.000000   -2.485000
+   288  Cl    s    11.257661   -4.431632   -6.026676    0.000000   -2.485000
+   289  Cl    s    10.427361    2.082280    9.072195    0.000000   -2.485000
+   290  Cl    s    13.802243   -4.225895    2.025689    0.000000   -2.485000
+   291  Cl    s    10.780581   10.693898    0.619817    0.000000   -2.485000
+   292  Cl    s     4.812983   -8.504902   -0.272542    0.000000   -2.485000
+   293  Cl    s    15.997603    1.719686   -0.891489    0.000000   -2.485000
+   294  Cl    s     7.970025   -8.379263    0.354463    0.000000   -2.485000
+   295  Cl    s     5.668839   10.452698    5.806329    0.000000   -2.485000
+   296  Cl    s    13.423043    8.478504    2.237489    0.000000   -2.485000
+   297  Cl    s     5.836384   -6.866830   -6.015463    0.000000   -2.485000
+   298  Cl    s    14.429769    1.928968   -5.929138    0.000000   -2.485000
+   299  Cl    s     3.313492   -2.411027   -9.364278    0.000000   -2.485000
+   300  Cl    s     2.516887   10.315676    5.178840    0.000000   -2.485000
+   301  Cl    s     9.249589   10.310133    5.115073    0.000000   -2.485000
+   302  Cl    s     6.780257   -4.743584   -8.265187    0.000000   -2.485000
+   303  Cl    s     1.552482   -6.211548    5.553968    0.000000   -2.485000
+   304  Cl    s    -3.308657    6.156838    3.512643    0.000000   -2.485000
+   305  Cl    s    -3.504747    6.243159   -3.392347    0.000000   -2.485000
+   306  Cl    s     6.358120   -0.108398   10.720125    0.000000   -2.485000
+   307  Cl    s     7.248210   -4.267144    8.998685    0.000000   -2.485000
+   308  Cl    s     1.232043   -8.361559    0.417087    0.000000   -2.485000
+   309  Cl    s    10.040183   -2.410504   -9.427373    0.000000   -2.485000
+   310  Cl    s    -0.236291    3.942132   -9.224558    0.000000   -2.485000
+--------------------------------------------------------------------------------
+
+  Final coordinates of symmetry reduced region 1 (relative to defect centre):
+
+--------------------------------------------------------------------------------
+   No.  Atomic        x           y           z          Charge
+        Label       (Angs)      (Angs)      (Angs)         (e) 
+--------------------------------------------------------------------------------
+     1  Cl    c     0.496655   -0.395133    0.782975    1.485000
+     2  Ga    c     1.662482    1.364634   -0.024898    3.000000
+     3  Ga    c    -1.459088    0.755392   -0.070897    3.000000
+     4  Cl    c    -1.987389    2.000947    1.541874    1.485000
+     5  Cl    c    -2.474481   -0.462295   -1.449386    1.485000
+     6  Cl    c     2.553598    2.741442    1.345585    1.485000
+     7  Cl    c     3.425536    0.399128   -1.105964    1.485000
+     8  Cl    c     0.123693    2.183035   -1.416441    1.485000
+     9  Cl    c     1.310569   -2.009103    3.125669    1.485000
+    10  Cl    c    -1.121798   -3.778172    0.846789    1.485000
+    11  Cl    c     1.058334   -1.607108   -3.088295    1.485000
+    12  Cl    c     2.150948   -3.723406   -0.194983    1.485000
+    13  Ga    c     4.984404    1.087172    0.577665    3.000000
+    14  Cl    c     4.548379    0.040088    2.349651    1.485000
+    15  Cl    c    -1.495929    0.493322   -4.900872    1.485000
+    16  Ga    c    -2.420364   -4.577263   -0.650179    3.000000
+    17  Cl    c     0.172452    2.044385    4.859272    1.485000
+    18  Cl    c    -2.126632   -4.179881   -2.705857    1.485000
+    19  Cl    c    -4.722432    2.717684    0.288749    1.485000
+    20  Ga    c     1.031953   -2.267109    5.210431    3.000000
+    21  Ga    c     1.247838   -1.568269   -5.199055    3.000000
+    22  Cl    c    -4.555284   -3.648870   -0.097923    1.485000
+    23  Cl    c    -1.107697   -1.345761    5.708061    1.485000
+    24  Cl    c    -2.307965    4.496331    3.219788    1.485000
+    25  Ga    c     1.531624   -5.844515    0.391576    3.000000
+    26  Cl    c    -2.409012    4.178864   -3.081592    1.485000
+    27  Cl    c     5.701412    3.066190    0.066441    1.485000
+    28  Cl    c     1.812873    0.548989   -5.904349    1.485000
+    29  Cl    c    -0.155154    6.156480   -0.929213    1.485000
+    30  Ga    c     4.323884   -4.627789   -0.762162    3.000000
+    31  Ga    c    -6.269617    1.974579   -0.965285    3.000000
+    32  Cl    c    -5.466530   -1.883854    3.061560    1.485000
+    33  Cl    c    -6.713344   -0.215274   -0.322464    1.485000
+    34  Cl    c     1.352468   -6.119612    2.475720    1.485000
+    35  Cl    c     0.234522   -6.692218   -1.068714    1.485000
+    36  Cl    c    -6.129126    2.116005   -3.069917    1.485000
+    37  Cl    c     5.579562   -3.688781    0.685255    1.485000
+    38  Cl    c     4.524148   -4.226037   -2.829064    1.485000
+    39  Cl    c     4.238269    4.244396   -3.176192    1.485000
+    40  Cl    c    -5.658209   -1.926726   -3.166300    1.485000
+    41  Cl    c     6.750319   -0.170448   -0.391659    1.485000
+    42  Cl    c    -3.135743    2.062170    5.829440    1.485000
+    43  Cl    c    -0.126517    3.682401   -5.818366    1.485000
+    44  Cl    c     3.251993    6.121860    0.013318    1.485000
+    45  Ga    c    -2.772264   -0.358651   -6.389287    3.000000
+    46  Cl    c     4.454488    4.371573    3.125573    1.485000
+    47  Cl    c    -3.457513    6.070797    0.018463    1.485000
+    48  Cl    c     3.609780    2.011796    5.795490    1.485000
+    49  Cl    c     2.344058   -1.379328    6.635281    1.485000
+    50  Ga    c     1.445645    2.892945    6.342273    3.000000
+    51  Ga    c     1.075148    7.066771    0.553787    3.000000
+    52  Cl    c    -3.014359   -4.298447    4.733784    1.485000
+    53  Cl    c     0.404577   -4.385701    5.764260    1.485000
+    54  Ga    c    -2.571367    4.226732    5.302033    3.000000
+    55  Cl    c    -3.317564   -2.517906   -5.835061    1.485000
+    56  Cl    c    -0.078729   -2.545838   -6.539331    1.485000
+    57  Cl    c     3.387132   -2.455169   -5.729493    1.485000
+    58  Cl    c     0.862425    6.701447    2.623707    1.485000
+    59  Cl    c     5.253444    0.538861   -4.916117    1.485000
+    60  Cl    c    -3.071785   -6.701296   -0.156581    1.485000
+    61  Ga    c    -1.776242   -3.482319    6.261643    3.000000
+    62  Cl    c     3.683090   -4.307304    4.737391    1.485000
+    63  Ga    c    -2.268116    4.512540   -5.168514    3.000000
+    64  Cl    c     3.705735   -6.738272   -0.215295    1.485000
+    65  Ga    c     3.980229   -0.330297   -6.392888    3.000000
+    66  Cl    c    -4.928469    0.467688   -5.862149    1.485000
+    67  Ga    c     7.917055    1.747762   -0.833371    3.000000
+    68  Ga    c    -5.225888   -5.783002    0.437523    3.000000
+    69  Ga    c    -5.488045   -1.690559   -5.259095    3.000000
+    70  Ga    c     4.202562    4.150826    5.217903    3.000000
+    71  Cl    c     2.060506    5.032611    5.757373    1.485000
+    72  Ga    c    -5.732631   -2.183241    5.138859    3.000000
+    73  Cl    c     5.601634   -1.349049    5.658697    1.485000
+    74  Cl    c    -4.402431   -1.350352    6.584152    1.485000
+    75  Cl    c     2.112947   -5.971035   -5.028680    1.485000
+    76  Ga    c     4.456948    4.585551   -5.255886    3.000000
+    77  Cl    c     3.148343    3.721830   -6.698277    1.485000
+    78  Cl    c    -1.215940    5.030182    6.738012    1.485000
+    79  Cl    c     7.927938    2.258777   -2.870533    1.485000
+    80  Cl    c    -6.565521    2.076654    4.892290    1.485000
+    81  Cl    c    -1.331098   -5.907937   -5.942483    1.485000
+    82  Cl    c    -3.620886    3.692173   -6.588944    1.485000
+    83  Cl    c    -5.446925   -6.061925    2.517562    1.485000
+    84  Cl    c     1.750812    6.626771   -4.779598    1.485000
+    85  Cl    c     6.878519    2.053384    4.773877    1.485000
+    86  Cl    c    -8.323994    2.770764   -0.196303    1.485000
+    87  Cl    c     7.802125   -1.921777   -3.252698    1.485000
+    88  Ga    c     5.005661   -3.501884    6.203871    3.000000
+    89  Ga    c     0.446133    5.866592   -6.285737    3.000000
+    90  Cl    c    -7.884922   -3.637422    0.802896    1.485000
+    91  Cl    c     7.921554   -1.899775    2.953691    1.485000
+    92  Ga    c    -2.841757    8.214373   -0.514168    3.000000
+    93  Ga    c    -5.306225    2.902081    6.398949    3.000000
+    94  Ga    c    -8.799327    0.577304    0.459725    3.000000
+    95  Cl    c    -2.420157   -0.079923   -8.451893    1.485000
+    96  Cl    c     1.181179    2.621179    8.417034    1.485000
+    97  Ga    c    -5.602810    6.967532    0.614190    3.000000
+    98  Cl    c    -1.918617   -8.279659    2.920343    1.485000
+    99  Cl    c    -4.704552    5.071775    5.883991    1.485000
+   100  Cl    c    -4.626620   -5.923138   -5.007747    1.485000
+   101  Cl    c     6.607630    6.095693   -0.927047    1.485000
+   102  Cl    c    -2.005504    0.370066    8.827763    1.485000
+   103  Cl    c    -1.709371    6.681247   -5.669842    1.485000
+   104  Ga    c     3.901454    8.227664   -0.568767    3.000000
+   105  Cl    c     0.704902    2.116225   -8.929868    1.485000
+   106  Cl    c     8.985498    2.559378    0.815790    1.485000
+   107  Cl    c    -2.178660   -8.325480   -3.314892    1.485000
+   108  Cl    c    -1.513440    9.030527    0.946561    1.485000
+   109  Cl    c    -6.912651    6.178124   -0.870180    1.485000
+   110  Cl    c    -2.590809    8.504571   -2.591603    1.485000
+   111  Cl    c     1.753551    9.167114   -0.000169    1.485000
+   112  Cl    c    -5.832926    6.634021    2.686042    1.485000
+   113  Cl    c    -2.068863   -3.752923    8.332554    1.485000
+   114  Cl    c    -6.515519   -6.595654   -1.046795    1.485000
+   115  Cl    c    -8.840915    0.388822    2.560166    1.485000
+   116  Ga    c     0.819351   -6.794644   -6.512239    3.000000
+   117  Ga    c     7.740600   -2.224473    5.036172    3.000000
+   118  Cl    c     4.284317   -0.125679   -8.469166    1.485000
+   119  Cl    c    -8.163585    0.418565   -4.868742    1.485000
+   120  Cl    c    -6.323901   -4.328473    5.679765    1.485000
+   121  Cl    c     6.616004    3.774739   -5.837406    1.485000
+   122  Cl    c     8.873207   -3.625839   -0.241236    1.485000
+   123  Cl    c     6.966146   -6.595464   -1.164884    1.485000
+   124  Cl    c    -4.980290    6.752840   -4.792981    1.485000
+   125  Cl    c    -6.924091    3.821517   -5.709176    1.485000
+   126  Ga    c     7.990480   -1.682962   -5.347969    3.000000
+   127  Cl    c     2.426954   -7.697584    5.504729    1.485000
+   128  Cl    c    -7.869165   -1.308398    5.710954    1.485000
+   129  Cl    c     4.136102    8.481547   -2.652371    1.485000
+   130  Cl    c     6.603070   -2.516232   -6.729632    1.485000
+   131  Ga    c    -1.947072   -8.051708   -5.396701    3.000000
+   132  Cl    c    -6.795494   -2.569311   -6.687847    1.485000
+   133  Cl    c     5.531834    5.021882    6.634042    1.485000
+   134  Cl    c     4.724657    0.362711    8.763189    1.485000
+   135  Cl    c     4.820386   -8.280974    2.861308    1.485000
+   136  Cl    c     5.395292   -5.909811   -6.013787    1.485000
+   137  Cl    c    -1.046112   -9.980409   -0.259077    1.485000
+   138  Cl    c     7.150322   -4.368374    5.572680    1.485000
+   139  Cl    c     4.554976   -8.324395   -3.378367    1.485000
+   140  Ga    c     8.269140   -5.781239    0.315145    3.000000
+   141  Cl    c    -0.857716   -7.719200    6.448767    1.485000
+   142  Cl    c   -10.211738   -0.287200   -0.878256    1.485000
+   143  Ga    c    -2.165684   -8.575258    4.998206    3.000000
+   144  Cl    c    10.116669   -0.213956   -1.104097    1.485000
+   145  Cl    c     4.793545   -3.809380    8.280139    1.485000
+   146  Cl    c     0.033756    8.390502    5.842899    1.485000
+   147  Ga    c    -9.208713   -4.484840   -0.640918    3.000000
+   148  Cl    c    -8.955860   -4.194498   -2.717705    1.485000
+   149  Cl    c    -2.475858   -4.227869   -9.004179    1.485000
+   150  Cl    c     4.995828    6.752502   -5.765929    1.485000
+   151  Cl    c     3.323813    8.402077    4.904074    1.485000
+   152  Cl    c     2.402451  -10.009908    0.615772    1.485000
+   153  Cl    c     8.009069   -6.043352    2.392565    1.485000
+   154  Cl    c    -3.409345    8.406691    4.965880    1.485000
+   155  Cl    c    -4.962748    9.112836    0.093732    1.485000
+   156  Cl    c    -5.565478    2.593822    8.469955    1.485000
+   157  Cl    c    -4.309199   -7.687568    5.567906    1.485000
+   158  Cl    c     8.571400    0.456386   -5.921888    1.485000
+   159  Cl    c     0.704233    6.228029   -8.348595    1.485000
+   160  Cl    c     7.631561    6.656083    2.601043    1.485000
+   161  Cl    c     5.214662    9.069519    0.883104    1.485000
+   162  Ga    c     7.888386    6.985936    0.530392    3.000000
+   163  Cl    c    -9.007856    4.434139    3.199834    1.485000
+   164  Cl    c     1.545063   -5.986180    8.689012    1.485000
+   165  Ga    c     8.190190    2.896919    6.231667    3.000000
+   166  Ga    c    -6.321872    5.968325   -6.252266    3.000000
+   167  Cl    c     0.432417   -2.016100   10.507721    1.485000
+   168  Cl    c     0.200446   -8.935482   -5.983936    1.485000
+   169  Cl    c    -9.297895    4.428121   -3.032629    1.485000
+   170  Cl    c     1.080668   -6.454660   -8.579931    1.485000
+   171  Ga    c     4.793247   -8.059668   -5.460944    3.000000
+   172  Cl    c     4.249388   -4.226486   -9.067793    1.485000
+   173  Ga    c     4.576624   -8.587683    4.937904    3.000000
+   174  Cl    c    -4.334921   -9.990778    0.678109    1.485000
+   175  Cl    c    -6.025876    2.123921   -8.865689    1.485000
+   176  Ga    c     1.099238  -10.870661   -0.837499    3.000000
+   177  Cl    s     0.481576   -0.097027    0.610184   -2.485000
+   178  Cl    s    -1.885501    1.777989    1.253131   -2.485000
+   179  Cl    s     2.455861    2.491194    1.097517   -2.485000
+   180  Cl    s    -2.297818   -0.248106   -1.194943   -2.485000
+   181  Cl    s     0.222523    1.980377   -1.153901   -2.485000
+   182  Cl    s     3.360367    0.569318   -0.833629   -2.485000
+   183  Cl    s    -1.294638   -3.904735    0.606727   -2.485000
+   184  Cl    s     1.259880   -2.039145    3.444060   -2.485000
+   185  Cl    s     1.097064   -1.584373   -3.414190   -2.485000
+   186  Cl    s     2.252850   -4.007685   -0.174055   -2.485000
+   187  Cl    s     4.618543    0.228067    2.034074   -2.485000
+   188  Cl    s    -2.176665   -4.243392   -2.371615   -2.485000
+   189  Cl    s    -1.663794    0.360844   -5.129628   -2.485000
+   190  Cl    s     0.353721    2.180276    5.093124   -2.485000
+   191  Cl    s    -4.958381    2.600994    0.082078   -2.485000
+   192  Cl    s     5.676505    2.713676    0.103173   -2.485000
+   193  Cl    s    -4.445985   -3.939930   -0.087220   -2.485000
+   194  Cl    s    -0.993931   -1.639802    5.718293   -2.485000
+   195  Cl    s    -2.350949    4.442339    3.553901   -2.485000
+   196  Cl    s    -2.375045    4.223616   -3.409958   -2.485000
+   197  Cl    s     1.935371    0.259946   -5.865561   -2.485000
+   198  Cl    s     0.015769    6.307180   -0.688634   -2.485000
+   199  Cl    s     1.386431   -6.068462    2.131755   -2.485000
+   200  Cl    s     0.416049   -6.547506   -0.826398   -2.485000
+   201  Cl    s    -6.153770    2.088194   -2.732802   -2.485000
+   202  Cl    s     5.408158   -3.840878    0.448124   -2.485000
+   203  Cl    s     4.486836   -4.288339   -2.494558   -2.485000
+   204  Cl    s    -6.848350    0.064912   -0.314205   -2.485000
+   205  Cl    s     6.716603    0.157017   -0.358344   -2.485000
+   206  Cl    s    -5.507516   -1.932820    3.393732   -2.485000
+   207  Cl    s     2.161173   -1.526775    6.397744   -2.485000
+   208  Cl    s     0.301391   -4.081598    5.740704   -2.485000
+   209  Cl    s     0.113231   -2.379705   -6.315229   -2.485000
+   210  Cl    s    -5.622992   -1.882469   -3.503658   -2.485000
+   211  Cl    s    -3.253315    2.353057    5.818032   -2.485000
+   212  Cl    s     4.271755    4.291181   -3.501857   -2.485000
+   213  Cl    s     3.496133    2.306025    5.774327   -2.485000
+   214  Cl    s    -0.244568    3.970368   -5.806156   -2.485000
+   215  Cl    s    -3.167630   -6.394680   -0.164473   -2.485000
+   216  Cl    s     4.407688    4.320077    3.450835   -2.485000
+   217  Cl    s    -2.839844   -4.160164    4.983639   -2.485000
+   218  Cl    s     3.263434   -2.158802   -5.749302   -2.485000
+   219  Cl    s     3.160579    6.411377   -0.011002   -2.485000
+   220  Cl    s    -3.438216   -2.223614   -5.844326   -2.485000
+   221  Cl    s     0.902925    6.760977    2.285269   -2.485000
+   222  Cl    s     3.610134   -6.430560   -0.231373   -2.485000
+   223  Cl    s     5.073245    0.400807   -5.144286   -2.485000
+   224  Cl    s    -3.565461    6.367160    0.010273   -2.485000
+   225  Cl    s    -4.794464    0.177512   -5.845511   -2.485000
+   226  Cl    s     3.863789   -4.169694    4.976711   -2.485000
+   227  Cl    s     2.181229    4.735096    5.769558   -2.485000
+   228  Cl    s    -4.582881   -1.489829    6.347330   -2.485000
+   229  Cl    s     5.714319   -1.640890    5.658831   -2.485000
+   230  Cl    s    -1.403228    4.893909    6.500206   -2.485000
+   231  Cl    s     3.332429    3.860957   -6.458423   -2.485000
+   232  Cl    s    -3.422674    3.826134   -6.351992   -2.485000
+   233  Cl    s     1.936125   -6.104611   -5.266946   -2.485000
+   234  Cl    s     7.920345    2.163663   -2.515098   -2.485000
+   235  Cl    s    -5.405167   -6.010871    2.175410   -2.485000
+   236  Cl    s    -8.170236    2.488098   -0.208022   -2.485000
+   237  Cl    s    -6.388710    2.212419    5.138826   -2.485000
+   238  Cl    s    -2.481368   -0.128508   -8.111434   -2.485000
+   239  Cl    s     1.572479    6.495113   -5.024294   -2.485000
+   240  Cl    s     1.230060    2.669245    8.072662   -2.485000
+   241  Cl    s    -1.218403   -6.200407   -5.930694   -2.485000
+   242  Cl    s    -4.576603    4.777802    5.883974   -2.485000
+   243  Cl    s     7.835190   -1.870657   -3.580073   -2.485000
+   244  Cl    s     7.887485   -1.949798    3.284660   -2.485000
+   245  Cl    s    -1.584234    6.383692   -5.667466   -2.485000
+   246  Cl    s     7.056460    2.191045    5.000279   -2.485000
+   247  Cl    s    -8.064914   -3.776706    0.568784   -2.485000
+   248  Cl    s     8.840592    2.404729    0.530792   -2.485000
+   249  Cl    s    -2.014960   -3.703993    7.988506   -2.485000
+   250  Cl    s     1.849036    8.860378    0.016477   -2.485000
+   251  Cl    s    -6.332314   -6.457086   -0.799660   -2.485000
+   252  Cl    s    -1.684926    8.888129    0.708118   -2.485000
+   253  Cl    s    -2.634900    8.451214   -2.253934   -2.485000
+   254  Cl    s    -1.962500   -8.328640    3.256021   -2.485000
+   255  Cl    s     4.229209   -0.162025   -8.121702   -2.485000
+   256  Cl    s    -5.789701    6.691119    2.346343   -2.485000
+   257  Cl    s    -6.730194    6.306904   -0.627044   -2.485000
+   258  Cl    s     6.783557    6.234857   -0.690886   -2.485000
+   259  Cl    s    -8.828813    0.422313    2.213464   -2.485000
+   260  Cl    s    -2.135755   -8.275046   -3.652091   -2.485000
+   261  Cl    s    -4.806056   -6.061398   -5.243042   -2.485000
+   262  Cl    s    -2.048815    0.320784    9.161803   -2.485000
+   263  Cl    s    -6.435689   -4.029886    5.669408   -2.485000
+   264  Cl    s     0.748616    2.166024   -9.263028   -2.485000
+   265  Cl    s    -6.607474   -2.421605   -6.449133   -2.485000
+   266  Cl    s     6.488050    4.061623   -5.837441   -2.485000
+   267  Cl    s     5.344219    4.873662    6.396376   -2.485000
+   268  Cl    s     7.138753   -6.453379   -0.921396   -2.485000
+   269  Cl    s     4.093417    8.433677   -2.312781   -2.485000
+   270  Cl    s    -7.747431   -1.602588    5.718450   -2.485000
+   271  Cl    s     8.990011   -3.909743   -0.234330   -2.485000
+   272  Cl    s     6.799411   -2.372754   -6.496996   -2.485000
+   273  Cl    s    -8.345287    0.280652   -5.106643   -2.485000
+   274  Cl    s    -5.166968    6.620243   -5.028113   -2.485000
+   275  Cl    s     7.037167   -4.067927    5.564659   -2.485000
+   276  Cl    s   -10.010327   -0.138816   -0.654495   -2.485000
+   277  Cl    s    -7.035995    4.116328   -5.715702   -2.485000
+   278  Cl    s     4.832621   -3.754059    7.936487   -2.485000
+   279  Cl    s     2.539231   -7.990312    5.516110   -2.485000
+   280  Cl    s    -1.037802   -7.858348    6.211313   -2.485000
+   281  Cl    s    -4.847927    8.812566    0.096739   -2.485000
+   282  Cl    s     4.776478   -8.331611    3.196231   -2.485000
+   283  Cl    s     5.119120    6.454502   -5.760474   -2.485000
+   284  Cl    s    -5.516911    2.647801    8.127424   -2.485000
+   285  Cl    s     4.598619   -8.274791   -3.714564   -2.485000
+   286  Cl    s     0.657786    6.163671   -8.006741   -2.485000
+   287  Cl    s    -8.999298   -4.243897   -2.378997   -2.485000
+   288  Cl    s     5.511189   -6.200366   -6.002243   -2.485000
+   289  Cl    s     4.680890    0.313546    9.096627   -2.485000
+   290  Cl    s     8.055771   -5.994630    2.050121   -2.485000
+   291  Cl    s     5.034109    8.925163    0.644249   -2.485000
+   292  Cl    s    -0.933489  -10.273637   -0.248110   -2.485000
+   293  Cl    s    10.251132   -0.049049   -0.867057   -2.485000
+   294  Cl    s     2.223553  -10.147997    0.378895   -2.485000
+   295  Cl    s    -0.077633    8.683963    5.830761   -2.485000
+   296  Cl    s     7.676572    6.709769    2.261922   -2.485000
+   297  Cl    s     0.089912   -8.635564   -5.991031   -2.485000
+   298  Cl    s     8.683298    0.160234   -5.904705   -2.485000
+   299  Cl    s    -2.432980   -4.179761   -9.339846   -2.485000
+   300  Cl    s    -3.229585    8.546941    5.203272   -2.485000
+   301  Cl    s     3.503117    8.541398    5.139505   -2.485000
+   302  Cl    s     1.033785   -6.512318   -8.240755   -2.485000
+   303  Cl    s    -4.193989   -7.980282    5.578400   -2.485000
+   304  Cl    s    -9.055128    4.388103    3.537075   -2.485000
+   305  Cl    s    -9.251218    4.474424   -3.367915   -2.485000
+   306  Cl    s     0.611648   -1.877133   10.744557   -2.485000
+   307  Cl    s     1.501738   -6.035879    9.023117   -2.485000
+   308  Cl    s    -4.514429  -10.130293    0.441519   -2.485000
+   309  Cl    s     4.293711   -4.179238   -9.402941   -2.485000
+   310  Cl    s    -5.982762    2.173397   -9.200126   -2.485000
+--------------------------------------------------------------------------------
+
+
+  Final derivatives for region 1 :
+
+--------------------------------------------------------------------------------
+   No.  Atomic          x             y             z            Radius
+        Label       (eV/Angs)     (eV/Angs)     (eV/Angs)       (eV/Angs)
+--------------------------------------------------------------------------------
+     1  Cl    c      -0.001928     -0.000327     -0.003920      0.000000
+     2  Ga    c       0.000860     -0.000449      0.002441      0.000000
+     3  Ga    c      -0.001268     -0.003747      0.008094      0.000000
+     4  Cl    c       0.002521     -0.000862     -0.005233      0.000000
+     5  Cl    c       0.000964      0.004240      0.002602      0.000000
+     6  Cl    c      -0.000482     -0.000303     -0.001424      0.000000
+     7  Cl    c       0.000072      0.000649     -0.001136      0.000000
+     8  Cl    c      -0.001691      0.001731     -0.001872      0.000000
+     9  Cl    c      -0.000109     -0.000304     -0.000067      0.000000
+    10  Cl    c      -0.000237      0.000446      0.000018      0.000000
+    11  Cl    c      -0.000162      0.000164      0.000269      0.000000
+    12  Cl    c      -0.000314      0.000029     -0.000118      0.000000
+    13  Ga    c      -0.000337      0.000398      0.000014      0.000000
+    14  Cl    c       0.001148     -0.000273     -0.000051      0.000000
+    15  Cl    c       0.000091     -0.000109      0.000093      0.000000
+    16  Ga    c       0.000118      0.000349      0.000258      0.000000
+    17  Cl    c      -0.000057      0.000211      0.000550      0.000000
+    18  Cl    c       0.000115      0.000037     -0.000438      0.000000
+    19  Cl    c       0.000187     -0.000392      0.000061      0.000000
+    20  Ga    c      -0.000265     -0.000203     -0.000092      0.000000
+    21  Ga    c      -0.000364      0.000085      0.000309      0.000000
+    22  Cl    c      -0.000088      0.000489     -0.000092      0.000000
+    23  Cl    c       0.000175     -0.000398      0.000167      0.000000
+    24  Cl    c      -0.000221     -0.000030     -0.000105      0.000000
+    25  Ga    c       0.000242     -0.000123     -0.000114      0.000000
+    26  Cl    c      -0.000049     -0.000146      0.000074      0.000000
+    27  Cl    c       0.000199     -0.000590      0.000383      0.000000
+    28  Cl    c      -0.000241      0.000069      0.000062      0.000000
+    29  Cl    c      -0.000109      0.000097     -0.000075      0.000000
+    30  Ga    c      -0.000023      0.000154     -0.000325      0.000000
+    31  Ga    c       0.000018     -0.000001     -0.000057      0.000000
+    32  Cl    c       0.000085      0.000031     -0.000040      0.000000
+    33  Cl    c      -0.000024      0.000242      0.000010      0.000000
+    34  Cl    c      -0.000170     -0.000073      0.000001      0.000000
+    35  Cl    c      -0.000129      0.000093     -0.000051      0.000000
+    36  Cl    c      -0.000324      0.000209      0.000041      0.000000
+    37  Cl    c       0.000126      0.000164      0.000038      0.000000
+    38  Cl    c      -0.000046      0.000047     -0.000083      0.000000
+    39  Cl    c       0.000126      0.000127     -0.000160      0.000000
+    40  Cl    c       0.000175     -0.000025     -0.000032      0.000000
+    41  Cl    c      -0.000345      0.000277      0.000490      0.000000
+    42  Cl    c       0.000180      0.000034      0.000021      0.000000
+    43  Cl    c      -0.000001     -0.000154      0.000038      0.000000
+    44  Cl    c      -0.000023      0.000084      0.000165      0.000000
+    45  Ga    c       0.000177     -0.000120      0.000059      0.000000
+    46  Cl    c      -0.000116      0.000117      0.000099      0.000000
+    47  Cl    c      -0.000180     -0.000194      0.000027      0.000000
+    48  Cl    c      -0.000154     -0.000153      0.000043      0.000000
+    49  Cl    c      -0.000254      0.000163      0.000220      0.000000
+    50  Ga    c      -0.000296     -0.000139     -0.000010      0.000000
+    51  Ga    c       0.000038      0.000212      0.000138      0.000000
+    52  Cl    c       0.000098      0.000065      0.000007      0.000000
+    53  Cl    c      -0.000405      0.000408     -0.000028      0.000000
+    54  Ga    c       0.000012     -0.000281      0.000066      0.000000
+    55  Cl    c       0.000015      0.000102     -0.000035      0.000000
+    56  Cl    c      -0.000171      0.000111      0.000114      0.000000
+    57  Cl    c       0.000105     -0.000070      0.000080      0.000000
+    58  Cl    c       0.000072      0.000145      0.000030      0.000000
+    59  Cl    c       0.000018     -0.000092     -0.000069      0.000000
+    60  Cl    c       0.000222     -0.000352      0.000195      0.000000
+    61  Ga    c       0.000357      0.000030      0.000061      0.000000
+    62  Cl    c       0.000004     -0.000131     -0.000007      0.000000
+    63  Ga    c      -0.000090     -0.000166      0.000138      0.000000
+    64  Cl    c       0.000124     -0.000260     -0.000172      0.000000
+    65  Ga    c       0.000105     -0.000038      0.000043      0.000000
+    66  Cl    c      -0.000007     -0.000079     -0.000008      0.000000
+    67  Ga    c      -0.000244     -0.000062      0.000114      0.000000
+    68  Ga    c       0.000156     -0.000031      0.000217      0.000000
+    69  Ga    c       0.000176      0.000016     -0.000082      0.000000
+    70  Ga    c      -0.000013      0.000260     -0.000189      0.000000
+    71  Cl    c      -0.000012      0.000146     -0.000173      0.000000
+    72  Ga    c       0.000065      0.000054      0.000148      0.000000
+    73  Cl    c       0.000098      0.000142      0.000027      0.000000
+    74  Cl    c       0.000071     -0.000029     -0.000102      0.000000
+    75  Cl    c       0.000003     -0.000009      0.000077      0.000000
+    76  Ga    c       0.000025      0.000086     -0.000172      0.000000
+    77  Cl    c       0.000016      0.000037     -0.000043      0.000000
+    78  Cl    c      -0.000003     -0.000271      0.000037      0.000000
+    79  Cl    c       0.000334     -0.000019      0.000382      0.000000
+    80  Cl    c      -0.000047     -0.000009     -0.000136      0.000000
+    81  Cl    c      -0.000100      0.000050      0.000024      0.000000
+    82  Cl    c       0.000040     -0.000112      0.000043      0.000000
+    83  Cl    c       0.000186     -0.000062      0.000216      0.000000
+    84  Cl    c      -0.000016      0.000012     -0.000113      0.000000
+    85  Cl    c       0.000164     -0.000180     -0.000105      0.000000
+    86  Cl    c       0.000224     -0.000158     -0.000158      0.000000
+    87  Cl    c       0.000053     -0.000002      0.000028      0.000000
+    88  Ga    c       0.000119     -0.000161      0.000132      0.000000
+    89  Ga    c      -0.000001      0.000022      0.000050      0.000000
+    90  Cl    c       0.000025      0.000049      0.000027      0.000000
+    91  Cl    c       0.000115      0.000141     -0.000101      0.000000
+    92  Ga    c       0.000071      0.000046     -0.000044      0.000000
+    93  Ga    c       0.000005      0.000216      0.000008      0.000000
+    94  Ga    c       0.000199      0.000186     -0.000146      0.000000
+    95  Cl    c       0.000028     -0.000156      0.000066      0.000000
+    96  Cl    c      -0.000308     -0.000204     -0.000042      0.000000
+    97  Ga    c      -0.000053     -0.000303     -0.000047      0.000000
+    98  Cl    c      -0.000043      0.000053     -0.000028      0.000000
+    99  Cl    c      -0.000080     -0.000104      0.000064      0.000000
+   100  Cl    c       0.000036      0.000027      0.000031      0.000000
+   101  Cl    c       0.000171     -0.000014      0.000042      0.000000
+   102  Cl    c       0.000078      0.000047     -0.000103      0.000000
+   103  Cl    c       0.000084      0.000146     -0.000010      0.000000
+   104  Ga    c       0.000005      0.000148      0.000090      0.000000
+   105  Cl    c      -0.000012     -0.000045     -0.000018      0.000000
+   106  Cl    c      -0.000093     -0.000129     -0.000375      0.000000
+   107  Cl    c      -0.000035     -0.000003      0.000014      0.000000
+   108  Cl    c       0.000002      0.000028     -0.000036      0.000000
+   109  Cl    c       0.000065     -0.000240      0.000082      0.000000
+   110  Cl    c       0.000022      0.000028     -0.000008      0.000000
+   111  Cl    c       0.000068      0.000048      0.000079      0.000000
+   112  Cl    c      -0.000041     -0.000196     -0.000107      0.000000
+   113  Cl    c       0.000070      0.000079     -0.000187      0.000000
+   114  Cl    c       0.000114     -0.000196     -0.000305      0.000000
+   115  Cl    c       0.000063      0.000071     -0.000189      0.000000
+   116  Ga    c       0.000014     -0.000007      0.000001      0.000000
+   117  Ga    c       0.000236      0.000141     -0.000021      0.000000
+   118  Cl    c       0.000086      0.000033     -0.000031      0.000000
+   119  Cl    c      -0.000017      0.000081      0.000037      0.000000
+   120  Cl    c       0.000093     -0.000055      0.000011      0.000000
+   121  Cl    c       0.000020      0.000037     -0.000026      0.000000
+   122  Cl    c       0.000061      0.000096     -0.000032      0.000000
+   123  Cl    c       0.000047     -0.000082     -0.000076      0.000000
+   124  Cl    c      -0.000157     -0.000011      0.000102      0.000000
+   125  Cl    c      -0.000133     -0.000001      0.000225      0.000000
+   126  Ga    c       0.000021      0.000014      0.000014      0.000000
+   127  Cl    c      -0.000046     -0.000115      0.000040      0.000000
+   128  Cl    c      -0.000032      0.000082      0.000031      0.000000
+   129  Cl    c       0.000017      0.000152     -0.000039      0.000000
+   130  Cl    c       0.000003      0.000024      0.000007      0.000000
+   131  Ga    c      -0.000037      0.000020     -0.000011      0.000000
+   132  Cl    c       0.000071     -0.000018      0.000004      0.000000
+   133  Cl    c       0.000075      0.000261      0.000118      0.000000
+   134  Cl    c      -0.000049     -0.000040      0.000064      0.000000
+   135  Cl    c       0.000018     -0.000119      0.000014      0.000000
+   136  Cl    c       0.000026     -0.000020      0.000002      0.000000
+   137  Cl    c      -0.000036      0.000019      0.000006      0.000000
+   138  Cl    c       0.000085     -0.000146      0.000065      0.000000
+   139  Cl    c       0.000004     -0.000015     -0.000032      0.000000
+   140  Ga    c       0.000126      0.000000     -0.000048      0.000000
+   141  Cl    c      -0.000034      0.000005     -0.000019      0.000000
+   142  Cl    c       0.000151      0.000169      0.000077      0.000000
+   143  Ga    c      -0.000006      0.000004     -0.000038      0.000000
+   144  Cl    c      -0.000009      0.000060     -0.000043      0.000000
+   145  Cl    c       0.000042     -0.000084      0.000065      0.000000
+   146  Cl    c       0.000041      0.000037     -0.000013      0.000000
+   147  Ga    c      -0.000076      0.000001     -0.000062      0.000000
+   148  Cl    c      -0.000014     -0.000035     -0.000030      0.000000
+   149  Cl    c      -0.000030      0.000054      0.000036      0.000000
+   150  Cl    c      -0.000005     -0.000022     -0.000011      0.000000
+   151  Cl    c      -0.000040     -0.000011     -0.000041      0.000000
+   152  Cl    c      -0.000039     -0.000054     -0.000005      0.000000
+   153  Cl    c       0.000108     -0.000068      0.000028      0.000000
+   154  Cl    c      -0.000028      0.000054      0.000034      0.000000
+   155  Cl    c       0.000020      0.000100     -0.000027      0.000000
+   156  Cl    c       0.000067      0.000064      0.000020      0.000000
+   157  Cl    c       0.000026      0.000005     -0.000042      0.000000
+   158  Cl    c       0.000050     -0.000031     -0.000003      0.000000
+   159  Cl    c       0.000086      0.000052     -0.000009      0.000000
+   160  Cl    c       0.000090      0.000000     -0.000046      0.000000
+   161  Cl    c      -0.000101      0.000055     -0.000042      0.000000
+   162  Ga    c       0.000086     -0.000054     -0.000033      0.000000
+   163  Cl    c       0.000063     -0.000022     -0.000029      0.000000
+   164  Cl    c      -0.000063     -0.000035      0.000045      0.000000
+   165  Ga    c       0.000202     -0.000041     -0.000003      0.000000
+   166  Ga    c      -0.000085     -0.000014      0.000130      0.000000
+   167  Cl    c      -0.000039      0.000031     -0.000038      0.000000
+   168  Cl    c       0.000026     -0.000043      0.000009      0.000000
+   169  Cl    c       0.000162     -0.000125      0.000023      0.000000
+   170  Cl    c      -0.000010     -0.000025     -0.000066      0.000000
+   171  Ga    c       0.000006      0.000021     -0.000015      0.000000
+   172  Cl    c       0.000020     -0.000021     -0.000034      0.000000
+   173  Ga    c       0.000032     -0.000129      0.000009      0.000000
+   174  Cl    c       0.000027      0.000076      0.000001      0.000000
+   175  Cl    c      -0.000026     -0.000072     -0.000019      0.000000
+   176  Ga    c      -0.000014     -0.000020     -0.000019      0.000000
+   177  Cl    s       0.003150     -0.005616      0.004926      0.000000
+   178  Cl    s       0.003491     -0.001952     -0.001194      0.000000
+   179  Cl    s       0.001189     -0.001630     -0.000158      0.000000
+   180  Cl    s      -0.000230      0.001905      0.004646      0.000000
+   181  Cl    s      -0.006243      0.005248     -0.008812      0.000000
+   182  Cl    s       0.000315      0.001758     -0.000642      0.000000
+   183  Cl    s      -0.000620      0.000621      0.000532      0.000000
+   184  Cl    s       0.000154      0.000149      0.000309      0.000000
+   185  Cl    s       0.000314     -0.000193     -0.000339      0.000000
+   186  Cl    s       0.000195     -0.000040      0.000252      0.000000
+   187  Cl    s      -0.000491      0.000048      0.000130      0.000000
+   188  Cl    s       0.000194     -0.000040     -0.000490      0.000000
+   189  Cl    s      -0.000216      0.000085      0.000005      0.000000
+   190  Cl    s       0.000160     -0.000148     -0.000625      0.000000
+   191  Cl    s      -0.000072     -0.000328      0.000063      0.000000
+   192  Cl    s      -0.001032     -0.000429      0.000504      0.000000
+   193  Cl    s      -0.000519      0.000157     -0.000146      0.000000
+   194  Cl    s      -0.000089      0.000230     -0.000267      0.000000
+   195  Cl    s       0.000230      0.000490     -0.000021      0.000000
+   196  Cl    s       0.000161      0.000045     -0.000000      0.000000
+   197  Cl    s       0.000309      0.000037     -0.000080      0.000000
+   198  Cl    s       0.000141     -0.000055      0.000079      0.000000
+   199  Cl    s       0.000452     -0.000128      0.000024      0.000000
+   200  Cl    s       0.000222     -0.000040     -0.000031      0.000000
+   201  Cl    s       0.000101     -0.000149     -0.000104      0.000000
+   202  Cl    s      -0.000019     -0.000163      0.000216      0.000000
+   203  Cl    s       0.000024     -0.000058     -0.000005      0.000000
+   204  Cl    s      -0.000069     -0.000199     -0.000093      0.000000
+   205  Cl    s      -0.000010      0.000333     -0.000339      0.000000
+   206  Cl    s      -0.000130     -0.000075      0.000061      0.000000
+   207  Cl    s       0.000256     -0.000180     -0.000287      0.000000
+   208  Cl    s       0.000307     -0.000002     -0.000005      0.000000
+   209  Cl    s       0.000199     -0.000164     -0.000034      0.000000
+   210  Cl    s      -0.000125      0.000059     -0.000052      0.000000
+   211  Cl    s      -0.000151     -0.000237     -0.000008      0.000000
+   212  Cl    s      -0.000136     -0.000167      0.000273      0.000000
+   213  Cl    s       0.000183      0.000053     -0.000014      0.000000
+   214  Cl    s       0.000075      0.000182     -0.000138      0.000000
+   215  Cl    s       0.000151     -0.000249      0.000181      0.000000
+   216  Cl    s       0.000057     -0.000341      0.000030      0.000000
+   217  Cl    s      -0.000039      0.000010      0.000095      0.000000
+   218  Cl    s      -0.000025      0.000110     -0.000120      0.000000
+   219  Cl    s       0.000014     -0.000096     -0.000136      0.000000
+   220  Cl    s      -0.000093     -0.000083      0.000081      0.000000
+   221  Cl    s      -0.000122     -0.000112     -0.000041      0.000000
+   222  Cl    s      -0.000024     -0.000194      0.000254      0.000000
+   223  Cl    s      -0.000054      0.000096      0.000080      0.000000
+   224  Cl    s       0.000153      0.000222     -0.000027      0.000000
+   225  Cl    s      -0.000097      0.000115      0.000065      0.000000
+   226  Cl    s      -0.000031      0.000224      0.000081      0.000000
+   227  Cl    s       0.000052     -0.000122      0.000248      0.000000
+   228  Cl    s      -0.000114      0.000005     -0.000003      0.000000
+   229  Cl    s      -0.000195     -0.000198     -0.000035      0.000000
+   230  Cl    s       0.000068      0.000411     -0.000016      0.000000
+   231  Cl    s       0.000006     -0.000083      0.000067      0.000000
+   232  Cl    s      -0.000028      0.000221     -0.000114      0.000000
+   233  Cl    s       0.000011      0.000018     -0.000067      0.000000
+   234  Cl    s      -0.000216     -0.000133      0.000176      0.000000
+   235  Cl    s      -0.000256     -0.000007      0.000291      0.000000
+   236  Cl    s      -0.000133      0.000060      0.000138      0.000000
+   237  Cl    s      -0.000007     -0.000079      0.000104      0.000000
+   238  Cl    s      -0.000013      0.000208     -0.000143      0.000000
+   239  Cl    s       0.000025     -0.000055      0.000107      0.000000
+   240  Cl    s       0.000418      0.000267      0.000102      0.000000
+   241  Cl    s       0.000098     -0.000082     -0.000060      0.000000
+   242  Cl    s       0.000042      0.000124     -0.000087      0.000000
+   243  Cl    s      -0.000076     -0.000019     -0.000002      0.000000
+   244  Cl    s      -0.000166     -0.000205      0.000100      0.000000
+   245  Cl    s      -0.000102     -0.000015     -0.000078      0.000000
+   246  Cl    s      -0.000265      0.000193      0.000125      0.000000
+   247  Cl    s      -0.000004     -0.000078      0.000019      0.000000
+   248  Cl    s      -0.000024     -0.000068     -0.000100      0.000000
+   249  Cl    s      -0.000158     -0.000131      0.000047      0.000000
+   250  Cl    s      -0.000042     -0.000064     -0.000107      0.000000
+   251  Cl    s      -0.000149     -0.000094     -0.000123      0.000000
+   252  Cl    s      -0.000050     -0.000072      0.000028      0.000000
+   253  Cl    s      -0.000050     -0.000026      0.000022      0.000000
+   254  Cl    s       0.000035     -0.000071      0.000064      0.000000
+   255  Cl    s      -0.000148     -0.000059      0.000047      0.000000
+   256  Cl    s       0.000071      0.000292      0.000065      0.000000
+   257  Cl    s       0.000021      0.000332      0.000006      0.000000
+   258  Cl    s      -0.000213      0.000058     -0.000051      0.000000
+   259  Cl    s      -0.000132     -0.000144     -0.000040      0.000000
+   260  Cl    s       0.000054     -0.000095     -0.000065      0.000000
+   261  Cl    s      -0.000058     -0.000029     -0.000019      0.000000
+   262  Cl    s      -0.000116     -0.000073      0.000088      0.000000
+   263  Cl    s      -0.000041      0.000093     -0.000073      0.000000
+   264  Cl    s       0.000020      0.000033     -0.000004      0.000000
+   265  Cl    s      -0.000113      0.000023      0.000061      0.000000
+   266  Cl    s      -0.000042     -0.000047      0.000051      0.000000
+   267  Cl    s      -0.000026     -0.000302     -0.000089      0.000000
+   268  Cl    s      -0.000099      0.000065      0.000078      0.000000
+   269  Cl    s      -0.000019     -0.000205      0.000037      0.000000
+   270  Cl    s       0.000113     -0.000070     -0.000102      0.000000
+   271  Cl    s      -0.000069     -0.000090      0.000037      0.000000
+   272  Cl    s      -0.000029     -0.000005      0.000003      0.000000
+   273  Cl    s       0.000018     -0.000169     -0.000093      0.000000
+   274  Cl    s       0.000203      0.000038     -0.000131      0.000000
+   275  Cl    s      -0.000193      0.000193     -0.000077      0.000000
+   276  Cl    s      -0.000019     -0.000111      0.000157      0.000000
+   277  Cl    s       0.000104      0.000005     -0.000289      0.000000
+   278  Cl    s      -0.000080      0.000122     -0.000219      0.000000
+   279  Cl    s       0.000007      0.000134     -0.000043      0.000000
+   280  Cl    s       0.000038      0.000019      0.000018      0.000000
+   281  Cl    s      -0.000002     -0.000106      0.000032      0.000000
+   282  Cl    s      -0.000052      0.000158     -0.000035      0.000000
+   283  Cl    s      -0.000011      0.000041      0.000034      0.000000
+   284  Cl    s      -0.000082     -0.000110      0.000027      0.000000
+   285  Cl    s      -0.000014      0.000002      0.000032      0.000000
+   286  Cl    s      -0.000086     -0.000060     -0.000002      0.000000
+   287  Cl    s       0.000068      0.000022      0.000029      0.000000
+   288  Cl    s      -0.000042      0.000009     -0.000014      0.000000
+   289  Cl    s       0.000057      0.000045     -0.000093      0.000000
+   290  Cl    s      -0.000146      0.000066      0.000003      0.000000
+   291  Cl    s       0.000074     -0.000108     -0.000030      0.000000
+   292  Cl    s       0.000035     -0.000016      0.000007      0.000000
+   293  Cl    s       0.000157     -0.000080      0.000039      0.000000
+   294  Cl    s       0.000038      0.000063      0.000008      0.000000
+   295  Cl    s      -0.000055     -0.000062      0.000021      0.000000
+   296  Cl    s      -0.000119      0.000024      0.000067      0.000000
+   297  Cl    s      -0.000003      0.000033     -0.000016      0.000000
+   298  Cl    s      -0.000045      0.000046     -0.000030      0.000000
+   299  Cl    s       0.000039     -0.000068     -0.000056      0.000000
+   300  Cl    s       0.000029     -0.000067     -0.000023      0.000000
+   301  Cl    s       0.000026      0.000012      0.000043      0.000000
+   302  Cl    s       0.000023      0.000030      0.000030      0.000000
+   303  Cl    s      -0.000014      0.000000      0.000035      0.000000
+   304  Cl    s      -0.000086      0.000004      0.000062      0.000000
+   305  Cl    s      -0.000235      0.000123     -0.000017      0.000000
+   306  Cl    s       0.000022     -0.000058      0.000037      0.000000
+   307  Cl    s       0.000061      0.000039     -0.000069      0.000000
+   308  Cl    s      -0.000019     -0.000034      0.000056      0.000000
+   309  Cl    s      -0.000032      0.000031      0.000031      0.000000
+   310  Cl    s       0.000033      0.000074      0.000007      0.000000
+--------------------------------------------------------------------------------
+
+  Comparison of initial and final region 1 : 
+
+--------------------------------------------------------------------------------
+  Parameter   Initial value   Final value   Difference    Units      Percent
+--------------------------------------------------------------------------------
+      1 x          5.861589      6.243127     0.381538    Cartesian    6.51
+      1 y          1.503768      1.373601    -0.130167    Cartesian   -8.66
+      1 z         -0.085155      0.758543     0.843698    Cartesian -990.77
+      2 x          6.467880      7.408954     0.941074    Cartesian   14.55
+      2 y          3.645570      3.133368    -0.512202    Cartesian  -14.05
+      2 z         -0.642544     -0.049330     0.593214    Cartesian  -92.32
+      3 x          3.712323      4.287384     0.575061    Cartesian   15.49
+      3 y          2.384249      2.524127     0.139877    Cartesian    5.87
+      3 z          0.490968     -0.095329    -0.586298    Cartesian -119.42
+      4 x          3.471737      3.759082     0.287345    Cartesian    8.28
+      4 y          2.099332      3.769681     1.670349    Cartesian   79.57
+      4 z          2.570102      1.517442    -1.052660    Cartesian  -40.96
+      5 x          2.406419      3.271990     0.865572    Cartesian   35.97
+      5 y          1.540838      1.306440    -0.234399    Cartesian  -15.21
+      5 z         -0.967501     -1.473818    -0.506317    Cartesian   52.33
+      6 x          7.772493      8.300070     0.527577    Cartesian    6.79
+      6 y          4.487969      4.510176     0.022207    Cartesian    0.49
+      6 z          0.817835      1.321153     0.503318    Cartesian   61.54
+      7 x          9.144514      9.172008     0.027494    Cartesian    0.30
+      7 y          1.533224      2.167863     0.634639    Cartesian   41.39
+      7 z         -1.031059     -1.130396    -0.099338    Cartesian    9.63
+      8 x          6.709878      5.870165    -0.839713    Cartesian  -12.51
+      8 y          3.931383      3.951769     0.020386    Cartesian    0.52
+      8 z         -2.721311     -1.440873     1.280438    Cartesian  -47.05
+      9 x          7.002809      7.057041     0.054232    Cartesian    0.77
+      9 y         -0.149714     -0.240369    -0.090654    Cartesian   60.55
+      9 z          2.971427      3.101237     0.129810    Cartesian    4.37
+     10 x          4.591830      4.624674     0.032844    Cartesian    0.72
+     10 y         -1.877038     -2.009437    -0.132400    Cartesian    7.05
+     10 z          0.741030      0.822357     0.081327    Cartesian   10.97
+     11 x          6.736239      6.804806     0.068567    Cartesian    1.02
+     11 y         -0.192191      0.161626     0.353818    Cartesian -184.10
+     11 z         -3.262999     -3.112727     0.150272    Cartesian   -4.61
+     12 x          7.875842      7.897420     0.021578    Cartesian    0.27
+     12 y         -1.846813     -1.954672    -0.107859    Cartesian    5.84
+     12 z         -0.208156     -0.219415    -0.011259    Cartesian    5.41
+     13 x         10.450419     10.730876     0.280457    Cartesian    2.68
+     13 y          2.376635      2.855907     0.479272    Cartesian   20.17
+     13 z          0.427410      0.553233     0.125823    Cartesian   29.44
+     14 x         10.209832     10.294851     0.085018    Cartesian    0.83
+     14 y          2.091718      1.808822    -0.282895    Cartesian  -13.52
+     14 z          2.506544      2.325218    -0.181326    Cartesian   -7.23
+     15 x          4.298899      4.250542    -0.048357    Cartesian   -1.12
+     15 y          2.204060      2.262056     0.057997    Cartesian    2.63
+     15 z         -4.951708     -4.925304     0.026404    Cartesian   -0.53
+     16 x          3.287217      3.326108     0.038891    Cartesian    1.18
+     16 y         -2.719436     -2.808529    -0.089093    Cartesian    3.28
+     16 z         -0.719350     -0.674611     0.044738    Cartesian   -6.22
+     17 x          5.880012      5.918923     0.038911    Cartesian    0.66
+     17 y          3.824747      3.813119    -0.011628    Cartesian   -0.30
+     17 z          4.802043      4.834840     0.032798    Cartesian    0.68
+     18 x          3.529215      3.619839     0.090624    Cartesian    2.57
+     18 y         -2.433623     -2.411146     0.022477    Cartesian   -0.92
+     18 z         -2.798116     -2.730290     0.067826    Cartesian   -2.42
+     19 x          1.034398      1.024039    -0.010358    Cartesian   -1.00
+     19 y          4.495583      4.486418    -0.009165    Cartesian   -0.20
+     19 z          0.881393      0.264317    -0.617076    Cartesian  -70.01
+     20 x          6.760811      6.778424     0.017614    Cartesian    0.26
+     20 y         -0.435527     -0.498374    -0.062847    Cartesian   14.43
+     20 z          5.050194      5.185999     0.135805    Cartesian    2.69
+     21 x          6.976825      6.994310     0.017485    Cartesian    0.25
+     21 y          0.092726      0.200466     0.107740    Cartesian  116.19
+     21 z         -5.342133     -5.223487     0.118646    Cartesian   -2.22
+     22 x          1.137747      1.191187     0.053441    Cartesian    4.70
+     22 y         -1.839199     -1.880135    -0.040937    Cartesian    2.23
+     22 z         -0.144598     -0.122355     0.022243    Cartesian  -15.38
+     23 x          4.611340      4.638774     0.027434    Cartesian    0.59
+     23 y          0.444711      0.422973    -0.021737    Cartesian   -4.89
+     23 z          5.624945      5.683629     0.058684    Cartesian    1.04
+     24 x          3.445376      3.438507    -0.006869    Cartesian   -0.20
+     24 y          6.222907      6.265066     0.042159    Cartesian    0.68
+     24 z          3.111791      3.195356     0.083565    Cartesian    2.69
+     25 x          7.269756      7.278096     0.008340    Cartesian    0.11
+     25 y         -3.988371     -4.075781    -0.087410    Cartesian    2.19
+     25 z          0.350605      0.367144     0.016539    Cartesian    4.72
+     26 x          3.178806      3.337459     0.158653    Cartesian    4.99
+     26 y          6.180429      5.947598    -0.232831    Cartesian   -3.77
+     26 z         -3.122636     -3.106024     0.016612    Cartesian   -0.53
+     27 x         11.056505     11.447884     0.391379    Cartesian    3.54
+     27 y          4.518193      4.834925     0.316732    Cartesian    7.01
+     27 z         -0.131351      0.042009     0.173360    Cartesian -131.98
+     28 x          7.582911      7.559345    -0.023566    Cartesian   -0.31
+     28 y          2.234284      2.317724     0.083439    Cartesian    3.73
+     28 z         -5.900894     -5.928781    -0.027887    Cartesian    0.47
+     29 x          5.587081      5.591318     0.004236    Cartesian    0.08
+     29 y          7.905845      7.925214     0.019369    Cartesian    0.25
+     29 z         -0.890695     -0.953645    -0.062950    Cartesian    7.07
+     30 x         10.025312     10.070356     0.045043    Cartesian    0.45
+     30 y         -2.727050     -2.859055    -0.132004    Cartesian    4.84
+     30 z         -0.782908     -0.786594    -0.003687    Cartesian    0.47
+     31 x         -0.270216     -0.523145    -0.252930    Cartesian   93.60
+     31 y          3.653185      3.743314     0.090129    Cartesian    2.47
+     31 z         -0.578986     -0.989717    -0.410731    Cartesian   70.94
+     32 x          0.264713      0.279941     0.015228    Cartesian    5.75
+     32 y         -0.142100     -0.115119     0.026980    Cartesian  -18.99
+     32 z          3.034985      3.037128     0.002142    Cartesian    0.07
+     33 x         -0.876506     -0.966872    -0.090366    Cartesian   10.31
+     33 y          1.511383      1.553460     0.042078    Cartesian    2.78
+     33 z         -0.021598     -0.346896    -0.325299    Cartesian 1506.19
+     34 x          7.029170      7.098939     0.069770    Cartesian    0.99
+     34 y         -4.273289     -4.350878    -0.077589    Cartesian    1.82
+     34 z          2.429739      2.451287     0.021549    Cartesian    0.89
+     35 x          5.963851      5.980994     0.017143    Cartesian    0.29
+     35 y         -4.831782     -4.923483    -0.091701    Cartesian    1.90
+     35 z         -1.107864     -1.093146     0.014718    Cartesian   -1.33
+     36 x         -0.028218     -0.382654    -0.354436    Cartesian 1256.08
+     36 y          3.938998      3.884739    -0.054258    Cartesian   -1.38
+     36 z         -2.657753     -3.094349    -0.436597    Cartesian   16.43
+     37 x         11.329925     11.326034    -0.003892    Cartesian   -0.03
+     37 y         -1.884652     -1.920047    -0.035395    Cartesian    1.88
+     37 z          0.677472      0.660822    -0.016649    Cartesian   -2.46
+     38 x         10.267310     10.270620     0.003310    Cartesian    0.03
+     38 y         -2.441238     -2.457302    -0.016065    Cartesian    0.66
+     38 z         -2.861674     -2.853496     0.008178    Cartesian   -0.29
+     39 x          9.916902      9.984740     0.067839    Cartesian    0.68
+     39 y          6.172815      6.013131    -0.159684    Cartesian   -2.59
+     39 z         -3.186193     -3.200624    -0.014431    Cartesian    0.45
+     40 x         -0.001856      0.088263     0.090119    Cartesian *******
+     40 y         -0.184577     -0.157991     0.026586    Cartesian  -14.40
+     40 z         -3.199441     -3.190732     0.008709    Cartesian   -0.27
+     41 x         12.599684     12.496791    -0.102893    Cartesian   -0.82
+     41 y          1.496154      1.598287     0.102133    Cartesian    6.83
+     41 z         -0.148713     -0.416091    -0.267378    Cartesian  179.79
+     42 x          2.597087      2.610729     0.013641    Cartesian    0.53
+     42 y          3.795292      3.830905     0.035613    Cartesian    0.94
+     42 z          5.747946      5.805008     0.057063    Cartesian    0.99
+     43 x          5.568658      5.619954     0.051296    Cartesian    0.92
+     43 y          5.584865      5.451135    -0.133730    Cartesian   -2.39
+     43 z         -5.777893     -5.842798    -0.064905    Cartesian    1.12
+     44 x          9.042252      8.998465    -0.043787    Cartesian   -0.48
+     44 y          7.868774      7.890594     0.021820    Cartesian    0.28
+     44 z         -0.008350     -0.011114    -0.002764    Cartesian   33.10
+     45 x          2.994286      2.974207    -0.020079    Cartesian   -0.67
+     45 y          1.361661      1.410083     0.048422    Cartesian    3.56
+     45 z         -6.412087     -6.413719    -0.001632    Cartesian    0.03
+     46 x         10.183471     10.200960     0.017489    Cartesian    0.17
+     46 y          6.215292      6.140307    -0.074985    Cartesian   -1.21
+     46 z          3.048233      3.101141     0.052908    Cartesian    1.74
+     47 x          2.304156      2.288959    -0.015197    Cartesian   -0.66
+     47 y          7.876389      7.839532    -0.036857    Cartesian   -0.47
+     47 z          0.055208     -0.005969    -0.061177    Cartesian -110.81
+     48 x          9.335183      9.356252     0.021069    Cartesian    0.23
+     48 y          3.787677      3.780530    -0.007147    Cartesian   -0.19
+     48 z          5.684388      5.771058     0.086670    Cartesian    1.52
+     49 x          8.065424      8.090530     0.025106    Cartesian    0.31
+     49 y          0.406872      0.389407    -0.017465    Cartesian   -4.29
+     49 z          6.510573      6.610849     0.100276    Cartesian    1.54
+     50 x          7.185917      7.192116     0.006200    Cartesian    0.09
+     50 y          4.668159      4.661679    -0.006479    Cartesian   -0.14
+     50 z          6.260512      6.317841     0.057329    Cartesian    0.92
+     51 x          6.892986      6.821620    -0.071366    Cartesian   -1.04
+     51 y          8.749256      8.835505     0.086250    Cartesian    0.99
+     51 z          0.567774      0.529355    -0.038419    Cartesian   -6.77
+     52 x          2.699350      2.732113     0.032763    Cartesian    1.21
+     52 y         -2.540259     -2.529713     0.010546    Cartesian   -0.42
+     52 z          4.725237      4.709352    -0.015886    Cartesian   -0.34
+     53 x          6.154520      6.151048    -0.003471    Cartesian   -0.06
+     53 y         -2.577329     -2.616966    -0.039637    Cartesian    1.54
+     53 z          5.607582      5.739828     0.132246    Cartesian    2.36
+     54 x          3.203378      3.175105    -0.028273    Cartesian   -0.88
+     54 y          5.937094      5.995467     0.058372    Cartesian    0.98
+     54 z          5.190557      5.277601     0.087044    Cartesian    1.68
+     55 x          2.387995      2.428907     0.040912    Cartesian    1.71
+     55 y         -0.780141     -0.749171     0.030970    Cartesian   -3.97
+     55 z         -5.854699     -5.859493    -0.004794    Cartesian    0.08
+     56 x          5.670920      5.667743    -0.003178    Cartesian   -0.06
+     56 y         -0.750685     -0.777104    -0.026419    Cartesian    3.52
+     56 z         -6.800602     -6.563763     0.236839    Cartesian   -3.48
+     57 x          9.126091      9.133603     0.007513    Cartesian    0.08
+     57 y         -0.787756     -0.686434     0.101321    Cartesian  -12.86
+     57 z         -5.918257     -5.753925     0.164331    Cartesian   -2.78
+     58 x          6.652400      6.608897    -0.043503    Cartesian   -0.65
+     58 y          8.464338      8.470182     0.005843    Cartesian    0.07
+     58 z          2.646908      2.599274    -0.047633    Cartesian   -1.80
+     59 x         11.036995     10.999916    -0.037079    Cartesian   -0.34
+     59 y          2.196445      2.307596     0.111151    Cartesian    5.06
+     59 z         -5.015266     -4.940549     0.074717    Cartesian   -1.49
+     60 x          2.680926      2.674687    -0.006240    Cartesian   -0.23
+     60 y         -4.861238     -4.932561    -0.071323    Cartesian    1.47
+     60 z         -0.161961     -0.181013    -0.019052    Cartesian   11.76
+     61 x          4.005254      3.970230    -0.035024    Cartesian   -0.87
+     61 y         -1.696848     -1.713585    -0.016737    Cartesian    0.99
+     61 z          6.183706      6.237211     0.053505    Cartesian    0.87
+     62 x          9.437445      9.429562    -0.007883    Cartesian   -0.08
+     62 y         -2.547873     -2.538570     0.009303    Cartesian   -0.37
+     62 z          4.661679      4.712959     0.051280    Cartesian    1.10
+     63 x          3.419392      3.478356     0.058964    Cartesian    1.72
+     63 y          6.465347      6.281274    -0.184072    Cartesian   -2.85
+     63 z         -5.201769     -5.192946     0.008823    Cartesian   -0.17
+     64 x          9.419022      9.452207     0.033185    Cartesian    0.35
+     64 y         -4.868853     -4.969538    -0.100685    Cartesian    2.07
+     64 z         -0.225519     -0.239728    -0.014209    Cartesian    6.30
+     65 x          9.732381      9.726700    -0.005681    Cartesian   -0.06
+     65 y          1.354047      1.438437     0.084391    Cartesian    6.23
+     65 z         -6.475645     -6.417320     0.058325    Cartesian   -0.90
+     66 x          0.844816      0.818003    -0.026813    Cartesian   -3.17
+     66 y          2.241899      2.236423    -0.005476    Cartesian   -0.24
+     66 z         -5.837336     -5.886581    -0.049245    Cartesian    0.84
+     67 x         13.205975     13.663527     0.457552    Cartesian    3.46
+     67 y          3.637956      3.516497    -0.121459    Cartesian   -3.34
+     67 z         -0.706102     -0.857803    -0.151701    Cartesian   21.48
+     68 x          0.531660      0.520584    -0.011076    Cartesian   -2.08
+     68 y         -3.980757     -4.014267    -0.033510    Cartesian    0.84
+     68 z          0.414163      0.413091    -0.001072    Cartesian   -0.26
+     69 x          0.238730      0.258427     0.019698    Cartesian    8.25
+     69 y          0.100340      0.078176    -0.022164    Cartesian  -22.09
+     69 z         -5.278575     -5.283527    -0.004952    Cartesian    0.09
+     70 x          9.941473      9.949033     0.007560    Cartesian    0.08
+     70 y          5.929480      5.919561    -0.009919    Cartesian   -0.17
+     70 z          5.126999      5.193470     0.066471    Cartesian    1.30
+     71 x          7.792003      7.806978     0.014975    Cartesian    0.19
+     71 y          6.809717      6.801345    -0.008371    Cartesian   -0.12
+     71 z          5.701750      5.732941     0.031191    Cartesian    0.55
+     72 x          0.022715      0.013840    -0.008875    Cartesian  -39.07
+     72 y         -0.427912     -0.414507     0.013405    Cartesian   -3.13
+     72 z          5.113752      5.114427     0.000675    Cartesian    0.01
+     73 x         11.349435     11.348106    -0.001329    Cartesian   -0.01
+     73 y          0.437096      0.419686    -0.017410    Cartesian   -3.98
+     73 z          5.561387      5.634265     0.072878    Cartesian    1.31
+     74 x          1.327328      1.344041     0.016712    Cartesian    1.26
+     74 y          0.414486      0.418382     0.003896    Cartesian    0.94
+     74 z          6.574131      6.559720    -0.014411    Cartesian   -0.22
+     75 x          7.856332      7.859419     0.003087    Cartesian    0.04
+     75 y         -4.168561     -4.202300    -0.033739    Cartesian    0.81
+     75 z         -5.092072     -5.053112     0.038959    Cartesian   -0.77
+     76 x         10.157488     10.203419     0.045932    Cartesian    0.45
+     76 y          6.457732      6.354286    -0.103446    Cartesian   -1.60
+     76 z         -5.265327     -5.280318    -0.014991    Cartesian    0.28
+     77 x          8.851583      8.894815     0.043232    Cartesian    0.49
+     77 y          5.614321      5.490565    -0.123756    Cartesian   -2.20
+     77 z         -6.723796     -6.722709     0.001088    Cartesian   -0.02
+     78 x          4.507991      4.530531     0.022540    Cartesian    0.50
+     78 y          6.779492      6.798917     0.019425    Cartesian    0.29
+     78 z          6.650936      6.713580     0.062644    Cartesian    0.94
+     79 x         13.447973     13.674410     0.226437    Cartesian    1.68
+     79 y          3.923769      4.027512     0.103743    Cartesian    2.64
+     79 z         -2.784868     -2.894965    -0.110097    Cartesian    3.95
+     80 x         -0.858083     -0.819050     0.039033    Cartesian   -4.55
+     80 y          3.832362      3.845388     0.013026    Cartesian    0.34
+     80 z          4.865601      4.867858     0.002258    Cartesian    0.05
+     81 x          4.402248      4.415374     0.013126    Cartesian    0.30
+     81 y         -4.130722     -4.139203    -0.008481    Cartesian    0.21
+     81 z         -5.977700     -5.966915     0.010785    Cartesian   -0.18
+     82 x          2.113488      2.125585     0.012097    Cartesian    0.57
+     82 y          5.621936      5.460908    -0.161028    Cartesian   -2.86
+     82 z         -6.660238     -6.613376     0.046863    Cartesian   -0.70
+     83 x          0.291074      0.299546     0.008472    Cartesian    2.91
+     83 y         -4.265674     -4.293190    -0.027516    Cartesian    0.65
+     83 z          2.493297      2.493130    -0.000167    Cartesian   -0.01
+     84 x          7.479562      7.497284     0.017722    Cartesian    0.24
+     84 y          8.569066      8.395506    -0.173560    Cartesian   -2.03
+     84 z         -4.874903     -4.804030     0.070873    Cartesian   -1.45
+     85 x         12.618108     12.624990     0.006883    Cartesian    0.05
+     85 y          3.817133      3.822118     0.004985    Cartesian    0.13
+     85 z          4.738485      4.749445     0.010961    Cartesian    0.23
+     86 x         -2.419686     -2.577522    -0.157836    Cartesian    6.52
+     86 y          4.533422      4.539498     0.006076    Cartesian    0.13
+     86 z         -0.004235     -0.220735    -0.216500    Cartesian 5112.30
+     87 x         13.474334     13.548597     0.074263    Cartesian    0.55
+     87 y         -0.199806     -0.153042     0.046764    Cartesian  -23.40
+     87 z         -3.326557     -3.277130     0.049427    Cartesian   -1.49
+     88 x         10.743349     10.752133     0.008784    Cartesian    0.08
+     88 y         -1.704462     -1.733150    -0.028687    Cartesian    1.68
+     88 z          6.120148      6.179439     0.059291    Cartesian    0.97
+     89 x          6.174949      6.192604     0.017656    Cartesian    0.29
+     89 y          7.726668      7.635327    -0.091341    Cartesian   -1.18
+     89 z         -6.335282     -6.310169     0.025113    Cartesian   -0.40
+     90 x         -2.146265     -2.138450     0.007815    Cartesian   -0.36
+     90 y         -1.869423     -1.868688     0.000735    Cartesian   -0.04
+     90 z          0.804588      0.778464    -0.026124    Cartesian   -3.25
+     91 x         13.740904     13.668026    -0.072878    Cartesian   -0.53
+     91 y         -0.157329     -0.131041     0.026288    Cartesian  -16.71
+     91 z          2.907869      2.929259     0.021389    Cartesian    0.74
+     92 x          2.910447      2.904714    -0.005733    Cartesian   -0.20
+     92 y         10.018191      9.983107    -0.035084    Cartesian   -0.35
+     92 z         -0.502181     -0.538600    -0.036419    Cartesian    7.25
+     93 x          0.447822      0.440247    -0.007574    Cartesian   -1.69
+     93 y          4.675773      4.670816    -0.004957    Cartesian   -0.11
+     93 z          6.324070      6.374517     0.050448    Cartesian    0.80
+     94 x         -3.025772     -3.052855    -0.027083    Cartesian    0.90
+     94 y          2.391864      2.346039    -0.045825    Cartesian   -1.92
+     94 z          0.554526      0.435293    -0.119234    Cartesian  -21.50
+     95 x          3.236284      3.326314     0.090030    Cartesian    2.78
+     95 y          1.647474      1.688811     0.041337    Cartesian    2.51
+     95 z         -8.490854     -8.476325     0.014529    Cartesian   -0.17
+     96 x          6.945331      6.927650    -0.017680    Cartesian   -0.25
+     96 y          4.383241      4.389913     0.006672    Cartesian    0.15
+     96 z          8.339646      8.392602     0.052957    Cartesian    0.63
+     97 x          0.154891      0.143662    -0.011229    Cartesian   -7.25
+     97 y          8.756870      8.736267    -0.020603    Cartesian   -0.24
+     97 z          0.631332      0.589758    -0.041574    Cartesian   -6.59
+     98 x          3.822146      3.827854     0.005709    Cartesian    0.15
+     98 y         -6.514720     -6.510925     0.003796    Cartesian   -0.06
+     98 z          2.894622      2.895911     0.001289    Cartesian    0.04
+     99 x          1.053908      1.041919    -0.011988    Cartesian   -1.14
+     99 y          6.817331      6.840510     0.023178    Cartesian    0.34
+     99 z          5.765308      5.859559     0.094251    Cartesian    1.63
+    100 x          1.118237      1.119852     0.001616    Cartesian    0.14
+    100 y         -4.160947     -4.154403     0.006543    Cartesian   -0.16
+    100 z         -5.028514     -5.032179    -0.003666    Cartesian    0.07
+    101 x         12.325177     12.354102     0.028925    Cartesian    0.23
+    101 y          7.898230      7.864428    -0.033803    Cartesian   -0.43
+    101 z         -0.954253     -0.951479     0.002774    Cartesian   -0.29
+    102 x          3.738307      3.740968     0.002661    Cartesian    0.07
+    102 y          2.141809      2.138800    -0.003009    Cartesian   -0.14
+    102 z          8.804529      8.803331    -0.001198    Cartesian   -0.01
+    103 x          4.025478      4.037100     0.011622    Cartesian    0.29
+    103 y          8.606905      8.449981    -0.156924    Cartesian   -1.82
+    103 z         -5.760531     -5.694274     0.066257    Cartesian   -1.15
+    104 x          9.648543      9.647926    -0.000617    Cartesian   -0.01
+    104 y         10.010577      9.996398    -0.014178    Cartesian   -0.14
+    104 z         -0.565739     -0.593199    -0.027460    Cartesian    4.85
+    105 x          6.443308      6.451373     0.008065    Cartesian    0.13
+    105 y          3.888906      3.884959    -0.003947    Cartesian   -0.10
+    105 z         -8.955737     -8.954300     0.001436    Cartesian   -0.02
+    106 x         14.510588     14.731970     0.221382    Cartesian    1.53
+    106 y          4.480354      4.328112    -0.152242    Cartesian   -3.40
+    106 z          0.754277      0.791358     0.037081    Cartesian    4.92
+    107 x          3.555576      3.567812     0.012236    Cartesian    0.34
+    107 y         -6.557198     -6.556745     0.000452    Cartesian   -0.01
+    107 z         -3.339804     -3.339324     0.000480    Cartesian   -0.01
+    108 x          4.215060      4.233031     0.017971    Cartesian    0.43
+    108 y         10.860590     10.799262    -0.061328    Cartesian   -0.56
+    108 z          0.958198      0.922129    -0.036069    Cartesian   -3.76
+    109 x         -1.151014     -1.166179    -0.015165    Cartesian    1.32
+    109 y          7.913459      7.946858     0.033399    Cartesian    0.42
+    109 z         -0.827137     -0.894612    -0.067475    Cartesian    8.16
+    110 x          3.152445      3.155663     0.003218    Cartesian    0.10
+    110 y         10.304004     10.273305    -0.030699    Cartesian   -0.30
+    110 z         -2.580947     -2.616036    -0.035088    Cartesian    1.36
+    111 x          7.499072      7.500022     0.000950    Cartesian    0.01
+    111 y         10.890814     10.935848     0.045034    Cartesian    0.41
+    111 z          0.009013     -0.024601    -0.033614    Cartesian -372.97
+    112 x         -0.085695     -0.086455    -0.000759    Cartesian    0.89
+    112 y          8.471953      8.402755    -0.069198    Cartesian   -0.82
+    112 z          2.710466      2.661610    -0.048855    Cartesian   -1.80
+    113 x          3.764668      3.677608    -0.087060    Cartesian   -2.31
+    113 y         -1.981765     -1.984189    -0.002424    Cartesian    0.12
+    113 z          8.262840      8.308122     0.045282    Cartesian    0.55
+    114 x         -0.774244     -0.769047     0.005197    Cartesian   -0.67
+    114 y         -4.824168     -4.826920    -0.002752    Cartesian    0.06
+    114 z         -1.044306     -1.071227    -0.026921    Cartesian    2.58
+    115 x         -3.266358     -3.094443     0.171915    Cartesian   -5.26
+    115 y          2.106947      2.157556     0.050609    Cartesian    2.40
+    115 z          2.633660      2.535734    -0.097927    Cartesian   -3.72
+    116 x          6.551719      6.565822     0.014104    Cartesian    0.22
+    116 y         -5.010959     -5.025910    -0.014950    Cartesian    0.30
+    116 z         -6.552451     -6.536671     0.015779    Cartesian   -0.24
+    117 x         13.498906     13.487072    -0.011834    Cartesian   -0.09
+    117 y         -0.443141     -0.455738    -0.012597    Cartesian    2.84
+    117 z          4.986636      5.011740     0.025104    Cartesian    0.50
+    118 x          9.974379     10.030789     0.056409    Cartesian    0.57
+    118 y          1.639860      1.643055     0.003196    Cartesian    0.19
+    118 z         -8.554412     -8.493598     0.060814    Cartesian   -0.71
+    119 x         -2.439196     -2.417113     0.022083    Cartesian   -0.91
+    119 y          2.211674      2.187300    -0.024374    Cartesian   -1.10
+    119 z         -4.888150     -4.893174    -0.005024    Cartesian    0.10
+    120 x         -0.583575     -0.577429     0.006146    Cartesian   -1.05
+    120 y         -2.569715     -2.559739     0.009976    Cartesian   -0.39
+    120 z          5.671140      5.655333    -0.015808    Cartesian   -0.28
+    121 x         12.306753     12.362476     0.055722    Cartesian    0.45
+    121 y          5.577251      5.543473    -0.033777    Cartesian   -0.61
+    121 z         -5.841451     -5.861838    -0.020387    Cartesian    0.35
+    122 x         14.613937     14.619678     0.005741    Cartesian    0.04
+    122 y         -1.854428     -1.857105    -0.002677    Cartesian    0.14
+    122 z         -0.271714     -0.265668     0.006046    Cartesian   -2.23
+    123 x         12.701947     12.712618     0.010671    Cartesian    0.08
+    123 y         -4.839397     -4.826730     0.012667    Cartesian   -0.26
+    123 z         -1.171422     -1.189316    -0.017894    Cartesian    1.53
+    124 x          0.741467      0.766181     0.024715    Cartesian    3.33
+    124 y          8.576680      8.521575    -0.055106    Cartesian   -0.64
+    124 z         -4.811345     -4.817413    -0.006068    Cartesian    0.13
+    125 x         -1.169437     -1.177619    -0.008182    Cartesian    0.70
+    125 y          5.592480      5.590251    -0.002229    Cartesian   -0.04
+    125 z         -5.714335     -5.733608    -0.019273    Cartesian    0.34
+    126 x         13.714920     13.736952     0.022032    Cartesian    0.16
+    126 y          0.085111      0.085773     0.000662    Cartesian    0.78
+    126 z         -5.405691     -5.372401     0.033290    Cartesian   -0.62
+    127 x          8.168773      8.173425     0.004653    Cartesian    0.06
+    127 y         -5.927910     -5.928850    -0.000940    Cartesian    0.02
+    127 z          5.484582      5.480296    -0.004285    Cartesian   -0.08
+    128 x         -2.126755     -2.122693     0.004062    Cartesian   -0.19
+    128 y          0.452325      0.460336     0.008011    Cartesian    1.77
+    128 z          5.688503      5.686522    -0.001981    Cartesian   -0.03
+    129 x          9.890540      9.882574    -0.007967    Cartesian   -0.08
+    129 y         10.296389     10.250281    -0.046108    Cartesian   -0.45
+    129 z         -2.644505     -2.676803    -0.032298    Cartesian    1.22
+    130 x         12.409016     12.349542    -0.059474    Cartesian   -0.48
+    130 y         -0.758300     -0.747498     0.010802    Cartesian   -1.42
+    130 z         -6.864160     -6.754064     0.110095    Cartesian   -1.60
+    131 x          3.796162      3.799400     0.003237    Cartesian    0.09
+    131 y         -6.272280     -6.282973    -0.010693    Cartesian    0.17
+    131 z         -5.418938     -5.421133    -0.002195    Cartesian    0.04
+    132 x         -1.067175     -1.049023     0.018152    Cartesian   -1.70
+    132 y         -0.743071     -0.800577    -0.057506    Cartesian    7.74
+    132 z         -6.737044     -6.712280     0.024764    Cartesian   -0.37
+    133 x         11.246086     11.278306     0.032219    Cartesian    0.29
+    133 y          6.771878      6.790617     0.018739    Cartesian    0.28
+    133 z          6.587378      6.609610     0.022232    Cartesian    0.34
+    134 x         10.476402     10.471129    -0.005273    Cartesian   -0.05
+    134 y          2.134195      2.131445    -0.002750    Cartesian   -0.13
+    134 z          8.740971      8.738757    -0.002214    Cartesian   -0.03
+    135 x         10.560241     10.566858     0.006617    Cartesian    0.06
+    135 y         -6.522335     -6.512240     0.010095    Cartesian   -0.15
+    135 z          2.831064      2.836876     0.005812    Cartesian    0.21
+    136 x         11.140344     11.141764     0.001420    Cartesian    0.01
+    136 y         -4.138337     -4.141076    -0.002739    Cartesian    0.07
+    136 z         -6.041257     -6.038219     0.003038    Cartesian   -0.05
+    137 x          4.695179      4.700360     0.005181    Cartesian    0.11
+    137 y         -8.211819     -8.211674     0.000145    Cartesian   -0.00
+    137 z         -0.284962     -0.283509     0.001452    Cartesian   -0.51
+    138 x         12.892615     12.896794     0.004178    Cartesian    0.03
+    138 y         -2.584944     -2.599640    -0.014696    Cartesian    0.57
+    138 z          5.544024      5.548247     0.004223    Cartesian    0.08
+    139 x         10.293671     10.301448     0.007777    Cartesian    0.08
+    139 y         -6.564812     -6.555661     0.009151    Cartesian   -0.14
+    139 z         -3.403362     -3.402799     0.000563    Cartesian   -0.02
+    140 x         14.007851     14.015611     0.007760    Cartesian    0.06
+    140 y         -3.995986     -4.012505    -0.016519    Cartesian    0.41
+    140 z          0.287047      0.290712     0.003665    Cartesian    1.28
+    141 x          4.884761      4.888756     0.003995    Cartesian    0.08
+    141 y         -5.958135     -5.950466     0.007669    Cartesian   -0.13
+    141 z          6.433767      6.424335    -0.009433    Cartesian   -0.15
+    142 x         -4.331677     -4.465266    -0.133590    Cartesian    3.08
+    142 y          1.548453      1.481534    -0.066919    Cartesian   -4.32
+    142 z         -0.903943     -0.902688     0.001254    Cartesian   -0.14
+    143 x          3.580148      3.580788     0.000640    Cartesian    0.02
+    143 y         -6.800533     -6.806523    -0.005990    Cartesian    0.09
+    143 z          4.973388      4.973774     0.000386    Cartesian    0.01
+    144 x         15.882609     15.863140    -0.019469    Cartesian   -0.12
+    144 y          1.525609      1.554779     0.029169    Cartesian    1.91
+    144 z         -1.094617     -1.128529    -0.033913    Cartesian    3.10
+    145 x         10.502763     10.540017     0.037253    Cartesian    0.35
+    145 y         -1.989380     -2.040646    -0.051266    Cartesian    2.58
+    145 z          8.199282      8.255707     0.056425    Cartesian    0.69
+    146 x          5.777750      5.780228     0.002478    Cartesian    0.04
+    146 y         10.160298     10.159237    -0.001061    Cartesian   -0.01
+    146 z          5.824751      5.818467    -0.006284    Cartesian   -0.11
+    147 x         -3.450878     -3.462241    -0.011363    Cartesian    0.33
+    147 y         -2.711821     -2.716106    -0.004285    Cartesian    0.16
+    147 z         -0.655792     -0.665350    -0.009559    Cartesian    1.46
+    148 x         -3.208880     -3.209389    -0.000508    Cartesian    0.02
+    148 y         -2.426009     -2.425764     0.000245    Cartesian   -0.01
+    148 z         -2.734558     -2.742137    -0.007580    Cartesian    0.28
+    149 x          3.262645      3.270613     0.007968    Cartesian    0.24
+    149 y         -2.476101     -2.459134     0.016966    Cartesian   -0.69
+    149 z         -9.032542     -9.028612     0.003931    Cartesian   -0.04
+    150 x         10.763574     10.742300    -0.021274    Cartesian   -0.20
+    150 y          8.599290      8.521237    -0.078054    Cartesian   -0.91
+    150 z         -5.824089     -5.790361     0.033728    Cartesian   -0.58
+    151 x          9.060675      9.070285     0.009610    Cartesian    0.11
+    151 y         10.189754     10.170812    -0.018942    Cartesian   -0.19
+    151 z          4.878848      4.879642     0.000794    Cartesian    0.02
+    152 x          8.149263      8.148922    -0.000340    Cartesian   -0.00
+    152 y         -8.249658     -8.241173     0.008485    Cartesian   -0.10
+    152 z          0.600666      0.591340    -0.009326    Cartesian   -1.55
+    153 x         13.767265     13.755541    -0.011724    Cartesian   -0.09
+    153 y         -4.280903     -4.274618     0.006286    Cartesian   -0.15
+    153 z          2.366181      2.368133     0.001952    Cartesian    0.08
+    154 x          2.322580      2.337127     0.014547    Cartesian    0.63
+    154 y         10.197368     10.175426    -0.021943    Cartesian   -0.22
+    154 z          4.942406      4.941448    -0.000958    Cartesian   -0.02
+    155 x          0.760977      0.783724     0.022747    Cartesian    2.99
+    155 y         10.898429     10.881571    -0.016858    Cartesian   -0.15
+    155 z          0.072571      0.069300    -0.003271    Cartesian   -4.51
+    156 x          0.207235      0.180993    -0.026242    Cartesian  -12.66
+    156 y          4.390856      4.362556    -0.028300    Cartesian   -0.64
+    156 z          8.403204      8.445523     0.042319    Cartesian    0.50
+    157 x          1.430677      1.437272     0.006595    Cartesian    0.46
+    157 y         -5.920296     -5.918834     0.001462    Cartesian   -0.02
+    157 z          5.548140      5.543474    -0.004666    Cartesian   -0.08
+    158 x         14.321006     14.317872    -0.003135    Cartesian   -0.02
+    158 y          2.226670      2.225120    -0.001549    Cartesian   -0.07
+    158 z         -5.964452     -5.946320     0.018132    Cartesian   -0.30
+    159 x          6.416947      6.450704     0.033758    Cartesian    0.53
+    159 y          8.012480      7.996764    -0.015717    Cartesian   -0.20
+    159 z         -8.414048     -8.373027     0.041022    Cartesian   -0.49
+    160 x         13.390495     13.378033    -0.012463    Cartesian   -0.09
+    160 y          8.456724      8.424818    -0.031906    Cartesian   -0.38
+    160 z          2.583350      2.576611    -0.006739    Cartesian   -0.26
+    161 x         10.953156     10.961133     0.007978    Cartesian    0.07
+    161 y         10.852975     10.838254    -0.014721    Cartesian   -0.14
+    161 z          0.894640      0.858672    -0.035968    Cartesian   -4.02
+    162 x         13.631081     13.634858     0.003777    Cartesian    0.03
+    162 y          8.741641      8.754671     0.013029    Cartesian    0.15
+    162 z          0.504216      0.505960     0.001744    Cartesian    0.35
+    163 x         -3.292719     -3.261385     0.031335    Cartesian   -0.95
+    163 y          6.230521      6.202873    -0.027648    Cartesian   -0.44
+    163 z          3.175349      3.175402     0.000053    Cartesian    0.00
+    164 x          7.295739      7.291535    -0.004204    Cartesian   -0.06
+    164 y         -4.230811     -4.217445     0.013366    Cartesian   -0.32
+    164 z          8.664165      8.664580     0.000415    Cartesian    0.00
+    165 x         13.924012     13.936661     0.012649    Cartesian    0.09
+    165 y          4.660544      4.665653     0.005109    Cartesian    0.11
+    165 z          6.196954      6.207235     0.010281    Cartesian    0.17
+    166 x         -0.563146     -0.575401    -0.012254    Cartesian    2.18
+    166 y          7.734282      7.737059     0.002777    Cartesian    0.04
+    166 z         -6.271724     -6.276698    -0.004974    Cartesian    0.08
+    167 x          6.172943      6.178888     0.005945    Cartesian    0.10
+    167 y         -0.256350     -0.247366     0.008984    Cartesian   -3.50
+    167 z         10.494780     10.483289    -0.011492    Cartesian   -0.11
+    168 x          5.945428      5.946917     0.001489    Cartesian    0.03
+    168 y         -7.152762     -7.166747    -0.013985    Cartesian    0.20
+    168 z         -5.995062     -6.008368    -0.013306    Cartesian    0.22
+    169 x         -3.559289     -3.551423     0.007866    Cartesian   -0.22
+    169 y          6.188044      6.196856     0.008812    Cartesian    0.14
+    169 z         -3.059078     -3.057062     0.002016    Cartesian   -0.07
+    170 x          6.793717      6.827140     0.033423    Cartesian    0.49
+    170 y         -4.725147     -4.685925     0.039221    Cartesian   -0.83
+    170 z         -8.631217     -8.604363     0.026854    Cartesian   -0.31
+    171 x         10.534257     10.539719     0.005462    Cartesian    0.05
+    171 y         -6.279895     -6.290934    -0.011039    Cartesian    0.18
+    171 z         -5.482496     -5.485376    -0.002879    Cartesian    0.05
+    172 x         10.000741      9.995860    -0.004881    Cartesian   -0.05
+    172 y         -2.483715     -2.457751     0.025964    Cartesian   -1.05
+    172 z         -9.096100     -9.092225     0.003875    Cartesian   -0.04
+    173 x         10.318243     10.323095     0.004852    Cartesian    0.05
+    173 y         -6.808148     -6.818949    -0.010801    Cartesian    0.16
+    173 z          4.909830      4.913472     0.003642    Cartesian    0.07
+    174 x          1.411167      1.411550     0.000383    Cartesian    0.03
+    174 y         -8.242044     -8.222044     0.020000    Cartesian   -0.24
+    174 z          0.664224      0.653677    -0.010548    Cartesian   -1.59
+    175 x         -0.294787     -0.279404     0.015383    Cartesian   -5.22
+    175 y          3.896520      3.892655    -0.003865    Cartesian   -0.10
+    175 z         -8.892179     -8.890121     0.002058    Cartesian   -0.02
+    176 x          6.844650      6.845710     0.001060    Cartesian    0.02
+    176 y         -9.092057     -9.101927    -0.009870    Cartesian    0.11
+    176 z         -0.859713     -0.861931    -0.002218    Cartesian    0.26
+    177 x          5.747933      6.228047     0.480114    Cartesian    8.35
+    177 y          1.799350      1.671708    -0.127643    Cartesian   -7.09
+    177 z         -0.096417      0.585752     0.682169    Cartesian -707.52
+    178 x          3.515426      3.860971     0.345545    Cartesian    9.83
+    178 y          2.149059      3.546723     1.397664    Cartesian   65.04
+    178 z          2.231950      1.228699    -1.003251    Cartesian  -44.95
+    179 x          7.592161      8.202332     0.610171    Cartesian    8.04
+    179 y          4.347925      4.259929    -0.087996    Cartesian   -2.02
+    179 z          0.578876      1.073085     0.494209    Cartesian   85.37
+    180 x          2.587034      3.448653     0.861619    Cartesian   33.31
+    180 y          1.681129      1.520628    -0.160501    Cartesian   -9.55
+    180 z         -0.728866     -1.219375    -0.490509    Cartesian   67.30
+    181 x          6.665961      5.968994    -0.696967    Cartesian  -10.46
+    181 y          3.881512      3.749112    -0.132401    Cartesian   -3.41
+    181 z         -2.383163     -1.178333     1.204829    Cartesian  -50.56
+    182 x          9.325129      9.106839    -0.218291    Cartesian   -2.34
+    182 y          1.673515      2.338052     0.664538    Cartesian   39.71
+    182 z         -0.792424     -0.858061    -0.065637    Cartesian    8.28
+    183 x          4.411499      4.451833     0.040335    Cartesian    0.91
+    183 y         -2.017082     -2.136000    -0.118919    Cartesian    5.90
+    183 z          0.502070      0.582295     0.080225    Cartesian   15.98
+    184 x          6.958892      7.006352     0.047460    Cartesian    0.68
+    184 y         -0.199585     -0.270410    -0.070825    Cartesian   35.49
+    184 z          3.309575      3.419628     0.110052    Cartesian    3.33
+    185 x          6.779928      6.843535     0.063608    Cartesian    0.94
+    185 y         -0.142464      0.184362     0.326826    Cartesian -229.41
+    185 z         -3.601151     -3.438622     0.162529    Cartesian   -4.51
+    186 x          7.989574      7.999322     0.009748    Cartesian    0.12
+    186 y         -2.142369     -2.238950    -0.096581    Cartesian    4.51
+    186 z         -0.196632     -0.198488    -0.001855    Cartesian    0.94
+    187 x         10.253521     10.365015     0.111494    Cartesian    1.09
+    187 y          2.141445      1.996801    -0.144644    Cartesian   -6.75
+    187 z          2.168392      2.009642    -0.158750    Cartesian   -7.32
+    188 x          3.485299      3.569807     0.084508    Cartesian    2.42
+    188 y         -2.483494     -2.474658     0.008836    Cartesian   -0.36
+    188 z         -2.459968     -2.396047     0.063922    Cartesian   -2.60
+    189 x          4.118568      4.082678    -0.035890    Cartesian   -0.87
+    189 y          2.064016      2.129578     0.065562    Cartesian    3.18
+    189 z         -5.190667     -5.154061     0.036607    Cartesian   -0.71
+    190 x          6.060628      6.100192     0.039565    Cartesian    0.65
+    190 y          3.965038      3.949011    -0.016028    Cartesian   -0.40
+    190 z          5.040677      5.068692     0.028014    Cartesian    0.56
+    191 x          0.854066      0.788091    -0.065975    Cartesian   -7.72
+    191 y          4.355539      4.369729     0.014189    Cartesian    0.33
+    191 z          0.642434      0.057646    -0.584788    Cartesian  -91.03
+    192 x         11.170237     11.422977     0.252740    Cartesian    2.26
+    192 y          4.222637      4.482411     0.259774    Cartesian    6.15
+    192 z         -0.119827      0.078741     0.198568    Cartesian -165.71
+    193 x          1.251479      1.300487     0.049008    Cartesian    3.92
+    193 y         -2.134755     -2.171195    -0.036441    Cartesian    1.71
+    193 z         -0.133074     -0.111652     0.021422    Cartesian  -16.10
+    194 x          4.725072      4.752541     0.027469    Cartesian    0.58
+    194 y          0.149154      0.128932    -0.020222    Cartesian  -13.56
+    194 z          5.636469      5.693861     0.057392    Cartesian    1.02
+    195 x          3.401460      3.395522    -0.005937    Cartesian   -0.17
+    195 y          6.173036      6.211073     0.038038    Cartesian    0.62
+    195 z          3.449938      3.529469     0.079531    Cartesian    2.31
+    196 x          3.222495      3.371426     0.148931    Cartesian    4.62
+    196 y          6.230157      5.992350    -0.237806    Cartesian   -3.82
+    196 z         -3.460788     -3.434390     0.026397    Cartesian   -0.76
+    197 x          7.696643      7.681843    -0.014800    Cartesian   -0.19
+    197 y          1.938728      2.028680     0.089952    Cartesian    4.64
+    197 z         -5.889370     -5.889993    -0.000623    Cartesian    0.01
+    198 x          5.767697      5.762241    -0.005456    Cartesian   -0.09
+    198 y          8.046135      8.075914     0.029779    Cartesian    0.37
+    198 z         -0.652061     -0.713066    -0.061005    Cartesian    9.36
+    199 x          7.072859      7.132902     0.060044    Cartesian    0.85
+    199 y         -4.223561     -4.299727    -0.076166    Cartesian    1.80
+    199 z          2.091587      2.107322     0.015736    Cartesian    0.75
+    200 x          6.144467      6.162521     0.018054    Cartesian    0.29
+    200 y         -4.691492     -4.778772    -0.087280    Cartesian    1.86
+    200 z         -0.869229     -0.850830     0.018400    Cartesian   -2.12
+    201 x         -0.072134     -0.407299    -0.335165    Cartesian  464.64
+    201 y          3.889127      3.856929    -0.032198    Cartesian   -0.83
+    201 z         -2.319605     -2.757234    -0.437629    Cartesian   18.87
+    202 x         11.149594     11.154630     0.005036    Cartesian    0.05
+    202 y         -2.024696     -2.072144    -0.047448    Cartesian    2.34
+    202 z          0.438512      0.423692    -0.014820    Cartesian   -3.38
+    203 x         10.223394     10.233307     0.009913    Cartesian    0.10
+    203 y         -2.491109     -2.519605    -0.028496    Cartesian    1.14
+    203 z         -2.523526     -2.518990     0.004536    Cartesian   -0.18
+    204 x         -0.990162     -1.101879    -0.111716    Cartesian   11.28
+    204 y          1.806965      1.833646     0.026681    Cartesian    1.48
+    204 z         -0.032859     -0.338637    -0.305777    Cartesian  930.56
+    205 x         12.486028     12.463075    -0.022954    Cartesian   -0.18
+    205 y          1.791736      1.925751     0.134015    Cartesian    7.48
+    205 z         -0.159975     -0.382776    -0.222800    Cartesian  139.27
+    206 x          0.220797      0.238955     0.018159    Cartesian    8.22
+    206 y         -0.191971     -0.164086     0.027885    Cartesian  -14.53
+    206 z          3.373133      3.369300    -0.003833    Cartesian   -0.11
+    207 x          7.885092      7.907645     0.022553    Cartesian    0.29
+    207 y          0.266827      0.241959    -0.024868    Cartesian   -9.32
+    207 z          6.271614      6.373312     0.101699    Cartesian    1.62
+    208 x          6.040864      6.047863     0.006999    Cartesian    0.12
+    208 y         -2.281747     -2.312864    -0.031117    Cartesian    1.36
+    208 z          5.596321      5.716272     0.119952    Cartesian    2.14
+    209 x          5.851536      5.859703     0.008167    Cartesian    0.14
+    209 y         -0.610394     -0.610971    -0.000576    Cartesian    0.09
+    209 z         -6.561967     -6.339661     0.222306    Cartesian   -3.39
+    210 x          0.041832      0.123479     0.081647    Cartesian  195.18
+    210 y         -0.134850     -0.113735     0.021115    Cartesian  -15.66
+    210 z         -3.537593     -3.528090     0.009503    Cartesian   -0.27
+    211 x          2.483431      2.493157     0.009726    Cartesian    0.39
+    211 y          4.090874      4.121791     0.030917    Cartesian    0.76
+    211 z          5.736684      5.793600     0.056916    Cartesian    0.99
+    212 x          9.960590     10.018227     0.057637    Cartesian    0.58
+    212 y          6.222542      6.059915    -0.162627    Cartesian   -2.61
+    212 z         -3.524346     -3.526289    -0.001943    Cartesian    0.06
+    213 x          9.221526      9.242605     0.021079    Cartesian    0.23
+    213 y          4.083259      4.074759    -0.008500    Cartesian   -0.21
+    213 z          5.673126      5.749895     0.076769    Cartesian    1.35
+    214 x          5.455002      5.501904     0.046902    Cartesian    0.86
+    214 y          5.880448      5.739102    -0.141345    Cartesian   -2.40
+    214 z         -5.789155     -5.830588    -0.041433    Cartesian    0.72
+    215 x          2.567270      2.578842     0.011572    Cartesian    0.45
+    215 y         -4.565656     -4.625945    -0.060289    Cartesian    1.32
+    215 z         -0.173223     -0.188905    -0.015682    Cartesian    9.05
+    216 x         10.139555     10.154159     0.014604    Cartesian    0.14
+    216 y          6.165421      6.088812    -0.076610    Cartesian   -1.24
+    216 z          3.386381      3.426403     0.040022    Cartesian    1.18
+    217 x          2.879965      2.906628     0.026663    Cartesian    0.93
+    217 y         -2.399968     -2.391430     0.008539    Cartesian   -0.36
+    217 z          4.963872      4.959206    -0.004665    Cartesian   -0.09
+    218 x          9.012435      9.009906    -0.002529    Cartesian   -0.03
+    218 y         -0.492173     -0.390067     0.102106    Cartesian  -20.75
+    218 z         -5.929519     -5.773735     0.155784    Cartesian   -2.63
+    219 x          8.928596      8.907051    -0.021545    Cartesian   -0.24
+    219 y          8.164357      8.180112     0.015755    Cartesian    0.19
+    219 z         -0.019612     -0.035434    -0.015822    Cartesian   80.68
+    220 x          2.274339      2.308255     0.033916    Cartesian    1.49
+    220 y         -0.484559     -0.454880     0.029679    Cartesian   -6.13
+    220 z         -5.865961     -5.868758    -0.002797    Cartesian    0.05
+    221 x          6.696089      6.649396    -0.046693    Cartesian   -0.70
+    221 y          8.514066      8.529711     0.015645    Cartesian    0.18
+    221 z          2.308755      2.260837    -0.047919    Cartesian   -2.08
+    222 x          9.305365      9.356606     0.051241    Cartesian    0.55
+    222 y         -4.573271     -4.661825    -0.088555    Cartesian    1.94
+    222 z         -0.236781     -0.255805    -0.019024    Cartesian    8.03
+    223 x         10.856663     10.819716    -0.036947    Cartesian   -0.34
+    223 y          2.056401      2.169541     0.113140    Cartesian    5.50
+    223 z         -5.254225     -5.168718     0.085508    Cartesian   -1.63
+    224 x          2.190500      2.181011    -0.009489    Cartesian   -0.43
+    224 y          8.171971      8.135895    -0.036077    Cartesian   -0.44
+    224 z          0.043946     -0.014159    -0.058105    Cartesian -132.22
+    225 x          0.958548      0.952008    -0.006540    Cartesian   -0.68
+    225 y          1.946343      1.946246    -0.000096    Cartesian   -0.00
+    225 z         -5.825812     -5.869944    -0.044131    Cartesian    0.76
+    226 x          9.618060      9.610260    -0.007800    Cartesian   -0.08
+    226 y         -2.407583     -2.400960     0.006623    Cartesian   -0.28
+    226 z          4.900314      4.952279     0.051966    Cartesian    1.06
+    227 x          7.905735      7.927701     0.021966    Cartesian    0.28
+    227 y          6.514161      6.503830    -0.010330    Cartesian   -0.16
+    227 z          5.713274      5.745126     0.031852    Cartesian    0.56
+    228 x          1.146997      1.163591     0.016594    Cartesian    1.45
+    228 y          0.274442      0.278906     0.004464    Cartesian    1.63
+    228 z          6.335172      6.322898    -0.012274    Cartesian   -0.19
+    229 x         11.463168     11.460790    -0.002377    Cartesian   -0.02
+    229 y          0.141540      0.127845    -0.013695    Cartesian   -9.68
+    229 z          5.572911      5.634399     0.061488    Cartesian    1.10
+    230 x          4.327660      4.343244     0.015584    Cartesian    0.36
+    230 y          6.639448      6.662644     0.023195    Cartesian    0.35
+    230 z          6.411977      6.475774     0.063797    Cartesian    0.99
+    231 x          9.032198      9.078901     0.046703    Cartesian    0.52
+    231 y          5.754612      5.629692    -0.124920    Cartesian   -2.17
+    231 z         -6.485162     -6.482855     0.002307    Cartesian   -0.04
+    232 x          2.294103      2.323797     0.029694    Cartesian    1.29
+    232 y          5.762226      5.594868    -0.167358    Cartesian   -2.90
+    232 z         -6.421604     -6.376424     0.045180    Cartesian   -0.70
+    233 x          7.676000      7.682596     0.006596    Cartesian    0.09
+    233 y         -4.308605     -4.335877    -0.027272    Cartesian    0.63
+    233 z         -5.331031     -5.291378     0.039653    Cartesian   -0.74
+    234 x         13.404057     13.666817     0.262760    Cartesian    1.96
+    234 y          3.873898      3.932398     0.058500    Cartesian    1.51
+    234 z         -2.446721     -2.539530    -0.092810    Cartesian    3.79
+    235 x          0.334763      0.341305     0.006542    Cartesian    1.95
+    235 y         -4.215947     -4.242137    -0.026190    Cartesian    0.62
+    235 z          2.155145      2.150978    -0.004167    Cartesian   -0.19
+    236 x         -2.305954     -2.423764    -0.117811    Cartesian    5.11
+    236 y          4.237866      4.256832     0.018966    Cartesian    0.45
+    236 z          0.007289     -0.232454    -0.239743    Cartesian *******
+    237 x         -0.677468     -0.642238     0.035230    Cartesian   -5.20
+    237 y          3.972653      3.981153     0.008500    Cartesian    0.21
+    237 z          5.104235      5.114394     0.010159    Cartesian    0.20
+    238 x          3.192368      3.265104     0.072736    Cartesian    2.28
+    238 y          1.597603      1.640226     0.042623    Cartesian    2.67
+    238 z         -8.152706     -8.135867     0.016839    Cartesian   -0.21
+    239 x          7.299230      7.318951     0.019720    Cartesian    0.27
+    239 y          8.429022      8.263847    -0.165175    Cartesian   -1.96
+    239 z         -5.113862     -5.048726     0.065136    Cartesian   -1.27
+    240 x          6.989020      6.976532    -0.012488    Cartesian   -0.18
+    240 y          4.432968      4.437979     0.005011    Cartesian    0.11
+    240 z          8.001493      8.048230     0.046737    Cartesian    0.58
+    241 x          4.515980      4.528069     0.012089    Cartesian    0.27
+    241 y         -4.426278     -4.431673    -0.005394    Cartesian    0.12
+    241 z         -5.966176     -5.955126     0.011050    Cartesian   -0.19
+    242 x          1.167640      1.169869     0.002229    Cartesian    0.19
+    242 y          6.521775      6.546536     0.024761    Cartesian    0.38
+    242 z          5.776832      5.859542     0.082709    Cartesian    1.43
+    243 x         13.518023     13.581661     0.063638    Cartesian    0.47
+    243 y         -0.150079     -0.101922     0.048156    Cartesian  -32.09
+    243 z         -3.664709     -3.604505     0.060204    Cartesian   -1.64
+    244 x         13.696987     13.633957    -0.063030    Cartesian   -0.46
+    244 y         -0.207199     -0.181063     0.026136    Cartesian  -12.61
+    244 z          3.246017      3.260228     0.014210    Cartesian    0.44
+    245 x          4.139211      4.162238     0.023027    Cartesian    0.56
+    245 y          8.311349      8.152426    -0.158923    Cartesian   -1.91
+    245 z         -5.749007     -5.691898     0.057108    Cartesian   -0.99
+    246 x         12.798723     12.802932     0.004209    Cartesian    0.03
+    246 y          3.957424      3.959780     0.002356    Cartesian    0.06
+    246 z          4.977119      4.975847    -0.001272    Cartesian   -0.03
+    247 x         -2.326597     -2.318443     0.008154    Cartesian   -0.35
+    247 y         -2.009467     -2.007972     0.001496    Cartesian   -0.07
+    247 z          0.565628      0.544351    -0.021277    Cartesian   -3.76
+    248 x         14.330257     14.587063     0.256807    Cartesian    1.79
+    248 y          4.340310      4.173463    -0.166847    Cartesian   -3.84
+    248 z          0.515318      0.506360    -0.008958    Cartesian   -1.74
+    249 x          3.808357      3.731511    -0.076845    Cartesian   -2.02
+    249 y         -1.932038     -1.935259    -0.003221    Cartesian    0.17
+    249 z          7.924688      7.964074     0.039386    Cartesian    0.50
+    250 x          7.612804      7.595508    -0.017296    Cartesian   -0.23
+    250 y         10.595258     10.629112     0.033854    Cartesian    0.32
+    250 z          0.020537     -0.007956    -0.028492    Cartesian -138.74
+    251 x         -0.593629     -0.585842     0.007786    Cartesian   -1.31
+    251 y         -4.683877     -4.688352    -0.004474    Cartesian    0.10
+    251 z         -0.805671     -0.824092    -0.018420    Cartesian    2.29
+    252 x          4.034729      4.061546     0.026817    Cartesian    0.66
+    252 y         10.720546     10.656864    -0.063682    Cartesian   -0.59
+    252 z          0.719239      0.683686    -0.035553    Cartesian   -4.94
+    253 x          3.108529      3.111571     0.003042    Cartesian    0.10
+    253 y         10.254133     10.219948    -0.034185    Cartesian   -0.33
+    253 z         -2.242799     -2.278366    -0.035567    Cartesian    1.59
+    254 x          3.778229      3.783972     0.005743    Cartesian    0.15
+    254 y         -6.564591     -6.559906     0.004685    Cartesian   -0.07
+    254 z          3.232770      3.231589    -0.001181    Cartesian   -0.04
+    255 x          9.930463      9.975681     0.045218    Cartesian    0.46
+    255 y          1.589989      1.606709     0.016721    Cartesian    1.05
+    255 z         -8.216264     -8.146134     0.070130    Cartesian   -0.85
+    256 x         -0.042007     -0.043229    -0.001223    Cartesian    2.91
+    256 y          8.521680      8.459853    -0.061827    Cartesian   -0.73
+    256 z          2.372313      2.321911    -0.050402    Cartesian   -2.12
+    257 x         -0.970399     -0.983723    -0.013324    Cartesian    1.37
+    257 y          8.053750      8.075638     0.021889    Cartesian    0.27
+    257 z         -0.588503     -0.651476    -0.062973    Cartesian   10.70
+    258 x         12.505792     12.530029     0.024237    Cartesian    0.19
+    258 y          8.038521      8.003592    -0.034929    Cartesian   -0.43
+    258 z         -0.715619     -0.715318     0.000301    Cartesian   -0.04
+    259 x         -3.222669     -3.082341     0.140328    Cartesian   -4.35
+    259 y          2.156674      2.191048     0.034374    Cartesian    1.59
+    259 z          2.295508      2.189031    -0.106477    Cartesian   -4.64
+    260 x          3.599265      3.610717     0.011452    Cartesian    0.32
+    260 y         -6.507471     -6.506312     0.001159    Cartesian   -0.02
+    260 z         -3.677957     -3.676523     0.001434    Cartesian   -0.04
+    261 x          0.937905      0.940415     0.002510    Cartesian    0.27
+    261 y         -4.300991     -4.292663     0.008328    Cartesian   -0.19
+    261 z         -5.267473     -5.267474    -0.000001    Cartesian    0.00
+    262 x          3.694390      3.697657     0.003266    Cartesian    0.09
+    262 y          2.091939      2.089519    -0.002420    Cartesian   -0.12
+    262 z          9.142676      9.137371    -0.005305    Cartesian   -0.06
+    263 x         -0.697232     -0.689218     0.008014    Cartesian   -1.15
+    263 y         -2.274132     -2.261151     0.012981    Cartesian   -0.57
+    263 z          5.659878      5.644976    -0.014903    Cartesian   -0.26
+    264 x          6.486997      6.495087     0.008090    Cartesian    0.12
+    264 y          3.938633      3.934759    -0.003874    Cartesian   -0.10
+    264 z         -9.293889     -9.287460     0.006429    Cartesian   -0.07
+    265 x         -0.886560     -0.861003     0.025557    Cartesian   -2.88
+    265 y         -0.602780     -0.652871    -0.050091    Cartesian    8.31
+    265 z         -6.498409     -6.473565     0.024844    Cartesian   -0.38
+    266 x         12.193097     12.234522     0.041425    Cartesian    0.34
+    266 y          5.872833      5.830358    -0.042475    Cartesian   -0.72
+    266 z         -5.852713     -5.861873    -0.009160    Cartesian    0.16
+    267 x         11.065755     11.090691     0.024936    Cartesian    0.23
+    267 y          6.631834      6.642396     0.010562    Cartesian    0.16
+    267 z          6.348419      6.371943     0.023524    Cartesian    0.37
+    268 x         12.882562     12.885225     0.002663    Cartesian    0.02
+    268 y         -4.699106     -4.684644     0.014462    Cartesian   -0.31
+    268 z         -0.932787     -0.945828    -0.013041    Cartesian    1.40
+    269 x          9.846624      9.839889    -0.006735    Cartesian   -0.07
+    269 y         10.246519     10.202411    -0.044107    Cartesian   -0.43
+    269 z         -2.306357     -2.337213    -0.030856    Cartesian    1.34
+    270 x         -2.013023     -2.000960     0.012064    Cartesian   -0.60
+    270 y          0.156769      0.166147     0.009378    Cartesian    5.98
+    270 z          5.700027      5.694018    -0.006009    Cartesian   -0.11
+    271 x         14.727669     14.736482     0.008813    Cartesian    0.06
+    271 y         -2.149984     -2.141008     0.008975    Cartesian   -0.42
+    271 z         -0.260190     -0.258762     0.001428    Cartesian   -0.55
+    272 x         12.589631     12.545883    -0.043748    Cartesian   -0.35
+    272 y         -0.618009     -0.604019     0.013990    Cartesian   -2.26
+    272 z         -6.625525     -6.521428     0.104098    Cartesian   -1.57
+    273 x         -2.619528     -2.598815     0.020713    Cartesian   -0.79
+    273 y          2.071630      2.049387    -0.022243    Cartesian   -1.07
+    273 z         -5.127109     -5.131076    -0.003966    Cartesian    0.08
+    274 x          0.561135      0.579503     0.018368    Cartesian    3.27
+    274 y          8.436636      8.388977    -0.047659    Cartesian   -0.56
+    274 z         -5.050304     -5.052545    -0.002241    Cartesian    0.04
+    275 x         12.778959     12.783639     0.004680    Cartesian    0.04
+    275 y         -2.289361     -2.299192    -0.009831    Cartesian    0.43
+    275 z          5.532763      5.540226     0.007464    Cartesian    0.13
+    276 x         -4.151061     -4.263855    -0.112794    Cartesian    2.72
+    276 y          1.688744      1.629919    -0.058825    Cartesian   -3.48
+    276 z         -0.665308     -0.678927    -0.013619    Cartesian    2.05
+    277 x         -1.283093     -1.289523    -0.006430    Cartesian    0.50
+    277 y          5.888062      5.885063    -0.002999    Cartesian   -0.05
+    277 z         -5.725597     -5.740134    -0.014537    Cartesian    0.25
+    278 x         10.546452     10.579093     0.032641    Cartesian    0.31
+    278 y         -1.939652     -1.985325    -0.045672    Cartesian    2.35
+    278 z          7.861130      7.912055     0.050925    Cartesian    0.65
+    279 x          8.282505      8.285702     0.003197    Cartesian    0.04
+    279 y         -6.223466     -6.221578     0.001889    Cartesian   -0.03
+    279 z          5.496106      5.491678    -0.004428    Cartesian   -0.08
+    280 x          4.704429      4.708670     0.004240    Cartesian    0.09
+    280 y         -6.098179     -6.089613     0.008566    Cartesian   -0.14
+    280 z          6.194808      6.186881    -0.007928    Cartesian   -0.13
+    281 x          0.874709      0.898545     0.023836    Cartesian    2.72
+    281 y         10.602872     10.581301    -0.021572    Cartesian   -0.20
+    281 z          0.084094      0.072307    -0.011787    Cartesian  -14.02
+    282 x         10.516325     10.522949     0.006625    Cartesian    0.06
+    282 y         -6.572206     -6.562877     0.009329    Cartesian   -0.14
+    282 z          3.169212      3.171799     0.002588    Cartesian    0.08
+    283 x         10.877306     10.865592    -0.011714    Cartesian   -0.11
+    283 y          8.303734      8.223236    -0.080498    Cartesian   -0.97
+    283 z         -5.812565     -5.784906     0.027659    Cartesian   -0.48
+    284 x          0.250924      0.229560    -0.021364    Cartesian   -8.51
+    284 y          4.440583      4.416536    -0.024047    Cartesian   -0.54
+    284 z          8.065051      8.102992     0.037940    Cartesian    0.47
+    285 x         10.337360     10.345091     0.007731    Cartesian    0.07
+    285 y         -6.515085     -6.506056     0.009029    Cartesian   -0.14
+    285 z         -3.741515     -3.738996     0.002519    Cartesian   -0.07
+    286 x          6.373030      6.404257     0.031227    Cartesian    0.49
+    286 y          7.962609      7.932406    -0.030204    Cartesian   -0.38
+    286 z         -8.075901     -8.031173     0.044728    Cartesian   -0.55
+    287 x         -3.252797     -3.252826    -0.000030    Cartesian    0.00
+    287 y         -2.475880     -2.475162     0.000717    Cartesian   -0.03
+    287 z         -2.396410     -2.403430    -0.007019    Cartesian    0.29
+    288 x         11.254076     11.257661     0.003585    Cartesian    0.03
+    288 y         -4.433893     -4.431632     0.002261    Cartesian   -0.05
+    288 z         -6.029734     -6.026676     0.003058    Cartesian   -0.05
+    289 x         10.432486     10.427361    -0.005124    Cartesian   -0.05
+    289 y          2.084324      2.082280    -0.002044    Cartesian   -0.10
+    289 z          9.079118      9.072195    -0.006923    Cartesian   -0.08
+    290 x         13.810954     13.802243    -0.008711    Cartesian   -0.06
+    290 y         -4.231176     -4.225895     0.005281    Cartesian   -0.12
+    290 z          2.028029      2.025689    -0.002340    Cartesian   -0.12
+    291 x         10.772824     10.780581     0.007757    Cartesian    0.07
+    291 y         10.712931     10.693898    -0.019034    Cartesian   -0.18
+    291 z          0.655681      0.619817    -0.035864    Cartesian   -5.47
+    292 x          4.808911      4.812983     0.004072    Cartesian    0.08
+    292 y         -8.507375     -8.504902     0.002473    Cartesian   -0.03
+    292 z         -0.273438     -0.272542     0.000895    Cartesian   -0.33
+    293 x         16.063225     15.997603    -0.065621    Cartesian   -0.41
+    293 y          1.665900      1.719686     0.053786    Cartesian    3.23
+    293 z         -0.855982     -0.891489    -0.035507    Cartesian    4.15
+    294 x          7.968931      7.970025     0.001094    Cartesian    0.01
+    294 y         -8.389702     -8.379263     0.010440    Cartesian   -0.12
+    294 z          0.361707      0.354463    -0.007244    Cartesian   -2.00
+    295 x          5.664094      5.668839     0.004745    Cartesian    0.08
+    295 y         10.455880     10.452698    -0.003182    Cartesian   -0.03
+    295 z          5.813489      5.806329    -0.007160    Cartesian   -0.12
+    296 x         13.434184     13.423043    -0.011141    Cartesian   -0.08
+    296 y          8.506451      8.478504    -0.027947    Cartesian   -0.33
+    296 z          2.245197      2.237489    -0.007708    Cartesian   -0.34
+    297 x          5.831772      5.836384     0.004612    Cartesian    0.08
+    297 y         -6.857180     -6.866830    -0.009650    Cartesian    0.14
+    297 z         -6.006324     -6.015463    -0.009139    Cartesian    0.15
+    298 x         14.434738     14.429769    -0.004969    Cartesian   -0.03
+    298 y          1.931114      1.928968    -0.002146    Cartesian   -0.11
+    298 z         -5.952928     -5.929138     0.023791    Cartesian   -0.40
+    299 x          3.306334      3.313492     0.007158    Cartesian    0.22
+    299 y         -2.426373     -2.411027     0.015347    Cartesian   -0.63
+    299 z         -9.370694     -9.364278     0.006416    Cartesian   -0.07
+    300 x          2.503195      2.516887     0.013692    Cartesian    0.55
+    300 y         10.337659     10.315676    -0.021983    Cartesian   -0.21
+    300 z          5.181041      5.178840    -0.002200    Cartesian   -0.04
+    301 x          9.241290      9.249589     0.008299    Cartesian    0.09
+    301 y         10.330045     10.310133    -0.019912    Cartesian   -0.19
+    301 z          5.117483      5.115073    -0.002410    Cartesian   -0.05
+    302 x          6.749800      6.780257     0.030457    Cartesian    0.45
+    302 y         -4.775018     -4.743584     0.031434    Cartesian   -0.66
+    302 z         -8.293069     -8.265187     0.027882    Cartesian   -0.34
+    303 x          1.544410      1.552482     0.008073    Cartesian    0.52
+    303 y         -6.215852     -6.211548     0.004304    Cartesian   -0.07
+    303 z          5.559664      5.553968    -0.005696    Cartesian   -0.10
+    304 x         -3.336636     -3.308657     0.027979    Cartesian   -0.84
+    304 y          6.180650      6.156838    -0.023812    Cartesian   -0.39
+    304 z          3.513496      3.512643    -0.000854    Cartesian   -0.02
+    305 x         -3.515600     -3.504747     0.010853    Cartesian   -0.31
+    305 y          6.237771      6.243159     0.005388    Cartesian    0.09
+    305 z         -3.397230     -3.392347     0.004883    Cartesian   -0.14
+    306 x          6.353558      6.358120     0.004561    Cartesian    0.07
+    306 y         -0.116059     -0.108398     0.007661    Cartesian   -6.60
+    306 z         10.733415     10.720125    -0.013290    Cartesian   -0.12
+    307 x          7.251823      7.248210    -0.003613    Cartesian   -0.05
+    307 y         -4.280682     -4.267144     0.013538    Cartesian   -0.32
+    307 z          9.002313      8.998685    -0.003628    Cartesian   -0.04
+    308 x          1.230836      1.232043     0.001207    Cartesian    0.10
+    308 y         -8.382088     -8.361559     0.020529    Cartesian   -0.24
+    308 z          0.425265      0.417087    -0.008178    Cartesian   -1.92
+    309 x         10.044429     10.040183    -0.004247    Cartesian   -0.04
+    309 y         -2.433988     -2.410504     0.023484    Cartesian   -0.96
+    309 z         -9.434252     -9.427373     0.006880    Cartesian   -0.07
+    310 x         -0.251098     -0.236291     0.014808    Cartesian   -5.90
+    310 y          3.946247      3.942132    -0.004116    Cartesian   -0.10
+    310 z         -9.230331     -9.224558     0.005773    Cartesian   -0.06
+--------------------------------------------------------------------------------
+
+
+  Time to end of optimisation  =      250.8504 seconds
+
+
+  Peak dynamic memory used =      17.53 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of reciprocal space energy and derivatives          0.0896
+  Calculation of real space energy and derivatives                2.7541
+  Calculation for region 1 energy and derivatives (2-b)          59.1462
+  Calculation for region 2a energy                              175.3122
+  Calculation for region 2b energy                                0.0861
+  Calculation and manipulation of Hessian matrix                  0.0302
+  Calculation of matrix inversion                                12.6114
+  Global summation overhead                                       0.0004
+--------------------------------------------------------------------------------
+  Total CPU time                                                250.8505
+--------------------------------------------------------------------------------
+
+
+  Dump file written as GaCl3.grs
+
+
+
+  **** GULP has completed with   2 warnings - beware! ****
+
+  Job Finished at 00:12.46 26th August     2021                               
+

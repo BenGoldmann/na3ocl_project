@@ -1,0 +1,13 @@
+opti conp defe
+title 1
+Na vacancy in NaCl
+name NaCl
+cell
+5.578 5.578 5.578 90.0 90.0 90.0
+frac
+Na core 0 0 0
+Cl core 0.5 0 0
+Cl shel 0.5 0 0
+space
+225
+include /home/ben/Documents/gulp_calcs/0_datafiles/na3ocl_lucy_potentials.inp  

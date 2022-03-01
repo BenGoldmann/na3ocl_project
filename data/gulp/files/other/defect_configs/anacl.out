@@ -1,0 +1,417 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                       Curtin Institute for Computation                       *
+*                    School of Molecular and Life Sciences                     *
+*                    Curtin University, Western Australia                      *
+********************************************************************************
+* Version = 5.2.0 * Last modified =  10th September 2020                       *
+********************************************************************************
+* Na vacancy in NaCl                                                           *
+*  optimise     - perform optimisation run                                     *
+*  conp         - constant pressure calculation                                *
+*  property     - calculate properties for final geometry                      *
+*  defect       - perform defect calculation after bulk run                    *
+********************************************************************************
+* Na vacancy in NaCl                                                           *
+********************************************************************************
+
+
+  Job Started  at 13:04.00 27th January    2021                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =      1
+
+********************************************************************************
+*  Input for Configuration =   1 : NaCl                                        *
+********************************************************************************
+
+  Formula = NaCl                                                        
+
+  Number of irreducible atoms/shells =       4
+
+
+  Total number atoms/shells =       4
+
+  Dimensionality = 3               :  Bulk   
+
+
+  Symmetry :
+
+  Crystal family                   :  Cubic       
+  Crystal class  (Groth - 1921)    :  Cubic Hexakisoctahedral              
+
+  Space group (centrosymmetric)    :  F M 3 M         
+
+  Patterson group                  :  F m -3 m 
+
+  Cartesian lattice vectors (Angstroms) :
+
+        0.000000    2.789000    2.789000
+        2.789000    0.000000    2.789000
+        2.789000    2.789000    0.000000
+
+  Primitive cell parameters :            Full cell parameters :
+
+  a =   3.9442    alpha =  60.0000       a =   5.5780    alpha =  90.0000
+  b =   3.9442    beta  =  60.0000       b =   5.5780    beta  =  90.0000
+  c =   3.9442    gamma =  60.0000       c =   5.5780    gamma =  90.0000
+
+  Initial volumes (Angstroms**3):
+
+  Primitive cell =          43.388590    Full cell =         173.554361
+
+  Temperature of configuration =   0.00     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Na    c    0.000000    0.000000    0.000000     1.00000    1.000000    
+      2 Cl    c    0.500000    0.000000    0.000000     1.48500    1.000000    
+      3 Na    s    0.000000    0.000000    0.000000     0.00000    1.000000    
+      4 Cl    s    0.500000    0.000000    0.000000    -2.48500    1.000000    
+--------------------------------------------------------------------------------
+
+
+  Constraints : 
+
+--------------------------------------------------------------------------------
+  Constraint no.      Unconstrained     Constrained    Coefficient    Offset
+                         Variable         Variable
+--------------------------------------------------------------------------------
+           1              Strain 1        Strain 2       1.00000      0.0000
+           2              Strain 1        Strain 3       1.00000      0.0000
+--------------------------------------------------------------------------------
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Na       Core       11      22.99   1.000000   0.970  0.000  2.300          
+    O        Core        8      16.00   0.183000   0.730  0.000  0.000          
+    O        Shell       8       0.00  -2.183000   0.730  0.000  0.000          
+    Cl       Core       17      35.45   1.485000   0.990  0.000  1.650          
+    Cl       Shell      17       0.00  -2.485000   0.990  0.000  1.650          
+    Mg       Core       12      24.31   0.415000   1.100  0.000  0.000          
+    Mg       Shell      12       0.00   1.585000   1.100  0.000  0.000          
+    Ca       Core       20      40.08  -1.135000   0.990  0.000  0.000          
+    Ca       Shell      20       0.00   3.135000   0.990  0.000  0.000          
+    Sr       Core       38      87.62  -1.251000   1.120  0.000  0.000          
+    Sr       Shell      38       0.00   3.251000   1.120  0.000  0.000          
+    Ba       Core       56     137.33  -7.203000   1.340  0.000  0.000          
+    Ba       Shell      56       0.00   9.203000   1.340  0.000  0.000          
+    Na       Shell      11       0.00   0.000000   0.970  0.000  2.300          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald          (3-D)
+                                         =    Parry          (2-D)
+                                         =    Saunders et al (1-D)
+  Accuracy factor for lattice sums       =   12.000
+
+
+  Analytic derivatives to be used
+
+  Time limit = Infinity
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : potential   7 is acting on the core of an ion with a shell
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : potential   8 is acting on the core of an ion with a shell
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : potential   9 is acting on the core of an ion with a shell
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : core-shell pair with no spring constant for species Na
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Maximum range for interatomic potentials =    100000.000000 Angstroms
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential      Parameter       Value         Units   Cutoffs(Ang)
+  1     2                                                            Min /  Max 
+--------------------------------------------------------------------------------
+O    c O    s Spring (c-s)  Spring k 2       593.71600    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Cl   c Cl   s Spring (c-s)  Spring k 2       29.380000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Mg   c Mg   s Spring (c-s)  Spring k 2       361.60000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Ca   c Ca   s Spring (c-s)  Spring k 2       110.20000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Sr   c Sr   s Spring (c-s)  Spring k 2       71.700000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Ba   c Ba   s Spring (c-s)  Spring k 2       495.20000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Na   c Na   c Buckingham    Buckingham A     1788.1900    eV        0.000 12.000
+                            Buckingham rho  0.15900000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Na   c O    s Buckingham    Buckingham A     588.38000    eV        0.000 12.000
+                            Buckingham rho  0.33800000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Na   c Cl   s Buckingham    Buckingham A     1170.4100    eV        0.000 12.000
+                            Buckingham rho  0.31500000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+O    s O    s Buckingham    Buckingham A     22764.300    eV        0.000 12.000
+                            Buckingham rho  0.14900000    Ang       
+                            Buckingham C     13.190000    eV*Ang^6  
+--------------------------------------------------------------------------------
+O    s Cl   s Buckingham    Buckingham A     8286.9100    eV        0.000 12.000
+                            Buckingham rho  0.25900000    Ang       
+                            Buckingham C     62.200000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Cl   s Cl   s Buckingham    Buckingham A     1227.2000    eV        0.000 12.000
+                            Buckingham rho  0.32100000    Ang       
+                            Buckingham C     14.530000    eV*Ang^6  
+--------------------------------------------------------------------------------
+O    s Mg   s Buckingham    Buckingham A     1428.5000    eV        0.000 12.000
+                            Buckingham rho  0.29450000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Mg   s Cl   s Buckingham    Buckingham A     4914.5400    eV        0.000 12.000
+                            Buckingham rho  0.25700000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+O    s Ca   s Buckingham    Buckingham A     1090.4000    eV        0.000 12.000
+                            Buckingham rho  0.34370000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Cl   s Ca   s Buckingham    Buckingham A     2302.0000    eV        0.000 12.000
+                            Buckingham rho  0.34020000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+O    s Sr   s Buckingham    Buckingham A     959.10000    eV        0.000 12.000
+                            Buckingham rho  0.37210000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Cl   s Sr   s Buckingham    Buckingham A     2191.0900    eV        0.000 12.000
+                            Buckingham rho  0.34570000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+O    s Ba   s Buckingham    Buckingham A     905.70000    eV        0.000 12.000
+                            Buckingham rho  0.39760000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Cl   s Ba   s Buckingham    Buckingham A     2704.5500    eV        0.000 12.000
+                            Buckingham rho  0.35280000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+
+********************************************************************************
+*  Output for configuration   1 : NaCl                                         *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =           1.01157029 eV    
+  Monopole - monopole (real) =          -0.72412017 eV    
+  Monopole - monopole (recip)=          -8.29865070 eV    
+  Monopole - monopole (total)=          -9.02277087 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy : 
+    Primitive unit cell      =          -8.01120058 eV    
+    Non-primitive unit cell  =         -32.04480231 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy (in kJmol-1): 
+    Primitive unit cell      =            -772.9584 kJ/(mole unit cells)
+    Non-primitive unit cell  =           -3091.8336 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Number of variables =        1
+
+  Maximum number of calculations  =          1000
+  Maximum Hessian update interval =            10
+  Maximum step size               =   1.000000000
+  Maximum parameter tolerance     =   0.000010000
+  Maximum function  tolerance     =   0.000010000
+  Maximum gradient  tolerance     =   0.001000000
+  Maximum gradient  component     =   0.010000000
+
+  Symmetry constrained optimisation
+
+  Symmetry used for second derivatives
+
+  Cell parameters to be optimised using strains
+
+  Newton-Raphson optimiser to be used
+
+  BFGS hessian update to be used
+
+  Lower half triangular hessian to be used
+
+  Start of bulk optimisation :
+
+  Cycle:      0 Energy:        -8.011201  Gnorm:      0.143736  CPU:    0.005
+  ** Hessian calculated **
+  Cycle:      1 Energy:        -8.011361  Gnorm:      0.000223  CPU:    0.006
+
+
+  **** Optimisation achieved ****
+
+
+  Final energy =      -8.01136056 eV
+  Final Gnorm  =       0.00000000
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =           0.99128821 eV    
+  Monopole - monopole (real) =          -0.72250528 eV    
+  Monopole - monopole (recip)=          -8.28014349 eV    
+  Monopole - monopole (total)=          -9.00264877 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy : 
+    Primitive unit cell      =          -8.01136056 eV    
+    Non-primitive unit cell  =         -32.04544225 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy (in kJmol-1): 
+    Primitive unit cell      =            -772.9738 kJ/(mole unit cells)
+    Non-primitive unit cell  =           -3091.8953 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+  Final asymmetric unit coordinates :
+
+--------------------------------------------------------------------------------
+   No.  Atomic        x           y           z         Radius
+        Label       (Frac)      (Frac)      (Frac)       (Angs) 
+--------------------------------------------------------------------------------
+     1  Na    c     0.000000    0.000000    0.000000    0.000000
+     2  Cl    c     0.500000    0.000000    0.000000    0.000000
+     3  Na    s     0.000000    0.000000    0.000000    0.000000
+     4  Cl    s     0.500000    0.000000    0.000000    0.000000
+--------------------------------------------------------------------------------
+
+  Final Cartesian lattice vectors (Angstroms) :
+
+        0.000000    2.795234    2.795234
+        2.795234    0.000000    2.795234
+        2.795234    2.795234    0.000000
+
+
+  Final cell parameters and derivatives :
+
+--------------------------------------------------------------------------------
+       a            3.953058 Angstrom     dE/de1(xx)     0.000000 eV/strain
+       b            3.953058 Angstrom     dE/de2(yy)     0.000000 eV/strain
+       c            3.953058 Angstrom     dE/de3(zz)     0.000000 eV/strain
+       alpha       60.000000 Degrees      dE/de4(yz)     0.000000 eV/strain
+       beta        60.000000 Degrees      dE/de5(xz)     0.000000 eV/strain
+       gamma       60.000000 Degrees      dE/de6(xy)     0.000000 eV/strain
+--------------------------------------------------------------------------------
+
+  Primitive cell volume =            43.680178 Angs**3
+
+  Density of cell =      2.221682 g/cm**3
+
+  Non-primitive lattice parameters :
+
+  a    =     5.590468  b   =     5.590468  c    =     5.590468
+  alpha=    90.000000  beta=    90.000000  gamma=    90.000000
+
+  Non-primitive cell volume =           174.720714 Angs**3
+
+
+  Final internal derivatives :
+
+--------------------------------------------------------------------------------
+   No.  Atomic          a             b             c           Radius
+        Label          (eV)          (eV)          (eV)        (eV/Angs)
+--------------------------------------------------------------------------------
+      1 Na    c       0.000000      0.000000      0.000000      0.000000
+      2 Cl    c       0.000000      0.000000      0.000000      0.000000
+      3 Na    s       0.000000      0.000000      0.000000      0.000000
+      4 Cl    s       0.000000      0.000000      0.000000      0.000000
+--------------------------------------------------------------------------------
+  Maximum abs         0.000000      0.000000      0.000000      0.000000
+--------------------------------------------------------------------------------
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : Born charges cannot be calculated - matrix is singular
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : Properties cannot be calculated - matrix is singular
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Time to end of optimisation =       0.0081 seconds
+
+********************************************************************************
+*  Defect calculation for configuration   1 :                                  *
+********************************************************************************
+
+
+  **** No defects for configuration number    1 ****
+
+
+  Peak dynamic memory used =       1.84 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of reciprocal space energy and derivatives          0.0001
+  Calculation of reciprocal space energy using symmetry           0.0002
+  Calculation of real space energy and derivatives                0.0007
+  Calculation of real space energy using symmetry                 0.0030
+  Symmetry generation of equivalent positions                     0.0014
+--------------------------------------------------------------------------------
+  Total CPU time                                                  0.0083
+--------------------------------------------------------------------------------
+
+
+  Dump file written as Na3OCl.grs
+
+
+
+  **** GULP has completed with   5 warnings - beware! ****
+
+  Job Finished at 13:04.00 27th January    2021                               
+

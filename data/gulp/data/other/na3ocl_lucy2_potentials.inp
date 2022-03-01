@@ -1,0 +1,17 @@
+species
+Na core 0.67
+O core 0.489
+O shel -1.829
+Cl core 0.615
+Cl shel -1.285
+spring
+O 34.45
+Cl 28.25
+buckingham
+Na core Na core 996.2821 0.2883 0 0 12
+Na core O shel 12439.2223 0.2015 0 0 12
+Na core Cl shel 20907.7383 0.2166 0 0 12
+O shel O shel 35546.8531 0.12056 13.19 0 12
+O shel Cl shel 47777.0706 0.2437 62.20 0 12
+Cl shel Cl shel 35155.2540 0.2136 14.53 0 12
+dump Na3OCl.grs

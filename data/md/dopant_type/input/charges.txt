@@ -1,0 +1,10 @@
+charge
+Na 1
+O -2
+Cl -1
+Mg +2
+Ca +2
+Sr +2
+Ba +2
+Al +3
+Ga +3

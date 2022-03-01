@@ -1,0 +1,9 @@
+opti conp comp defe
+cell
+1.853 1.853 1.853 90.0 90.0 90.0
+frac
+Ba 0 0 0
+Cl 0.25 0.25 0.25
+space
+225
+include /home/ben/Documents/gulp/data_files/na3ocl_potentials.inp  

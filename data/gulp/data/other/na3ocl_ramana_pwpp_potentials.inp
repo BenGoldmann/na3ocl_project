@@ -1,0 +1,37 @@
+species
+Na core 1.000
+O core 0.183
+O shel -2.183
+Cl core 1.485
+Cl shel -2.485
+Mg core 0.415
+Mg shel 1.585
+Ca core -1.135
+Ca shel 3.135
+Sr core -1.251
+Sr shel 3.251
+Ba core -7.203
+Ba shel 9.203
+spring
+O 593.716
+Cl 29.3800
+Mg 361.6000
+Ca 110.2
+Sr 71.70
+Ba 495.2
+buckingham
+Na core Na core 1788.19 0.159 0 0 12
+Na core O shel 369.22 0.376 0 0 12
+Na core Cl shel 1775.12 0.300 0 0 12
+O shel O shel 22764.30 0.1490 13.19 0 12
+O shel Cl shel 8286.91 0.2590 62.20 0 12
+Cl shel Cl shel 1227.20 0.3210 14.53 0 12
+Mg shel O shel 1428.50 0.2945 0.00 0 12
+Mg shel Cl shel 4914.54 0.2570 0.00 0 12
+Ca shel O shel 1090.4 0.3437 0.00 0 12
+Ca shel Cl shel 2302.0 0.3402 0.00 0 12
+Sr shel O shel 959.10 0.3721 0.00 0 12
+Sr shel Cl shel 2191.09 0.3457 0.00 0 12
+Ba shel O shel 905.7 0.3976 0.00 0 12
+Ba shel Cl shel 2704.55 0.3528 0.00 0 12
+dump Na3OCl.grs

@@ -1,0 +1,631 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                       Curtin Institute for Computation                       *
+*                    School of Molecular and Life Sciences                     *
+*                    Curtin University, Western Australia                      *
+********************************************************************************
+* Version = 5.2.0 * Last modified =  10th September 2020                       *
+********************************************************************************
+*  fit          - perform fitting run                                          *
+*  optimise     - perform optimisation run after fitting                       *
+*  conp         - constant pressure calculation                                *
+*  nosymmetry   - turn off symmetry after initial structure generation         *
+*  simultaneous - relax shell positions and radii during fitting               *
+********************************************************************************
+
+  Job Started  at 23:45.24 25th August     2021                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =      1
+
+********************************************************************************
+*  Input for Configuration =   1                                               *
+********************************************************************************
+
+  Formula = Ga2Cl6                                                      
+
+  Number of irreducible atoms/shells =      14
+
+
+  Total number atoms/shells =      14
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+        7.286000    0.000000    0.000000
+        3.439979    6.422799    0.000000
+        3.788756    2.268736    5.995088
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =       7.2860    alpha =  59.4140
+  b =       7.2860    beta  =  59.4140
+  c =       7.4460    gamma =  61.8270
+
+  Initial cell volume =         280.549192 Angs**3
+
+  Temperature of configuration =   0.00     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Ga    c    0.344749    0.344749    0.084305     3.00000    1.000000    
+      2 Ga    c    0.655251 *  0.655251 *  0.915695 *   3.00000    1.000000    
+      3 Cl    c    0.278747 *  0.721253 *  0.000000 *   1.48500    1.000000    
+      4 Cl    c    0.721253 *  0.278747 *  0.000000 *   1.48500    1.000000    
+      5 Cl    c    0.689436 *  0.689436 *  0.164912 *   1.48500    1.000000    
+      6 Cl    c    0.310564 *  0.310564 *  0.835088 *   1.48500    1.000000    
+      7 Cl    c    0.813092 *  0.813092 *  0.569365 *   1.48500    1.000000    
+      8 Cl    c    0.186908 *  0.186908 *  0.430635 *   1.48500    1.000000    
+      9 Cl    s    0.278747 *  0.721253 *  0.000000 *  -2.48500    1.000000    
+     10 Cl    s    0.721253 *  0.278747 *  0.000000 *  -2.48500    1.000000    
+     11 Cl    s    0.689436 *  0.689436 *  0.164912 *  -2.48500    1.000000    
+     12 Cl    s    0.310564 *  0.310564 *  0.835088 *  -2.48500    1.000000    
+     13 Cl    s    0.813092 *  0.813092 *  0.569365 *  -2.48500    1.000000    
+     14 Cl    s    0.186908 *  0.186908 *  0.430635 *  -2.48500    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Ga       Core       31      69.72   3.000000   1.220  0.000  1.820          
+    Cl       Core       17      35.45   1.485000   0.990  0.000  1.650          
+    Cl       Shell      17       0.00  -2.485000   0.990  0.000  1.650          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald          (3-D)
+                                         =    Parry          (2-D)
+                                         =    Saunders et al (1-D)
+  Accuracy factor for lattice sums       =   12.000
+
+
+  Analytic derivatives to be used
+
+  Time limit = Infinity
+
+  Maximum range for interatomic potentials =    100000.000000 Angstroms
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential      Parameter       Value         Units   Cutoffs(Ang)
+  1     2                                                            Min /  Max 
+--------------------------------------------------------------------------------
+Cl   c Cl   s Spring (c-s)  Spring k 2       29.380000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Ga   c Cl   s Buckingham    Buckingham A     1736.1200    eV        0.000 12.000
+                            Buckingham rho  0.29270000    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Cl   s Cl   s Buckingham    Buckingham A     1227.2000    eV        0.000 12.000
+                            Buckingham rho  0.32100000    Ang       
+                            Buckingham C     14.530000    eV*Ang^6  
+--------------------------------------------------------------------------------
+
+
+  Number of variables   =   20
+  Number of observables =   45
+
+--------------------------------------------------------------------------------
+   Observable no.  Type           Observable    Weight       Reference  Confign 
+--------------------------------------------------------------------------------
+          1        Derivative        0.000000        1.0000    2 x         1
+          2        Derivative        0.000000        1.0000    2 y         1
+          3        Derivative        0.000000        1.0000    2 z         1
+          4        Derivative        0.000000        1.0000    3 x         1
+          5        Derivative        0.000000        1.0000    3 y         1
+          6        Derivative        0.000000        1.0000    3 z         1
+          7        Derivative        0.000000        1.0000    4 x         1
+          8        Derivative        0.000000        1.0000    4 y         1
+          9        Derivative        0.000000        1.0000    4 z         1
+         10        Derivative        0.000000        1.0000    5 x         1
+         11        Derivative        0.000000        1.0000    5 y         1
+         12        Derivative        0.000000        1.0000    5 z         1
+         13        Derivative        0.000000        1.0000    6 x         1
+         14        Derivative        0.000000        1.0000    6 y         1
+         15        Derivative        0.000000        1.0000    6 z         1
+         16        Derivative        0.000000        1.0000    7 x         1
+         17        Derivative        0.000000        1.0000    7 y         1
+         18        Derivative        0.000000        1.0000    7 z         1
+         19        Derivative        0.000000        1.0000    8 x         1
+         20        Derivative        0.000000        1.0000    8 y         1
+         21        Derivative        0.000000        1.0000    8 z         1
+         22        Derivative        0.000000        1.0000    9 x         1
+         23        Derivative        0.000000        1.0000    9 y         1
+         24        Derivative        0.000000        1.0000    9 z         1
+         25        Derivative        0.000000        1.0000   10 x         1
+         26        Derivative        0.000000        1.0000   10 y         1
+         27        Derivative        0.000000        1.0000   10 z         1
+         28        Derivative        0.000000        1.0000   11 x         1
+         29        Derivative        0.000000        1.0000   11 y         1
+         30        Derivative        0.000000        1.0000   11 z         1
+         31        Derivative        0.000000        1.0000   12 x         1
+         32        Derivative        0.000000        1.0000   12 y         1
+         33        Derivative        0.000000        1.0000   12 z         1
+         34        Derivative        0.000000        1.0000   13 x         1
+         35        Derivative        0.000000        1.0000   13 y         1
+         36        Derivative        0.000000        1.0000   13 z         1
+         37        Derivative        0.000000        1.0000   14 x         1
+         38        Derivative        0.000000        1.0000   14 y         1
+         39        Derivative        0.000000        1.0000   14 z         1
+         40        Derivative        0.000000        1.0000    a           1
+         41        Derivative        0.000000        1.0000    b           1
+         42        Derivative        0.000000        1.0000    c           1
+         43        Derivative        0.000000        1.0000    alpha       1
+         44        Derivative        0.000000        1.0000    beta        1
+         45        Derivative        0.000000        1.0000    gamma       1
+--------------------------------------------------------------------------------
+
+  Variables :
+
+--------------------------------------------------------------------------------
+     Parameter No.       Parameter Value          Parameter Type  Species
+--------------------------------------------------------------------------------
+             1               1736.120000          Buckingham A   
+             2                  0.292700          Buckingham rho 
+             3                  0.278747          Shell position    1   9 x
+             4                  0.721253          Shell position    1   9 y
+             5                  0.000000          Shell position    1   9 z
+             6                  0.721253          Shell position    1  10 x
+             7                  0.278747          Shell position    1  10 y
+             8                  0.000000          Shell position    1  10 z
+             9                  0.689436          Shell position    1  11 x
+            10                  0.689436          Shell position    1  11 y
+            11                  0.164912          Shell position    1  11 z
+            12                  0.310564          Shell position    1  12 x
+            13                  0.310564          Shell position    1  12 y
+            14                  0.835088          Shell position    1  12 z
+            15                  0.813092          Shell position    1  13 x
+            16                  0.813092          Shell position    1  13 y
+            17                  0.569365          Shell position    1  13 z
+            18                  0.186908          Shell position    1  14 x
+            19                  0.186908          Shell position    1  14 y
+            20                  0.430635          Shell position    1  14 z
+--------------------------------------------------------------------------------
+
+  Simultaneous optimisation will be performed during fitting
+  First derivatives of residuals to be used in fitting
+
+  Maximum no. of cycles   =       5000
+  Maximum step size       =  1000.0000
+  Tolerance on parameters =  0.0000100
+  Tolerance on function   =  0.0000100
+  Tolerance on gradient   =  0.0001000
+  Differencing interval   =  0.0001000
+
+  Start of fitting :
+
+  Cycle:      0  Sum sqs:  110045.070097  Gnorm:1267376.181401  CPU:    0.116
+  ** Hessian calculated **
+  Cycle:      1  Sum sqs:   52384.811739  Gnorm: 913744.432310  CPU:    0.230
+  Cycle:      2  Sum sqs:   35766.525243  Gnorm: 258088.606674  CPU:    0.335
+  Cycle:      3  Sum sqs:   25531.129016  Gnorm: 269558.685772  CPU:    0.437
+  Cycle:      4  Sum sqs:   19396.576794  Gnorm: 497621.892393  CPU:    0.540
+  Cycle:      5  Sum sqs:    5575.590100  Gnorm: 260227.698280  CPU:    0.646
+  Cycle:      6  Sum sqs:    2934.204104  Gnorm: 157202.704068  CPU:    0.746
+  Cycle:      7  Sum sqs:    1293.915324  Gnorm:  73048.728881  CPU:    0.848
+  Cycle:      8  Sum sqs:     693.227715  Gnorm: 100703.140854  CPU:    0.951
+  Cycle:      9  Sum sqs:     222.655832  Gnorm:  24369.265079  CPU:    1.051
+  Cycle:     10  Sum sqs:     134.054941  Gnorm:  19157.968512  CPU:    1.151
+  Cycle:     11  Sum sqs:     109.476201  Gnorm:  12149.333840  CPU:    1.253
+  Cycle:     12  Sum sqs:      73.330834  Gnorm:  14271.110942  CPU:    1.353
+  Cycle:     13  Sum sqs:      66.178377  Gnorm:   7930.988936  CPU:    1.454
+  Cycle:     14  Sum sqs:      60.954585  Gnorm:   8323.010138  CPU:    1.554
+  Cycle:     15  Sum sqs:      46.377653  Gnorm:  11749.154075  CPU:    1.663
+  Cycle:     16  Sum sqs:      34.602682  Gnorm:  14518.035912  CPU:    1.767
+  Cycle:     17  Sum sqs:      27.749951  Gnorm:   6588.708422  CPU:    1.869
+  Cycle:     18  Sum sqs:      18.845873  Gnorm:   8802.810538  CPU:    1.972
+  Cycle:     19  Sum sqs:      12.792223  Gnorm:   5351.390873  CPU:    2.070
+  Cycle:     20  Sum sqs:       9.243688  Gnorm:   2382.878632  CPU:    2.170
+  ** Hessian calculated **
+  Cycle:     21  Sum sqs:       9.007461  Gnorm:   1134.702702  CPU:    2.359
+  Cycle:     22  Sum sqs:       8.931742  Gnorm:    484.213767  CPU:    2.459
+  Cycle:     23  Sum sqs:       8.918614  Gnorm:    501.518145  CPU:    2.557
+  Cycle:     24  Sum sqs:       8.885324  Gnorm:    448.678290  CPU:    2.658
+  Cycle:     25  Sum sqs:       8.859397  Gnorm:    314.418804  CPU:    2.758
+  Cycle:     26  Sum sqs:       8.845368  Gnorm:    327.715267  CPU:    2.856
+  Cycle:     27  Sum sqs:       8.835525  Gnorm:    440.313062  CPU:    2.956
+  Cycle:     28  Sum sqs:       8.811236  Gnorm:    427.181377  CPU:    3.058
+  Cycle:     29  Sum sqs:       8.717329  Gnorm:    454.772340  CPU:    3.158
+  Cycle:     30  Sum sqs:       8.366135  Gnorm:    474.509752  CPU:    3.258
+  Cycle:     31  Sum sqs:       8.279872  Gnorm:    595.100069  CPU:    3.358
+  Cycle:     32  Sum sqs:       8.214075  Gnorm:     83.914432  CPU:    3.459
+  Cycle:     33  Sum sqs:       8.209186  Gnorm:     94.711473  CPU:    3.559
+  Cycle:     34  Sum sqs:       8.208026  Gnorm:     83.170850  CPU:    3.662
+  Cycle:     35  Sum sqs:       8.207013  Gnorm:     10.176708  CPU:    3.762
+  Cycle:     36  Sum sqs:       8.206984  Gnorm:      1.176358  CPU:    3.860
+
+
+  **** Fit completed successfully ****
+
+
+  Final sum of squares =             8.206984
+
+  Final gradient norm  =             1.176358
+
+  Final values of parameters :
+
+--------------------------------------------------------------------------------
+ Parameter No.    Parameter        Parameter      Parameter Type  Species
+                  Original         Final                                 
+--------------------------------------------------------------------------------
+         1           1736.120000       942.204318 Buckingham A   
+         2              0.292700         0.342772 Buckingham rho 
+         3              0.278747         0.318659 Shell position    1   9 x
+         4              0.721253         0.681336 Shell position    1   9 y
+         5              0.000000         0.000000 Shell position    1   9 z
+         6              0.721253         0.681342 Shell position    1  10 x
+         7              0.278747         0.318665 Shell position    1  10 y
+         8              0.000000         0.000000 Shell position    1  10 z
+         9              0.689436         0.685471 Shell position    1  11 x
+        10              0.689436         0.685484 Shell position    1  11 y
+        11              0.164912         0.124329 Shell position    1  11 z
+        12              0.310564         0.314557 Shell position    1  12 x
+        13              0.310564         0.314544 Shell position    1  12 y
+        14              0.835088         0.875635 Shell position    1  12 z
+        15              0.813092         0.787244 Shell position    1  13 x
+        16              0.813092         0.787247 Shell position    1  13 y
+        17              0.569365         0.625220 Shell position    1  13 z
+        18              0.186908         0.212779 Shell position    1  14 x
+        19              0.186908         0.212776 Shell position    1  14 y
+        20              0.430635         0.374777 Shell position    1  14 z
+--------------------------------------------------------------------------------
+
+
+  Final values of numerical parameter gradients :
+
+--------------------------------------------------------------------------------
+     Parameter No.       Parameter Gradient      Parameter Type  Species
+--------------------------------------------------------------------------------
+             1                 -0.081042          Buckingham A   
+             2                 -0.129630          Buckingham rho 
+             3                  0.018023          Shell position    1   9 x
+             4                 -0.061167          Shell position    1   9 y
+             5                  0.000000          Shell position    1   9 z
+             6                 -0.157350          Shell position    1  10 x
+             7                 -0.043234          Shell position    1  10 y
+             8                  0.000000          Shell position    1  10 z
+             9                  0.310493          Shell position    1  11 x
+            10                  0.182872          Shell position    1  11 y
+            11                 -0.105727          Shell position    1  11 z
+            12                 -0.022485          Shell position    1  12 x
+            13                  0.043423          Shell position    1  12 y
+            14                 -0.499638          Shell position    1  12 z
+            15                  0.195473          Shell position    1  13 x
+            16                  0.851764          Shell position    1  13 y
+            17                 -0.371014          Shell position    1  13 z
+            18                  0.050991          Shell position    1  14 x
+            19                 -0.105685          Shell position    1  14 y
+            20                 -0.146846          Shell position    1  14 z
+--------------------------------------------------------------------------------
+
+
+  Final values of residuals :
+
+--------------------------------------------------------------------------------
+   Observable no.  Type            Observable   Calculated    Residual  Error(%)
+--------------------------------------------------------------------------------
+          1        Derivative         0.00000      0.55163      0.30430
+          2        Derivative         0.00000      0.55040      0.30294
+          3        Derivative         0.00000      0.18624      0.03469
+          4        Derivative         0.00000      1.07889      1.16401
+          5        Derivative         0.00000     -1.06436      1.13287
+          6        Derivative         0.00000      0.00459      0.00002
+          7        Derivative         0.00000     -1.07409      1.15368
+          8        Derivative         0.00000      1.06923      1.14325
+          9        Derivative         0.00000     -0.00243      0.00001
+         10        Derivative         0.00000      0.10212      0.01043
+         11        Derivative         0.00000      0.09194      0.00845
+         12        Derivative         0.00000      0.23631      0.05584
+         13        Derivative         0.00000     -0.13450      0.01809
+         14        Derivative         0.00000     -0.12422      0.01543
+         15        Derivative         0.00000     -0.22195      0.04926
+         16        Derivative         0.00000      0.04913      0.00241
+         17        Derivative         0.00000      0.04706      0.00222
+         18        Derivative         0.00000     -0.01292      0.00017
+         19        Derivative         0.00000     -0.09629      0.00927
+         20        Derivative         0.00000     -0.09410      0.00885
+         21        Derivative         0.00000     -0.02029      0.00041
+         22        Derivative         0.00000      0.56011      0.31372
+         23        Derivative         0.00000     -0.57897      0.33521
+         24        Derivative         0.00000     -0.00555      0.00003
+         25        Derivative         0.00000     -0.57117      0.32623
+         26        Derivative         0.00000      0.56784      0.32244
+         27        Derivative         0.00000      0.00137      0.00000
+         28        Derivative         0.00000      0.16421      0.02697
+         29        Derivative         0.00000      0.17659      0.03119
+         30        Derivative         0.00000      0.14479      0.02096
+         31        Derivative         0.00000     -0.12236      0.01497
+         32        Derivative         0.00000     -0.13486      0.01819
+         33        Derivative         0.00000     -0.16565      0.02744
+         34        Derivative         0.00000      0.13738      0.01887
+         35        Derivative         0.00000      0.14018      0.01965
+         36        Derivative         0.00000      0.09484      0.00899
+         37        Derivative         0.00000     -0.07397      0.00547
+         38        Derivative         0.00000     -0.07693      0.00592
+         39        Derivative         0.00000     -0.04928      0.00243
+         40        Derivative         0.00000      0.36454      0.13289
+         41        Derivative         0.00000     -0.57121      0.32629
+         42        Derivative         0.00000      0.21216      0.04501
+         43        Derivative         0.00000     -0.07310      0.00534
+         44        Derivative         0.00000     -0.12149      0.01476
+         45        Derivative         0.00000      0.87603      0.76742
+--------------------------------------------------------------------------------
+
+  Comparison of initial and final observables :
+
+--------------------------------------------------------------------------------
+   Observable no.  Type            Observable   Initial       Final             
+--------------------------------------------------------------------------------
+          1        Derivative         0.00000    -24.09969      0.55163
+          2        Derivative         0.00000    -24.09969      0.55040
+          3        Derivative         0.00000     -4.54332      0.18624
+          4        Derivative         0.00000     46.56176      1.07889
+          5        Derivative         0.00000    -46.55935     -1.06436
+          6        Derivative         0.00000     -0.00127      0.00459
+          7        Derivative         0.00000    -46.55935     -1.07409
+          8        Derivative         0.00000     46.56176      1.06923
+          9        Derivative         0.00000     -0.00127     -0.00243
+         10        Derivative         0.00000    -49.29047      0.10212
+         11        Derivative         0.00000    -49.29047      0.09194
+         12        Derivative         0.00000    -81.07787      0.23631
+         13        Derivative         0.00000     49.28728     -0.13450
+         14        Derivative         0.00000     49.28728     -0.12422
+         15        Derivative         0.00000     81.07030     -0.22195
+         16        Derivative         0.00000    -15.45340      0.04913
+         17        Derivative         0.00000    -15.45340      0.04706
+         18        Derivative         0.00000     56.43248     -0.01292
+         19        Derivative         0.00000     15.48562     -0.09629
+         20        Derivative         0.00000     15.48562     -0.09410
+         21        Derivative         0.00000    -56.36468     -0.02029
+         22        Derivative         0.00000    -66.66169      0.56011
+         23        Derivative         0.00000     66.65758     -0.57897
+         24        Derivative         0.00000      0.00216     -0.00555
+         25        Derivative         0.00000     66.65758     -0.57117
+         26        Derivative         0.00000    -66.66169      0.56784
+         27        Derivative         0.00000      0.00216      0.00137
+         28        Derivative         0.00000     64.38165      0.16421
+         29        Derivative         0.00000     64.38165      0.17659
+         30        Derivative         0.00000    105.82851      0.14479
+         31        Derivative         0.00000    -64.37623     -0.12236
+         32        Derivative         0.00000    -64.37623     -0.13486
+         33        Derivative         0.00000   -105.81557     -0.16565
+         34        Derivative         0.00000     20.19712      0.13738
+         35        Derivative         0.00000     20.19712      0.14018
+         36        Derivative         0.00000    -73.52515      0.09484
+         37        Derivative         0.00000    -20.24274     -0.07397
+         38        Derivative         0.00000    -20.24274     -0.07693
+         39        Derivative         0.00000     73.45311     -0.04928
+         40        Derivative         0.00000      7.37858      0.36454
+         41        Derivative         0.00000     15.68323     -0.57121
+         42        Derivative         0.00000     20.67508      0.21216
+         43        Derivative         0.00000      2.08214     -0.07310
+         44        Derivative         0.00000      3.47714     -0.12149
+         45        Derivative         0.00000     -7.75282      0.87603
+--------------------------------------------------------------------------------
+
+  Maximum range for interatomic potentials =    100000.000000 Angstroms
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential      Parameter       Value         Units   Cutoffs(Ang)
+  1     2                                                            Min /  Max 
+--------------------------------------------------------------------------------
+Cl   c Cl   s Spring (c-s)  Spring k 2       29.380000    eV*Ang^-2 0.000  0.800
+                            Spring k 4       0.0000000    eV*Ang^-4 
+--------------------------------------------------------------------------------
+Ga   c Cl   s Buckingham    Buckingham A     942.20432    eV        0.000 12.000
+                            Buckingham rho  0.34277223    Ang       
+                            Buckingham C     0.0000000    eV*Ang^6  
+--------------------------------------------------------------------------------
+Cl   s Cl   s Buckingham    Buckingham A     1227.2000    eV        0.000 12.000
+                            Buckingham rho  0.32100000    Ang       
+                            Buckingham C     14.530000    eV*Ang^6  
+--------------------------------------------------------------------------------
+
+
+
+  Total time to end of fitting =       3.8624 seconds
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          37.66437298 eV    
+  Monopole - monopole (real) =          46.34168540 eV    
+  Monopole - monopole (recip)=        -186.66517774 eV    
+  Monopole - monopole (total)=        -140.32349235 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =        -102.65911937 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -9905.0357 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Number of variables =       45
+
+  Maximum number of calculations  =          1000
+  Maximum Hessian update interval =            10
+  Maximum step size               =   1.000000000
+  Maximum parameter tolerance     =   0.000010000
+  Maximum function  tolerance     =   0.000010000
+  Maximum gradient  tolerance     =   0.001000000
+  Maximum gradient  component     =   0.010000000
+
+  Cell parameters to be optimised using strains
+
+  Newton-Raphson optimiser to be used
+
+  BFGS hessian update to be used
+
+  Lower half triangular hessian to be used
+
+  Start of bulk optimisation :
+
+  Cycle:      0 Energy:      -102.659119  Gnorm:      0.063662  CPU:    3.868
+  ** Hessian calculated **
+  Cycle:      1 Energy:      -102.688744  Gnorm:      0.061239  CPU:    3.881
+  Cycle:      2 Energy:      -102.696667  Gnorm:      0.045368  CPU:    3.893
+  Cycle:      3 Energy:      -102.703594  Gnorm:      0.022045  CPU:    3.901
+  Cycle:      4 Energy:      -102.705105  Gnorm:      0.017255  CPU:    3.910
+  Cycle:      5 Energy:      -102.705372  Gnorm:      0.006048  CPU:    3.918
+  Cycle:      6 Energy:      -102.705427  Gnorm:      0.003460  CPU:    3.926
+  ** Hessian calculated **
+  Cycle:      7 Energy:      -102.705429  Gnorm:      0.003070  CPU:    3.942
+  Cycle:      8 Energy:      -102.705430  Gnorm:      0.003038  CPU:    3.957
+  Cycle:      9 Energy:      -102.705430  Gnorm:      0.002895  CPU:    3.972
+  Cycle:     10 Energy:      -102.705431  Gnorm:      0.002818  CPU:    3.986
+  Cycle:     11 Energy:      -102.705431  Gnorm:      0.002789  CPU:    3.999
+  Cycle:     12 Energy:      -102.705431  Gnorm:      0.002726  CPU:    4.013
+  Cycle:     13 Energy:      -102.705432  Gnorm:      0.002666  CPU:    4.028
+  Cycle:     14 Energy:      -102.705432  Gnorm:      0.002634  CPU:    4.040
+  Cycle:     15 Energy:      -102.705432  Gnorm:      0.002584  CPU:    4.055
+  Cycle:     16 Energy:      -102.705432  Gnorm:      0.002572  CPU:    4.063
+  ** Hessian calculated **
+  Cycle:     17 Energy:      -102.705482  Gnorm:      0.001697  CPU:    4.084
+  Cycle:     18 Energy:      -102.705494  Gnorm:      0.000856  CPU:    4.094
+
+
+  **** Optimisation achieved ****
+
+
+  Final energy =    -102.70549754 eV
+  Final Gnorm  =       0.00003937
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          37.74584380 eV    
+  Monopole - monopole (real) =          54.73385115 eV    
+  Monopole - monopole (recip)=        -195.18519249 eV    
+  Monopole - monopole (total)=        -140.45134135 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =        -102.70549754 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -9909.5105 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+  Final fractional coordinates of atoms :
+
+--------------------------------------------------------------------------------
+   No.  Atomic        x           y          z          Radius
+        Label       (Frac)      (Frac)     (Frac)       (Angs) 
+--------------------------------------------------------------------------------
+     1  Ga    c     0.344749    0.344749    0.084305    0.000000
+     2  Ga    c     0.669641    0.669235    0.895792    0.000000
+     3  Cl    c     0.262893    0.751319    0.990043    0.000000
+     4  Cl    c     0.751497    0.262665    0.990054    0.000000
+     5  Cl    c     0.710922    0.710568    0.143403    0.000000
+     6  Cl    c     0.303467    0.303415    0.836694    0.000000
+     7  Cl    c     0.827636    0.827325    0.544761    0.000000
+     8  Cl    c     0.186754    0.186659    0.435336    0.000000
+     9  Cl    s     0.308151    0.706031    0.990051    0.000000
+    10  Cl    s     0.706239    0.307953    0.990046    0.000000
+    11  Cl    s     0.706612    0.706228    0.103303    0.000000
+    12  Cl    s     0.307778    0.307756    0.876794    0.000000
+    13  Cl    s     0.801662    0.801335    0.601503    0.000000
+    14  Cl    s     0.212728    0.212649    0.378594    0.000000
+--------------------------------------------------------------------------------
+
+  Final Cartesian lattice vectors (Angstroms) :
+
+        6.871237    0.068089    0.051079
+        3.304170    6.026580    0.050879
+        3.636746    2.178362    5.986338
+
+
+  Final cell parameters and derivatives :
+
+--------------------------------------------------------------------------------
+       a            6.871764 Angstrom     dE/de1(xx)    -0.000274 eV/strain
+       b            6.873121 Angstrom     dE/de2(yy)    -0.000230 eV/strain
+       c            7.335354 Angstrom     dE/de3(zz)    -0.000702 eV/strain
+       alpha       59.683648 Degrees      dE/de4(yz)    -0.000017 eV/strain
+       beta        59.684982 Degrees      dE/de5(xz)    -0.000001 eV/strain
+       gamma       60.695942 Degrees      dE/de6(xy)    -0.000021 eV/strain
+--------------------------------------------------------------------------------
+
+  Primitive cell volume =           245.046993 Angs**3
+
+  Density of cell =      2.386283 g/cm**3
+
+  Non-primitive cell volume =           245.046993 Angs**3
+
+
+  Final internal derivatives :
+
+--------------------------------------------------------------------------------
+   No.  Atomic          a             b             c           Radius
+        Label          (eV)          (eV)          (eV)        (eV/Angs)
+--------------------------------------------------------------------------------
+      1 Ga    c       0.000000      0.000000      0.000000      0.000000
+      2 Ga    c       0.000162      0.000054     -0.000472      0.000000
+      3 Cl    c      -0.000159      0.000086     -0.000000      0.000000
+      4 Cl    c       0.000148     -0.000099      0.000004      0.000000
+      5 Cl    c       0.000193      0.000219     -0.000207      0.000000
+      6 Cl    c      -0.000199     -0.000222      0.000171      0.000000
+      7 Cl    c      -0.000131     -0.000084      0.000556      0.000000
+      8 Cl    c       0.000149      0.000103     -0.000550      0.000000
+      9 Cl    s       0.000371     -0.000425     -0.000071      0.000000
+     10 Cl    s      -0.000373      0.000418      0.000051      0.000000
+     11 Cl    s      -0.000436     -0.000310     -0.000099      0.000000
+     12 Cl    s       0.000408      0.000274      0.000085      0.000000
+     13 Cl    s       0.000012     -0.000076      0.000206      0.000000
+     14 Cl    s      -0.000040      0.000046     -0.000223      0.000000
+--------------------------------------------------------------------------------
+  Maximum abs         0.000436      0.000425      0.000556      0.000000
+--------------------------------------------------------------------------------
+
+
+  Time to end of optimisation =       4.1028 seconds
+
+
+  Peak dynamic memory used =       1.86 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of reciprocal space energy and derivatives          0.1284
+  Calculation of real space energy and derivatives                3.9412
+  Sum of squares for fitting                                      0.0228
+  Global summation overhead                                       0.0006
+--------------------------------------------------------------------------------
+  Total CPU time                                                  4.1028
+--------------------------------------------------------------------------------
+
+
+  Dump file written as GaCl3.grs
+
+
+  Job Finished at 23:45.28 25th August     2021                               
+

@@ -1,0 +1,7 @@
+include /home/ben/Documents/gulp/data_files/na3ocl_structure_noshel.inp
+centre 0.5 0.25 0.25
+size 13 21
+vacancy 0.5 0.5 0.0
+vacancy 0.5 0.0 0.5
+intersitial Na 0.5 0.0700000000000000 0.4300000000000000 fix
+include /home/ben/Documents/gulp/data_files/na3ocl_potentials.inp    

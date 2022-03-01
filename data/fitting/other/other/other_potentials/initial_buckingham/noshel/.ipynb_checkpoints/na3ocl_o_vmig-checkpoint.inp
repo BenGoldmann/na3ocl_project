@@ -1,0 +1,7 @@
+include /home/ben/Documents/gulp/data_files/na3ocl_structure.inp
+vacancy cart 2.252 2.252 2.252
+vacancy cart 6.756 6.756 2.252
+centre cart 4.504 4.504 2.252
+intersitial O cart 4.504 4.504 2.252 fix
+size 12 16
+include /home/ben/Documents/gulp/data_files/na3ocl_potentials.inp   

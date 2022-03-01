@@ -1,0 +1,33 @@
+fit conp simul opti nosymm
+cell
+4.504 4.504 4.504 90.0 90.0 90.0
+fractional
+Cl core 0 0 0
+O core 0.5 0.5 0.5
+Cl shel 0 0 0
+O shel 0.5 0.5 0.5
+Na core 0.5 0.5 0
+space
+221
+observables
+bulk
+34.2
+shear
+22.9
+species
+Na core 1.000
+O core 0.183
+O shel -2.183
+Cl core 1.485
+Cl shel -2.485
+spring
+O 593.716 0 0 0
+Cl 29.3800 0 0 0
+buckingham
+Na core Na core 1788.19 0.159 0 0 12 0 0 0
+Na core O shel 1226.84 0.307 0 0 12 1 1 0
+Na core Cl shel 2314.70 0.290 0 0 12 1 1 0
+O shel O shel 22764.30 0.1490 13.19 0 12 0 0 0 
+O shel Cl shel 8286.91 0.2590 62.20 0 12 0 0 0
+Cl shel Cl shel 1227.20 0.3210 14.53 0 12 0 0 0
+dump Na3OCl.grs

@@ -1,0 +1,6 @@
+include gacl3_structure.inp
+centre 0.72125300 0.27874700 0.00000000
+size 14 24
+vacancy Cl core
+vacancy Cl shel
+include gacl3_potentials.inp    

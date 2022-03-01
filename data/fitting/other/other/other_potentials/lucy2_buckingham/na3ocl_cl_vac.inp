@@ -1,0 +1,5 @@
+include /home/ben/Documents/na3ocl_project/gulp_calcs/data/na3ocl_structure.inp
+centre 0 0 0
+vacancy 0 0 0
+size 16 24
+include /home/ben/Documents/na3ocl_project/gulp_calcs/data/na3ocl_lucy2_potentials.inp 

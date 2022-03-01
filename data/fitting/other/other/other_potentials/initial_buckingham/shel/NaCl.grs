@@ -1,0 +1,33 @@
+# 
+# Keywords:
+# 
+opti conp defe  
+# 
+# Options:
+# 
+title
+Na vacancy in NaCl                                                                                                                  
+end
+name NaCl                                                                       
+cell
+   5.58911489   5.58911489   5.58911489  90.00000000  90.00000000  90.00000000
+fractional  1   
+Na    core  0.000000000  0.000000000  0.000000000  1.0000000  1.0000  0.0000
+Cl    core  0.500000000  0.000000000  0.000000000  1.4849999  1.0000  0.0000
+Cl    shel  0.500000000  0.000000000  0.000000000 -2.4849999  1.0000  0.0000
+space
+225
+totalenergy           -32.3628316253 eV
+species   3
+Na     core    1.000000                  
+Cl     core    1.485000                  
+Cl     shel   -2.485000                  
+buck     
+Na    core Na    core  1788.19000     0.159000  0.000000      0.00 12.00
+buck     
+Na    core Cl    shel  2314.70000     0.290000  0.000000      0.00 12.00
+buck     
+Cl    shel Cl    shel  1227.20000     0.321000  14.53000      0.00 12.00
+spring
+Cl     29.380000    
+dump NaCl.grs

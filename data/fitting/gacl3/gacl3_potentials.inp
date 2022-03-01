@@ -1,0 +1,10 @@
+species
+Ga core 3.000
+Cl core 1.485
+Cl shel -2.485
+spring
+Cl 29.3800 0
+buckingham
+Ga core Cl shel 924.20 0.3428 0 0 12 1 1 0
+Cl shel Cl shel 1227.20 0.3210 14.53 0 12 0 0 0
+dump GaCl3.grs

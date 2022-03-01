@@ -1,0 +1,57 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                       Curtin Institute for Computation                       *
+*                    School of Molecular and Life Sciences                     *
+*                    Curtin University, Western Australia                      *
+********************************************************************************
+* Version = 5.2.0 * Last modified =  10th September 2020                       *
+********************************************************************************
+*  fit          - perform fitting run                                          *
+*  optimise     - perform optimisation run after fitting                       *
+*  conp         - constant pressure calculation                                *
+*  nosymmetry   - turn off symmetry after initial structure generation         *
+*  simultaneous - relax shell positions and radii during fitting               *
+********************************************************************************
+
+  Job Started  at 23:44.52 25th August     2021                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =      1
+
+  Configuration number =   1
+
+  **** Unit cell is not charge neutral    ****
+  **** Sum of charges =   -6.0000000000   ****
+  **** Check that a special position atom ****
+  **** coordinate has not been varied     ****
+
+
+  Current coordinates : 
+
+--------------------------------------------------------------------------------
+     No.  Atomic         x            y            z          Charge  Occupancy
+          Number       (frac)       (frac)       (frac)         (e)  
+--------------------------------------------------------------------------------
+      1  Ga    c      0.344749     0.344749     0.084305      0.000000  1.0000
+      2  Ga    c      0.655251     0.655251     0.915695      0.000000  1.0000
+      3  Cl    c      0.278747     0.721253     0.000000      1.485000  1.0000
+      4  Cl    c      0.721253     0.278747     0.000000      1.485000  1.0000
+      5  Cl    c      0.689436     0.689436     0.164912      1.485000  1.0000
+      6  Cl    c      0.310564     0.310564     0.835088      1.485000  1.0000
+      7  Cl    c      0.813092     0.813092     0.569365      1.485000  1.0000
+      8  Cl    c      0.186908     0.186908     0.430635      1.485000  1.0000
+      9  Cl    s      0.278747     0.721253     0.000000     -2.485000  1.0000
+     10  Cl    s      0.721253     0.278747     0.000000     -2.485000  1.0000
+     11  Cl    s      0.689436     0.689436     0.164912     -2.485000  1.0000
+     12  Cl    s      0.310564     0.310564     0.835088     -2.485000  1.0000
+     13  Cl    s      0.813092     0.813092     0.569365     -2.485000  1.0000
+     14  Cl    s      0.186908     0.186908     0.430635     -2.485000  1.0000
+--------------------------------------------------------------------------------
+
+
+
+ Program terminated by processor     0 in                setup
+

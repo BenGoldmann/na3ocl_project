@@ -1,0 +1,7 @@
+include /home/ben/Documents/gulp_calcs/0_datafiles/na3ocl_structure_inverted.inp
+vacancy cart 0 0 0
+vacancy cart 4.504 4.504 0
+centre cart 2.252 2.252 0
+intersitial O cart 2.252 2.252 0 fix
+size 12 16
+include /home/ben/Documents/gulp_calcs/0_datafiles/na3ocl_lucy_potentials.inp   

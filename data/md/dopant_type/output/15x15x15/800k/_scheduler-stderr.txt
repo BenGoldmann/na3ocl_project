@@ -1,0 +1,411 @@
+GERun: 
+GERun: Note: Lines like this one prefixed with "GERun:" are for debugging
+GERun:       purposes only and you do not need to report them to rc-support
+GERun:       unless your job fails for other reasons.
+GERun: 
+GERun: 
+GERun: Grid Engine parallel launcher abstraction layer version iv (public)
+GERun: Dr Owain Kenway, RCAS, RITS, ISD, UCL, 7th of February, 2018
+GERun: 
+GERun: For licensing terms, see LICENSE.txt
+GERun: 
+GERun: Using environment: intel
+GERun: Running on 80 slots:
+GERun:    80 MPI tasks
+GERun:     1 threads per task
+GERun: TMPDIR=/tmpdir/job/464994.undefined
+GERun: 
+GERun: Contents of machinefile:
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14f-006
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: node-a14e-002
+GERun: 
+GERun: GErun command being run:
+GERun:  mpirun --rsh=ssh -machinefile /tmpdir/job/464994.undefined/machines.unique -np 80 -rr
+[mpiexec@node-a14f-006] set_default_values (../../ui/mpich/utils.c:4669): no executable provided
+[mpiexec@node-a14f-006] HYD_uii_mpx_get_parameters (../../ui/mpich/utils.c:5172): setting default values failed
+GERun: 
+GERun: Note: Lines like this one prefixed with "GERun:" are for debugging
+GERun:       purposes only and you do not need to report them to rc-support
+GERun:       unless your job fails for other reasons.
+GERun: 
+GERun: 
+GERun: Grid Engine parallel launcher abstraction layer version iv (public)
+GERun: Dr Owain Kenway, RCAS, RITS, ISD, UCL, 7th of February, 2018
+GERun: 
+GERun: For licensing terms, see LICENSE.txt
+GERun: 
+GERun: Using environment: intel
+GERun: Running on 80 slots:
+GERun:    80 MPI tasks
+GERun:     1 threads per task
+GERun: TMPDIR=/tmpdir/job/464995.undefined
+GERun: 
+GERun: Contents of machinefile:
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-019
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: node-a14c-036
+GERun: 
+GERun: GErun command being run:
+GERun:  mpirun --rsh=ssh -machinefile /tmpdir/job/464995.undefined/machines.unique -np 80 -rr
+[mpiexec@node-a14c-019] set_default_values (../../ui/mpich/utils.c:4669): no executable provided
+[mpiexec@node-a14c-019] HYD_uii_mpx_get_parameters (../../ui/mpich/utils.c:5172): setting default values failed
+/var/opt/sge/node-a14c-019/job_scripts/464995: line 20: -in: command not found
+GERun: 
+GERun: Note: Lines like this one prefixed with "GERun:" are for debugging
+GERun:       purposes only and you do not need to report them to rc-support
+GERun:       unless your job fails for other reasons.
+GERun: 
+GERun: 
+GERun: Grid Engine parallel launcher abstraction layer version iv (public)
+GERun: Dr Owain Kenway, RCAS, RITS, ISD, UCL, 7th of February, 2018
+GERun: 
+GERun: For licensing terms, see LICENSE.txt
+GERun: 
+GERun: Using environment: intel
+GERun: Running on 80 slots:
+GERun:    80 MPI tasks
+GERun:     1 threads per task
+GERun: TMPDIR=/tmpdir/job/465536.undefined
+GERun: 
+GERun: Contents of machinefile:
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-018
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: node-a14a-007
+GERun: 
+GERun: GErun command being run:
+GERun:  mpirun --rsh=ssh -machinefile /tmpdir/job/465536.undefined/machines.unique -np 80 -rr
+[mpiexec@node-a14a-018] set_default_values (../../ui/mpich/utils.c:4669): no executable provided
+[mpiexec@node-a14a-018] HYD_uii_mpx_get_parameters (../../ui/mpich/utils.c:5172): setting default values failed
+GERun: 
+GERun: Note: Lines like this one prefixed with "GERun:" are for debugging
+GERun:       purposes only and you do not need to report them to rc-support
+GERun:       unless your job fails for other reasons.
+GERun: 
+GERun: 
+GERun: Grid Engine parallel launcher abstraction layer version iv (public)
+GERun: Dr Owain Kenway, RCAS, RITS, ISD, UCL, 7th of February, 2018
+GERun: 
+GERun: For licensing terms, see LICENSE.txt
+GERun: 
+GERun: Using environment: intel
+GERun: Running on 80 slots:
+GERun:    80 MPI tasks
+GERun:     1 threads per task
+GERun: TMPDIR=/tmpdir/job/465543.undefined
+GERun: 
+GERun: Contents of machinefile:
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-032
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: node-a14e-030
+GERun: 
+GERun: GErun command being run:
+GERun:  mpirun --rsh=ssh -machinefile /tmpdir/job/465543.undefined/machines.unique -np 80 -rr /shared/ucl/apps/lammps/7Aug2019/USERINTEL/intel-2018/lammps/bin/lmp_default -in al_conc.inp

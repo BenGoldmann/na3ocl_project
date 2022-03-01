@@ -1,0 +1,23 @@
+Calculations on Na3OCl anti-perovskite:
+***************************************
+
+Na vacancy defect energy: 2.35 eV
+Na vacancy migration barrier: 0.4 eV
+Na interstitial defect energy: -0.45 eV
+
+O vacancy defect energy: 11.53 eV
+O interstitial defect energy: -6.22 eV
+
+Cl vacancy defect energy: 2.68 eV
+Cl interstitial defect energy: -0.35 eV
+
+Na3OCl Schottky defect energy: 4.68 eV
+NaCl partial Schottky defect energy: 1.28 eV
+Na2O partial Schottky defect energy: 3.7 eV
+Na Frenkel defect energy: 1.9 eV
+O Frenkel defect energy: 5.31 eV
+Cl Frenkel defect energy: 2.33 eV
+
+Lattice energy of Na3OCl (from calculations): -16.57 eV
+Lattice energy of NaCl (from calculations): -3.75 eV
+Lattice energy of Na2O (from calculations): -12.53 eV
