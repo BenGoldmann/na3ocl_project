@@ -1,0 +1,28 @@
+\contentsline {part}{I\hspace {1em}Solid electrolytes}{2}{part.1}%
+\contentsline {section}{\numberline {1}Understanding battery terminology}{2}{section.1}%
+\contentsline {section}{\numberline {2}Ion transport in solids}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Atomic scale}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Microscopic scale}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Macroscopic scale}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Device scale}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Advantages of solid electrolytes}{4}{section.3}%
+\contentsline {section}{\numberline {4}Improving conductivity in solid electrolytes}{5}{section.4}%
+\contentsline {section}{\numberline {5}The electrode-SE interface}{6}{section.5}%
+\contentsline {section}{\numberline {6}History of solid electrolytes}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Lithium solid electrolytes}{8}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Oxide-based lithium solid electrolytes}{9}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Sulfide-based lithium solid electrolytes}{9}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Polymers, phosphates, halides and hydroborates}{10}{subsubsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.2}Sodium solid electrolytes}{11}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Oxide-based sodium solid electrolytes}{12}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Sulfide-based sodium solid electrolytes}{12}{subsubsection.6.2.2}%
+\contentsline {section}{\numberline {7}Production of solid state electrolytes}{13}{section.7}%
+\contentsline {part}{II\hspace {1em}Antiperovskite solid electrolytes}{13}{part.2}%
+\contentsline {section}{\numberline {8}The antiperovskite structure}{13}{section.8}%
+\contentsline {section}{\numberline {9}Lithium antiperovskite solid electrolytes}{14}{section.9}%
+\contentsline {section}{\numberline {10}Sodium antiperovskite solid electrolytes}{16}{section.10}%
+\contentsline {part}{III\hspace {1em}Compuational methods}{18}{part.3}%
+\contentsline {section}{\numberline {11}Interatomic potentials}{18}{section.11}%
+\contentsline {section}{\numberline {12}Energy minimisation}{19}{section.12}%
+\contentsline {section}{\numberline {13}Periodic boundary condiutions}{20}{section.13}%
+\contentsline {section}{\numberline {14}Defect modelling}{20}{section.14}%

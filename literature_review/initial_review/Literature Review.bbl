@@ -1,0 +1,639 @@
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{81}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{(\emph{\alph{mcitesubitemcount}})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem[Quartarone and Mustarelli(2010)]{RN9}
+E.~Quartarone and P.~Mustarelli, \emph{Chemistry Society Reviews}, 2010,
+  \textbf{40}, 2525--2540\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Famprikis \emph{et~al.}(2019)Famprikis, Canepa, Dawson, Islam, and
+  Masquelier]{RN1}
+T.~Famprikis, P.~Canepa, J.~A. Dawson, M.~S. Islam and C.~Masquelier,
+  \emph{Nature Materials}, 2019, \textbf{18}, 1278--1291\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang \emph{et~al.}(2015)Wang, Richards, Ong, Miara, Kim, Mo, and
+  Ceder]{RN5}
+Y.~Wang, W.~D. Richards, S.~P. Ong, L.~J. Miara, J.~C. Kim, Y.~F. Mo and
+  G.~Ceder, \emph{Nature Materials}, 2015, \textbf{14}, 1026--+\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Emly \emph{et~al.}(2013)Emly, Kioupakis, and Van~der Ven]{RN2}
+A.~Emly, E.~Kioupakis and A.~Van~der Ven, \emph{Chemistry of Materials}, 2013,
+  \textbf{25}, 4663--4670\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhang \emph{et~al.}(2018)Zhang, Shao, Lotsch, Hu, Li, Janek, Nazar,
+  Nan, Maier, Armand,\emph{et~al.}]{RN3}
+Z.~Zhang, Y.~Shao, B.~Lotsch, Y.-S. Hu, H.~Li, J.~Janek, L.~F. Nazar, C.-W.
+  Nan, J.~Maier, M.~Armand \emph{et~al.}, \emph{Energy \& Environmental
+  Science}, 2018, \textbf{11}, 1945--1976\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mehrer(2007)]{RN4}
+H.~Mehrer, \emph{Diffusion in Solids}, Springer, Berlin, 2007\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bielefeld \emph{et~al.}(2019)Bielefeld, Weber, and Janek]{RN7}
+A.~Bielefeld, D.~A. Weber and J.~Janek, \emph{Journal of Physical Chemistry C},
+  2019, \textbf{123}, 1626--1634\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Manthiram \emph{et~al.}(2017)Manthiram, Yu, and Wang]{RN10}
+A.~Manthiram, X.~W. Yu and S.~F. Wang, \emph{Nature Reviews Materials}, 2017,
+  \textbf{2}, 16\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Luntz \emph{et~al.}(2015)Luntz, Voss, and Reuter]{RN41}
+A.~C. Luntz, J.~Voss and K.~Reuter, \emph{Journal of Physical Chemistry
+  Letters}, 2015, \textbf{6}, 4599--4604\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Porz \emph{et~al.}(2017)Porz, Swamy, Sheldon, Rettenwander, Fromling,
+  Thaman, Berendts, Uecker, Carter, and Chiang]{RN42}
+L.~Porz, T.~Swamy, B.~W. Sheldon, D.~Rettenwander, T.~Fromling, H.~L. Thaman,
+  S.~Berendts, R.~Uecker, W.~C. Carter and Y.~M. Chiang, \emph{Advanced Energy
+  Materials}, 2017, \textbf{7}, 12\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Janek and Zeier(2016)]{RN43}
+J.~Janek and W.~G. Zeier, \emph{Nature Energy}, 2016, \textbf{1}, 4\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hainovsky and Maier(1995)]{RN8}
+N.~Hainovsky and J.~Maier, \emph{Physical Review B}, 1995, \textbf{51},
+  15789--15797\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bachman \emph{et~al.}(2016)Bachman, Muy, Grimaud, Chang, Pour, Lux,
+  Paschos, Maglia, Lupart, Lamp, Giordano, and Shao-Horn]{RN30}
+J.~C. Bachman, S.~Muy, A.~Grimaud, H.~H. Chang, N.~Pour, S.~F. Lux, O.~Paschos,
+  F.~Maglia, S.~Lupart, P.~Lamp, L.~Giordano and Y.~Shao-Horn, \emph{Chemical
+  Reviews}, 2016, \textbf{116}, 140--162\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ma \emph{et~al.}(2014)Ma, Chen, Liang, Nan, Ishikawa, More, and
+  Chi]{RN6}
+C.~Ma, K.~Chen, C.~D. Liang, C.~W. Nan, R.~Ishikawa, K.~More and M.~F. Chi,
+  \emph{Energy \& Environmental Science}, 2014, \textbf{7}, 1638--1642\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ohta \emph{et~al.}(2006)Ohta, Takada, Zhang, Ma, Osada, and
+  Sasaki]{RN77}
+N.~Ohta, K.~Takada, L.~Zhang, R.~Ma, M.~Osada and T.~Sasaki, \emph{Advanced
+  Materials}, 2006, \textbf{18}, 2226--2229\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Takada(2013)]{RN46}
+K.~Takada, \emph{Acta Materialia}, 2013, \textbf{61}, 759--770\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Koerver \emph{et~al.}(2018)Koerver, Zhang, de~Biasi, Schweidler,
+  Kondrakov, Kolling, Brezesinski, Hartmann, Zeier, and Janek]{RN44}
+R.~Koerver, W.~B. Zhang, L.~de~Biasi, S.~Schweidler, A.~O. Kondrakov,
+  S.~Kolling, T.~Brezesinski, P.~Hartmann, W.~G. Zeier and J.~Janek,
+  \emph{Energy \& Environmental Science}, 2018, \textbf{11}, 2142--2158\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Koerver \emph{et~al.}(2017)Koerver, Aygun, Leichtwei{\ss}, Dietrich,
+  Zhang, Binder, Hartmann, Zeier, and Janek]{RN45}
+R.~Koerver, I.~Aygun, T.~Leichtwei{\ss}, C.~Dietrich, W.~Zhang, J.~O. Binder,
+  P.~Hartmann, W.~G. Zeier and J.~Janek, \emph{Chemistry of Materials}, 2017,
+  \textbf{29}, 5574--5582\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Inoue and Mukai(2017)]{RN47}
+T.~Inoue and K.~Mukai, \emph{Acs Applied Materials \& Interfaces}, 2017,
+  \textbf{9}, 1507--1515\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li \emph{et~al.}(2015)Li, Ma, Chi, Liang, and Dudney]{RN48}
+J.~C. Li, C.~Ma, M.~F. Chi, C.~D. Liang and N.~J. Dudney, \emph{Advanced Energy
+  Materials}, 2015, \textbf{5}, 6\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Faraday(1833)]{RN11}
+M.~Faraday, \emph{Philosophical Transactions of the Royal Society}, 1833,
+  \textbf{123}, 23--54\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kummer and Weber(1969)]{RN12}
+J.~T. Kummer and N.~Weber, \emph{Thermo-electric generator}, 1969, US Patent
+  3,458,356\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Coetzer(1986)]{RN13}
+J.~Coetzer, \emph{Journal of Power Sources}, 1986, \textbf{18}, 377--380\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Author links open overlay~panel Kelly \emph{et~al.}(1985)Author links
+  open overlay~panel Kelly, Owen, and Steele]{RN14}
+I.~Author links open overlay~panel Kelly, J.~Owen and B.~C. Steele,
+  \emph{Journal of Power Sources}, 1985, \textbf{13}, 13--21\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wu \emph{et~al.}(2011)Wu, Wen, Liu, Wang, and Huang]{RN16}
+M.~F. Wu, Z.~Y. Wen, Y.~Liu, X.~Y. Wang and L.~Z. Huang, \emph{Journal of Power
+  Sources}, 2011, \textbf{196}, 8091--8097\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Robertson \emph{et~al.}(1997)Robertson, West, and Ritchie]{RN17}
+A.~D. Robertson, A.~R. West and A.~G. Ritchie, \emph{Solid State Ionics}, 1997,
+  \textbf{104}, 1--11\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Braga \emph{et~al.}(2017)Braga, Grundish, Murchison, and
+  Goodenough]{RN40}
+M.~H. Braga, N.~S. Grundish, A.~J. Murchison and J.~B. Goodenough, \emph{Energy
+  \& Environmental Science}, 2017, \textbf{10}, 331--336\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bates \emph{et~al.}(1992)Bates, Dudney, Gruzalski, Zuhr, Choudhury,
+  Luck, and Robertson]{RN15}
+J.~Bates, N.~Dudney, G.~Gruzalski, R.~Zuhr, A.~Choudhury, C.~Luck and
+  J.~Robertson, \emph{Solid State Ionics}, 1992, \textbf{53-56}, year\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Inakuma \emph{et~al.}(1993)Inakuma, Liquan, Itoh, Nakamura, Uchida,
+  Ikuta, and Wakihara]{RN18}
+Y.~Inakuma, C.~Liquan, M.~Itoh, T.~Nakamura, T.~Uchida, H.~Ikuta and
+  M.~Wakihara, \emph{Solid State Communications}, 1993, \textbf{86},
+  689--693\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Thangadurai \emph{et~al.}(2003)Thangadurai, Kaack, and Weppner]{RN22}
+V.~Thangadurai, H.~Kaack and W.~J.~F. Weppner, \emph{Journal of the American
+  Ceramic Society}, 2003, \textbf{86}, 437--440\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Thangadurai and Weppner(2005)]{RN23}
+V.~Thangadurai and W.~Weppner, \emph{Advanced Functional Materials}, 2005,
+  \textbf{15}, 107--112\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang()]{RN85}
+Y.~E. Wang, \emph{2020 Virtual MRS Spring/Fall Meeting \& Exhibit}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kamaya \emph{et~al.}(2011)Kamaya, Homma, Yamakawa, Hirayama, Kanno,
+  Yonemura, Kamiyama, Kato, Hama, Kawamoto, and Mitsui]{RN24}
+N.~Kamaya, K.~Homma, Y.~Yamakawa, M.~Hirayama, R.~Kanno, M.~Yonemura,
+  T.~Kamiyama, Y.~Kato, S.~Hama, K.~Kawamoto and A.~Mitsui, \emph{Nature
+  Materials}, 2011, \textbf{10}, 682--686\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kato \emph{et~al.}(2012)Kato, Kawamoto, Kanno, and Hirayama]{RN25}
+Y.~Kato, K.~Kawamoto, R.~Kanno and M.~Hirayama, \emph{Electrochemistry}, 2012,
+  \textbf{80}, 749--751\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wenzel \emph{et~al.}(2016)Wenzel, Randau, Leichtweiss, Weber, Sann,
+  Zeier, and Janek]{RN26}
+S.~Wenzel, S.~Randau, T.~Leichtweiss, D.~A. Weber, J.~Sann, W.~G. Zeier and
+  J.~Janek, \emph{Chemistry of Materials}, 2016, \textbf{28}, 2400--2407\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[de~Klerk \emph{et~al.}(2016)de~Klerk, Roslon, and Wagemaker]{RN27}
+N.~J.~J. de~Klerk, T.~Roslon and M.~Wagemaker, \emph{Chemistry of Materials},
+  2016, \textbf{28}, 7955--7963\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Brant \emph{et~al.}(2015)Brant, Massi, Holzwarth, MacNeil, Douvalis,
+  Bakas, Martin, Gross, and Aitken]{RN28}
+J.~A. Brant, D.~M. Massi, N.~A.~W. Holzwarth, J.~H. MacNeil, A.~P. Douvalis,
+  T.~Bakas, S.~W. Martin, M.~D. Gross and J.~A. Aitken, \emph{Chemistry of
+  Materials}, 2015, \textbf{27}, 189--196\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chowdari \emph{et~al.}(1989)Chowdari, Radhakrishnan, Thomas, and
+  Rao]{RN19}
+B.~V.~R. Chowdari, K.~Radhakrishnan, K.~A. Thomas and G.~V.~S. Rao,
+  \emph{Materials Research Bulletin}, 1989, \textbf{24}, 221--229\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Aono \emph{et~al.}(1990)Aono, Sugimoto, Sadaoka, Imanaka, and
+  Adachi]{RN20}
+H.~Aono, E.~Sugimoto, Y.~Sadaoka, N.~Imanaka and G.~Adachi, \emph{Journal of
+  the Electrochemical Society}, 1990, \textbf{137}, 1023--1027\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Aono \emph{et~al.}(1989)Aono, Sugimoto, Sadaoka, Imanaka, and
+  Adachi]{RN21}
+H.~Aono, E.~Sugimoto, Y.~Sadaoka, N.~Imanaka and G.~Y. Adachi, \emph{Journal of
+  the Electrochemical Society}, 1989, \textbf{136}, 590--591\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hueso \emph{et~al.}(2013)Hueso, Armand, and Rojo]{RN29}
+K.~B. Hueso, M.~Armand and T.~Rojo, \emph{Energy \& Environmental Science},
+  2013, \textbf{6}, 734--749\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Goodenough \emph{et~al.}(1976)Goodenough, Hong, and Kafalas]{RN31}
+J.~B. Goodenough, H.~Y.~P. Hong and J.~A. Kafalas, \emph{Materials Research
+  Bulletin}, 1976, \textbf{11}, 203--220\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vogel \emph{et~al.}(1984)Vogel, Cava, and Rietman]{RN32}
+E.~M. Vogel, R.~J. Cava and E.~Rietman, \emph{Solid State Ionics}, 1984,
+  \textbf{14}, 1--6\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ma \emph{et~al.}(2016)Ma, Guin, Naqash, Tsai, Tietz, and
+  Guillon]{RN33}
+Q.~L. Ma, M.~Guin, S.~Naqash, C.~L. Tsai, F.~Tietz and O.~Guillon,
+  \emph{Chemistry of Materials}, 2016, \textbf{28}, 4821--4828\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jolley \emph{et~al.}(2015)Jolley, Taylor, Schreiber, and
+  Wachsman]{RN34}
+A.~G. Jolley, D.~D. Taylor, N.~J. Schreiber and E.~D. Wachsman, \emph{Journal
+  of the American Ceramic Society}, 2015, \textbf{98}, 2902--2907\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hayashi \emph{et~al.}(2012)Hayashi, Noi, Sakuda, and
+  Tatsumisago]{RN35}
+A.~Hayashi, K.~Noi, A.~Sakuda and M.~Tatsumisago, \emph{Nature Communications},
+  2012, \textbf{3}, 5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Krauskopf \emph{et~al.}(2018)Krauskopf, Culver, and Zeier]{RN36}
+T.~Krauskopf, S.~P. Culver and W.~G. Zeier, \emph{Inorganic Chemistry}, 2018,
+  \textbf{57}, 4739--4744\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhu \emph{et~al.}(2015)Zhu, Chu, Deng, and Ong]{RN37}
+Z.~Y. Zhu, I.~H. Chu, Z.~Deng and S.~P. Ong, \emph{Chemistry of Materials},
+  2015, \textbf{27}, 8318--8325\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhang \emph{et~al.}(2015)Zhang, Yang, Mi, Lu, Zhao, Wang, Li, and
+  Zeng]{RN38}
+L.~Zhang, K.~Yang, J.~L. Mi, L.~Lu, L.~R. Zhao, L.~M. Wang, Y.~M. Li and
+  H.~Zeng, \emph{Advanced Energy Materials}, 2015, \textbf{5}, 5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhang \emph{et~al.}(2018)Zhang, Ramos, Lalere, Assoud, Kaup, Hartman,
+  and Nazar]{RN39}
+Z.~Zhang, E.~Ramos, F.~Lalere, A.~Assoud, K.~Kaup, P.~Hartman and L.~F. Nazar,
+  \emph{Energy \& Environmental Science}, 2018, \textbf{11}, 87--93\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Moore and Smart(2020)]{RN49}
+E.~A. Moore and L.~E. Smart, \emph{Solid State Chemistry}, CRC Press,
+  2020\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fu \emph{et~al.}(2017)Fu, Wu, Wang, Zhai, Shearer, Zhao, Hamers, Kan,
+  Deng, Zhu,\emph{et~al.}]{RN50}
+Y.~Fu, T.~Wu, J.~Wang, J.~Zhai, M.~J. Shearer, Y.~Zhao, R.~J. Hamers, E.~Kan,
+  K.~Deng, X.-Y. Zhu \emph{et~al.}, \emph{Nano Letters}, 2017, \textbf{17},
+  4405--4414\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chen \emph{et~al.}(2015)Chen, Emly, and Van~der Ven]{RN80}
+M.-H. Chen, A.~Emly and A.~Van~der Ven, \emph{Physical Review B}, 2015,
+  \textbf{91}, 214306\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pham \emph{et~al.}(2018)Pham, Samad, Kim, and Shin]{RN78}
+T.-L. Pham, A.~Samad, H.~J. Kim and Y.-H. Shin, \emph{Journal of Applied
+  Physics}, 2018, \textbf{124}, 164106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ahiavi \emph{et~al.}(2020)Ahiavi, Dawson, Kudu, Courty, Islam,
+  Clemens, Masquelier, and Famprikis]{RN53}
+E.~Ahiavi, J.~A. Dawson, U.~Kudu, M.~Courty, M.~S. Islam, O.~Clemens,
+  C.~Masquelier and T.~Famprikis, \emph{Journal of Power Sources}, 2020,
+  \textbf{471}, 9\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Deng \emph{et~al.}(2016)Deng, Wang, Chu, Luo, and Ong]{RN54}
+Z.~Deng, Z.~B. Wang, I.~H. Chu, J.~Luo and S.~P. Ong, \emph{Journal of the
+  Electrochemical Society}, 2016, \textbf{163}, A67--A74\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dawson \emph{et~al.}(2018)Dawson, Chen, and Islam]{RN55}
+J.~A. Dawson, H.~Chen and M.~S. Islam, \emph{The Journal of Physical Chemistry
+  C}, 2018, \textbf{122}, 23978--23984\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bhalla \emph{et~al.}(2000)Bhalla, Guo, and Roy]{RN56}
+A.~S. Bhalla, R.~Y. Guo and R.~Roy, \emph{Materials Research Innovations},
+  2000, \textbf{4}, 3--26\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhao and Daemen(2012)]{RN52}
+Y.~S. Zhao and L.~L. Daemen, \emph{Journal of the American Chemical Society},
+  2012, \textbf{134}, 15042--15047\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Braga \emph{et~al.}(2014)Braga, Ferreira, Stockhausen, Oliveira, and
+  El-Azab]{RN57}
+M.~H. Braga, J.~A. Ferreira, V.~Stockhausen, J.~E. Oliveira and A.~El-Azab,
+  \emph{Journal of Materials Chemistry A}, 2014, \textbf{2}, 5470--5480\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stramare \emph{et~al.}(2003)Stramare, Thangadurai, and Weppner]{RN51}
+S.~Stramare, V.~Thangadurai and W.~Weppner, \emph{Chemistry of Materials},
+  2003, \textbf{15}, 3974--3990\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lu \emph{et~al.}(2016)Lu, Howard, Chen, Zhu, Li, Wu, Dowden, Xu, Zhao,
+  and Jia]{RN58}
+X.~J. Lu, J.~W. Howard, A.~P. Chen, J.~L. Zhu, S.~Li, G.~Wu, P.~Dowden, H.~W.
+  Xu, Y.~S. Zhao and Q.~X. Jia, \emph{Advanced Science}, 2016, \textbf{3},
+  5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dawson \emph{et~al.}(2018)Dawson, Canepa, Famprikis, Masquelier, and
+  Islam]{RN59}
+J.~A. Dawson, P.~Canepa, T.~Famprikis, C.~Masquelier and M.~S. Islam,
+  \emph{Journal of the American Chemical Society}, 2018, \textbf{140},
+  362--368\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mouta \emph{et~al.}(2014)Mouta, Melo, Diniz, and Paschoal]{RN60}
+R.~Mouta, M.~A.~B. Melo, E.~M. Diniz and C.~W.~A. Paschoal, \emph{Chemistry of
+  Materials}, 2014, \textbf{26}, 7137--7144\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dawson \emph{et~al.}(2018)Dawson, Attari, Chen, Emge, Johnston, and
+  Islam]{RN61}
+J.~A. Dawson, T.~S. Attari, H.~R. Chen, S.~P. Emge, K.~E. Johnston and M.~S.
+  Islam, \emph{Energy \& Environmental Science}, 2018, \textbf{11},
+  2993--3002\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Li \emph{et~al.}(2016)Li, Zhou, Xin, Li, Zhu, Lu, Cui, Jia, Zhou,
+  Zhao, and Goodenough]{RN62}
+Y.~T. Li, W.~D. Zhou, S.~Xin, S.~Li, J.~L. Zhu, X.~J. Lu, Z.~M. Cui, Q.~X. Jia,
+  J.~S. Zhou, Y.~S. Zhao and J.~B. Goodenough, \emph{Angewandte
+  Chemie-International Edition}, 2016, \textbf{55}, 9965--9968\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Braga \emph{et~al.}(2016)Braga, Murchison, Ferreira, Singh, and
+  Goodenough]{RN63}
+M.~H. Braga, A.~J. Murchison, J.~A. Ferreira, P.~Singh and J.~B. Goodenough,
+  \emph{Energy \& Environmental Science}, 2016, \textbf{9}, 948--954\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zintl and Morawietz(1938)]{RN64}
+E.~Zintl and W.~Morawietz, \emph{Zeitschrift für anorganische und allgemeine
+  Chemie}, 1938, \textbf{236}, 372--410\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sabrowsky \emph{et~al.}(1988)Sabrowsky, Paszkowski, Reddig, and
+  Vogt]{RN65}
+H.~Sabrowsky, K.~Paszkowski, D.~Reddig and P.~Vogt, \emph{Zeitschrift für
+  Naturforschung B}, 1988, \textbf{43}, 238--239\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang \emph{et~al.}(2015)Wang, Wang, Liu, Zhou, Li, Zhu, Zou, Wang,
+  Lin, and Zhao]{RN68}
+Y.~G. Wang, Q.~F. Wang, Z.~P. Liu, Z.~Y. Zhou, S.~Li, J.~L. Zhu, R.~Q. Zou,
+  Y.~X. Wang, J.~H. Lin and Y.~S. Zhao, \emph{Journal of Power Sources}, 2015,
+  \textbf{293}, 735--740\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sun \emph{et~al.}(2019)Sun, Wang, Liang, Xia, Peng, Jia, Li, Bai,
+  Feng, Jiang, and Xie]{RN70}
+Y.~L. Sun, Y.~C. Wang, X.~M. Liang, Y.~H. Xia, L.~F. Peng, H.~H. Jia, H.~X. Li,
+  L.~F. Bai, J.~W. Feng, H.~Jiang and J.~Xie, \emph{Journal of the American
+  Chemical Society}, 2019, \textbf{141}, 5640--5644\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Braga \emph{et~al.}(2016)Braga, Ferreira, Murchison, and
+  Goodenough]{RN71}
+M.~H. Braga, J.~A. Ferreira, A.~J. Murchison and J.~B. Goodenough,
+  \emph{Journal of The Electrochemical Society}, 2016, \textbf{164}, A207\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kim and Siegel(2019)]{RN67}
+K.~Kim and D.~J. Siegel, \emph{Journal of Materials Chemistry A}, 2019,
+  \textbf{7}, 3216--3227\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wan \emph{et~al.}(2018)Wan, Lu, and Ciucci]{RN72}
+T.~H. Wan, Z.~Lu and F.~Ciucci, \emph{Journal of Power Sources}, 2018,
+  \textbf{390}, 61--70\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhu \emph{et~al.}(2016)Zhu, Wang, Li, Howard, Neuefeind, Ren, Wang,
+  Liang, Yang, Zou, Jin, and Zhao]{RN66}
+J.~L. Zhu, Y.~G. Wang, S.~Li, J.~W. Howard, J.~Neuefeind, Y.~Ren, H.~Wang,
+  C.~D. Liang, W.~G. Yang, R.~Q. Zou, C.~Q. Jin and Y.~S. Zhao, \emph{Inorganic
+  Chemistry}, 2016, \textbf{55}, 5993--5998\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nguyen \emph{et~al.}(2016)Nguyen, Hy, Wu, Deng, Samiee, Yersak, Luo,
+  Ong, and Meng]{RN79}
+H.~Nguyen, S.~Hy, E.~Wu, Z.~Deng, M.~Samiee, T.~Yersak, J.~Luo, S.~P. Ong and
+  Y.~S. Meng, \emph{Journal of The Electrochemical Society}, 2016,
+  \textbf{163}, A2165\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hippler \emph{et~al.}(1990)Hippler, Sitta, Vogt, and Sabrowsky]{RN69}
+K.~Hippler, S.~Sitta, P.~Vogt and H.~Sabrowsky, \emph{Acta Crystallographica
+  Section C-Crystal Structure Communications}, 1990, \textbf{46},
+  736--738\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Catlow(1997)]{RN73}
+C.~R.~A. Catlow, \emph{Computer Modeling in Inorganic Crystallography},
+  Academic Press: San Diego, 1997\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Heath(2017)]{RN74}
+J.~Heath, \emph{Thesis}, 2017\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dick and Overhauser(1958)]{RN75}
+B.~G. Dick and A.~W. Overhauser, \emph{Physical Review}, 1958, \textbf{112},
+  90\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mott and Littleton(1989)]{RN76}
+N.~F. Mott and M.~J. Littleton, \emph{Journal of the Chemical Society-Faraday
+  Transactions Ii}, 1989, \textbf{85}, 565--579\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

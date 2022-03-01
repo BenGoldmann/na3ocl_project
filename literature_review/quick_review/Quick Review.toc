@@ -1,0 +1,115 @@
+\contentsline {part}{I\hspace {1em}Papers on Conductivity}{5}{part.1}%
+\contentsline {section}{\numberline {1}Wang et al. (2015): Structural manipulation approaches towards enhanced sodium ionic conductivity in Na-rich antiperovskites}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Methods}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Synthesis and structure}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Experimental conductivity}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Calculated conductivity}{6}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Conclusion}{6}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Zhu et al. (2016): Sodium Ion Transport Mechanisms in Antiperovskite Electrolytes \ch {Na3OBr} and \ch {Na4OI2}: An in Situ Neutron Diffraction Study}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Methods}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Synthesis and structure}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Experimental conductivity}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Calculated conductivity}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Conclusions}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Nguyen et al. (2016): Experimental and Computational Evaluation of a Sodium-Rich Anti-Perovskite for Solid State Electrolytes}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Methods}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Synthesis and structure}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Defects}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Experimental conductivity}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Conclusions}{9}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Wan et al. (2018): A first principle study of the phase stability, ion transport and substitution strategy for highly ionic conductive sodium antipervoskite as solid electrolyte for sodium ion batteries}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Methods}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Structure}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Defects and doping}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Conductivity}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Conclusions}{11}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Yu et al. (2018): Theoretical design of double anti-perovskite \ch {Na6SOI2} as a super-fast ion conductor for solid \ch {Na+} ion batteries}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Methods}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Defects}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Calculated conductivity}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Conclusions}{12}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Dawson et al. (2018): Composition Screening of Lithium- and Sodium-Rich Anti-Perovskites for Fast-Conducting Solid Electrolytes}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Methods}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Structure}{13}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Defects}{14}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Conductivity}{15}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Conclusions}{15}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Sun et al. (2019): Rotational Cluster Anion Enabling Superionic Conductivity in Sodium-Rich Antiperovskite \ch {Na3OBH4}}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Methods}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Synthesis and structure}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Conductivity}{16}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Conclusions}{16}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Yu et al. (2019): Theoretical tuning of Ruddlesden–Popper type anti-perovskite phases as superb ion conductors and cathodes for solid sodium ion batteries}{17}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Methods}{17}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Doping}{17}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Calculated conductivity}{18}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Conclusions}{18}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Fang et al. (2019): Sodium Superionic Conductors Based on Clusters}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Methods}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Conductivity}{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Conclusions}{19}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Ahiavi el at. (2020): Mechanochemical synthesis and ion transport properties of \ch {Na3OX} (X = Cl, Br, I and \ch {BH4}) antiperovskite solid electrolytes}{20}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Methods}{20}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Synthesis and structure}{20}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Experimental conductivity}{20}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Calculated conductivity}{21}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Conclusions}{21}{subsection.10.5}%
+\contentsline {section}{\numberline {11}Gao et al. (2020): Mechanism of enhanced ionic conductivity by rotational nitrite group in antiperovskite \ch {Na3ONO2}}{21}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Methods}{21}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Synthesis and structure}{22}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Experimental onductivity}{22}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Calculated conductivity}{22}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Conclusions}{22}{subsection.11.5}%
+\contentsline {section}{\numberline {12}Li et al. (2020): Theoretical study of \ch {Na+} transport in the solid-state electrolyte \ch {Na3OBr} based on deep potential molecular dynamics}{22}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Methods}{22}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Calculated conductivity}{23}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Conclusions}{23}{subsection.12.3}%
+\contentsline {section}{\numberline {13}Fan et al. (2020): A Na-rich fluorinated sulfate anti-perovskite with dual doping as solid electrolyte for Na metal solid state batteries}{23}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Methods}{23}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Experimental conductivity}{24}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Conclusions}{24}{subsection.13.3}%
+\contentsline {section}{\numberline {14}Feng et al. (2020): Facile synthesis and electrochemical properties of Na-rich anti-perovskite solid electrolytes}{24}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Methods}{24}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Experimental conductivity}{25}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Conclusions}{25}{subsection.14.3}%
+\contentsline {part}{II\hspace {1em}Papers on Structural Properties}{25}{part.2}%
+\contentsline {section}{\numberline {15}Sabrowski et al. (1988): \ch {Na3OCl} and \ch {Na3OBr} the first alkali metal chalcogenide halides}{25}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Methods}{25}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Synthesis and structure}{25}{subsection.15.2}%
+\contentsline {section}{\numberline {16}Hippler et al. (1990): Structure of \ch {Na3OCl}}{26}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Methods}{26}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Synthesis and structure}{26}{subsection.16.2}%
+\contentsline {section}{\numberline {17}Zienko et al. (2001): Lattice Dynamics of Antiperovskite Structure Compounds \ch {A3OX} (A = Na, K; X = CI, Br)}{26}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Methods}{26}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Structure}{26}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Elastic and phonon properties}{26}{subsection.17.3}%
+\contentsline {section}{\numberline {18}Ramanna et al. (2013): Ab initio study of electronic structure, elastic and optical properties of anti-perovskite type alkali metal oxyhalides}{26}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Methods}{26}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Structure}{26}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Elastic and phonon properties}{27}{subsection.18.3}%
+\contentsline {section}{\numberline {19}Wang el at. (2016): Robust high pressure stability and negative thermal expansion in sodium-rich antiperovskites \ch {Na3OBr} and \ch {Na4OI2}}{27}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Methods}{27}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Synthesis and structure}{27}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Thermal data}{27}{subsection.19.3}%
+\contentsline {section}{\numberline {20}Deng et al. (2016): Elastic Properties of Alkali Superionic Conductor Electrolytes from First Principles Calculations}{27}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Methods}{27}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}Elastic properties}{27}{subsection.20.2}%
+\contentsline {section}{\numberline {21}Lv et al. (2017): Electronic, elastic, lattice dynamic and thermal conductivity properties of \ch {Na3OBr} via ﬁrst principles}{28}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Methods}{28}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Strcuture}{28}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Elastic and phonon properties}{28}{subsection.21.3}%
+\contentsline {section}{\numberline {22}Pham et al. (2018): Computational predictions of stable phase for antiperovskite \ch {Na3OCl} via tilting of \ch {Na6O} octahedra}{28}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Methods}{28}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Structure}{28}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Phase stability conclusions}{28}{subsection.22.3}%
+\contentsline {section}{\numberline {23}Khandy et al. (2020): Electronic structure, thermomechanical and phonon properties of inverse perovskite oxide (\ch {Na3OCl}): An ab initio study}{29}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Methods}{29}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Structure}{29}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}Elastic and phonon properties}{29}{subsection.23.3}%
+\contentsline {section}{\numberline {24}Sattar et al. (2020): The structural stability, lattice dynamics, electronic, thermophysical, and mechanical properties of the inverse perovskites \ch {A3OX}: A comparative first‐principles study}{29}{section.24}%
+\contentsline {subsection}{\numberline {24.1}Methods}{29}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}Structure}{29}{subsection.24.2}%
+\contentsline {subsection}{\numberline {24.3}Elastic and phonon properties}{30}{subsection.24.3}%
+\contentsline {part}{III\hspace {1em}NMR-related Papers}{30}{part.3}%
+\contentsline {section}{\numberline {25}Klosters et al. (2000): Determination of the (\ch {Na+}) Sternheimer antishielding factor by Na-23 NMR spectroscopy on sodium oxide chloride, \ch {Na3OCl}}{30}{section.25}%
+\contentsline {section}{\numberline {26}Johnson et al. (2005): Periodic ab initio calculation of nuclear quadrupole parameters as an assignment tool in solid-state NMR spectroscopy: applications to Na-23 NMR spectra of crystalline materials}{30}{section.26}%
