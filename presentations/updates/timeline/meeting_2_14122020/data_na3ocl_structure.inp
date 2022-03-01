@@ -1,0 +1,11 @@
+opti conp comp defe
+cell
+4.504 4.504 4.504 90.0 90.0 90.0
+frac
+Cl core 0 0 0
+O core 0.5 0.5 0.5
+Cl shel 0 0 0
+O shel 0.5 0.5 0.5
+Na core 0.5 0.5 0
+space
+221

@@ -1,0 +1,56 @@
+Calculations on Na3OCl anti-perovskite:
+***************************************
+
+Na vacancy defect energy: 3.95 eV
+Na vacancy migration barrier: 0.14 eV
+Na interstitial defect energy: -3.59 eV
+
+O vacancy defect energy: 21.4 eV
+O vacancy migration barrier: 3.44 eV
+O interstitial defect energy: -15.53 eV
+
+Cl vacancy defect energy: 5.07 eV
+Cl vacancy migration barrier: 1.2 eV
+Cl interstitial defect energy: -3.44 eV
+
+Mg impurity on Na defect energy: -16.62 eV
+Ca impurity on Na defect energy: -11.65 eV
+Sr impurity on Na defect energy: -9.84 eV
+Ba impurity on Na defect energy: -7.84 eV
+
+Mg impurity and Na vacancy energy: -14.34 eV
+Ca impurity and Na vacancy energy: -9.65 eV
+Sr impurity and Na vacancy energy: -6.51 eV
+Ba impurity and Na vacancy energy: -5.6 eV
+
+Na3OCl Schottky defect energy: 3.88 eV
+NaCl partial Schottky defect energy: 0.93 eV
+Na2O partial Schottky defect energy: 3.01 eV
+Na Frenkel defect energy: 0.36 eV
+O Frenkel defect energy: 5.87 eV
+Cl Frenkel defect energy: 1.64 eV
+
+MgCl2 on Na doping defect energy: -2.33 eV
+MgO on Na doping defect energy: 2.19 eV
+Mg impurity and Na vacancy clustering energy: -1.67 eV
+CaCl2 on Na doping defect energy: -2.73 eV
+CaO on Na doping defect energy: 1.89 eV
+Ca impurity and Na vacancy clustering energy: -1.95 eV
+SrCl2 on Na doping defect energy: -0.94 eV
+SrO on Na doping defect energy: 1.2 eV
+Sr impurity and Na vacancy clustering energy: -0.62 eV
+BaCl2 on Na doping defect energy: 0.09 eV
+BaO on Na doping defect energy: 1.01 eV
+Ba impurity and Na vacancy clustering energy: -1.72 eV
+
+Lattice energy of Na3OCl (from calculations): -34.44 eV
+Lattice energy of NaCl (from calculations): -8.09 eV
+Lattice energy of Na2O (from calculations): -26.3 eV
+Lattice energy of MgO (from calculations): -41.16 eV
+Lattice energy of MgCl2 (from calculations): -26.52 eV
+Lattice energy of CaO (from calculations): -35.88 eV
+Lattice energy of CaCl2 (from calculations): -21.15 eV
+Lattice energy of SrO (from calculations): -33.4 eV
+Lattice energy of SrCl2 (from calculations): -21.14 eV
+Lattice energy of BaO (from calculations): -31.2 eV
+Lattice energy of BaCl2 (from calculations): -20.16 eV

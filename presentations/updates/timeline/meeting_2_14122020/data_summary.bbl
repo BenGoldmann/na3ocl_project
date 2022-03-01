@@ -1,0 +1,76 @@
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{7}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{(\emph{\alph{mcitesubitemcount}})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem[Wan \emph{et~al.}(2018)Wan, Lu, and Ciucci]{RN72}
+T.~H. Wan, Z.~Lu and F.~Ciucci, \emph{Journal of Power Sources}, 2018,
+  \textbf{390}, 61--70\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pham \emph{et~al.}(2018)Pham, Samad, Kim, and Shin]{RN78}
+T.-L. Pham, A.~Samad, H.~J. Kim and Y.-H. Shin, \emph{Journal of Applied
+  Physics}, 2018, \textbf{124}, 164106\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dawson \emph{et~al.}(2018)Dawson, Chen, and Islam]{RN55}
+J.~A. Dawson, H.~Chen and M.~S. Islam, \emph{The Journal of Physical Chemistry
+  C}, 2018, \textbf{122}, 23978--23984\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ahiavi \emph{et~al.}(2020)Ahiavi, Dawson, Kudu, Courty, Islam,
+  Clemens, Masquelier, and Famprikis]{RN53}
+E.~Ahiavi, J.~A. Dawson, U.~Kudu, M.~Courty, M.~S. Islam, O.~Clemens,
+  C.~Masquelier and T.~Famprikis, \emph{Journal of Power Sources}, 2020,
+  \textbf{471}, 9\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hippler \emph{et~al.}(1990)Hippler, Sitta, Vogt, and Sabrowsky]{RN69}
+K.~Hippler, S.~Sitta, P.~Vogt and H.~Sabrowsky, \emph{Acta Crystallographica
+  Section C-Crystal Structure Communications}, 1990, \textbf{46},
+  736--738\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sabrowsky \emph{et~al.}(1988)Sabrowsky, Paszkowski, Reddig, and
+  Vogt]{RN65}
+H.~Sabrowsky, K.~Paszkowski, D.~Reddig and P.~Vogt, \emph{Zeitschrift für
+  Naturforschung B}, 1988, \textbf{43}, 238--239\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang \emph{et~al.}(2015)Wang, Wang, Liu, Zhou, Li, Zhu, Zou, Wang,
+  Lin, and Zhao]{RN68}
+Y.~G. Wang, Q.~F. Wang, Z.~P. Liu, Z.~Y. Zhou, S.~Li, J.~L. Zhu, R.~Q. Zou,
+  Y.~X. Wang, J.~H. Lin and Y.~S. Zhao, \emph{Journal of Power Sources}, 2015,
+  \textbf{293}, 735--740\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

@@ -1,0 +1,27 @@
+1. First calculations with shells and defect size 16 20 to determine defect energies:
+    -weird numbers compared to literature
+
+2. Tried to calculate migration curves with defect size 12 16 (to reduce computational cost):
+    -plots were not smooth
+    -realised that migration barrier was different compared to migration barrier calculated earlier
+
+3. Realised that difference could be due to the position of the defect centre:
+    -initial caluations defect centre on vacant site
+    -when making the plot centre moved with interstitial
+    -ran calcualtions where centre moves as if following the vacancy (ie. opposite to interstitial)
+    -still, the migration barrier was not the same energy
+
+4. Ran a number of calculations for the migration barrier with different defect sizes:
+    -'3D' plot revealed that migration barrier energy dependent on Region I diameter, but not Region II
+    -migration barrier does not seem to level off as expected
+
+5. After talking to James, I was advised to try calcuations without shells:
+    -defect energies closer to literature
+    -migration profiles still not smooth
+    -migration barrier still does not level off
+
+6. Ran 'defect sweep' calculations on vacany energy and intersitital energy:
+    -these also depend in Region I radius and also do not level off
+
+ISSUE: calculations do not seem to converge... Problem with code/potentials?
+
